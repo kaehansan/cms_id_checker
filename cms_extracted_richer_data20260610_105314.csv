@@ -1,0 +1,2139 @@
+﻿page_name,locale,cms_id,override_id,text,section_name,source_object_path
+home,en-us,52682,,Suggested languages,header,agoda.reactHeader.menuViewModel
+home,en-us,52681,,All languages,header,agoda.reactHeader.menuViewModel
+home,en-us,152637,,Language,header,agoda.reactHeader.menuViewModel
+home,en-us,544360,,Language in {0,header,agoda.reactHeader.menuViewModel
+home,en-us,351700,,Select your language,header,agoda.reactHeader.menuViewModel
+home,en-us,92412,,Your past bookings have earned you {0,header,agoda.reactHeader.menuViewModel
+home,en-us,92413,,Agoda,header,agoda.reactHeader.menuViewModel
+home,en-us,105462,,Agoda,header,agoda.reactHeader.menuViewModel
+home,en-us,92411,,VIP,header,agoda.reactHeader.menuViewModel
+home,en-us,45417,417546,My Trips,header,agoda.reactHeader.menuViewModel
+home,en-us,84376,,Property messages,header,agoda.reactHeader.menuViewModel
+home,en-us,126481,,Cashback Rewards,header,agoda.reactHeader.menuViewModel
+home,en-us,70036,,Saved properties list,header,agoda.reactHeader.menuViewModel
+home,en-us,45419,,Reviews,header,agoda.reactHeader.menuViewModel
+home,en-us,75353,,Refer-a-Friend,header,agoda.reactHeader.menuViewModel
+home,en-us,59129,102085,PointsMAX,header,agoda.reactHeader.menuViewModel
+home,en-us,366733,,AgodaWallet,header,agoda.reactHeader.menuViewModel
+home,en-us,45420,,Profile,header,agoda.reactHeader.menuViewModel
+home,en-us,71112,,My Account,header,agoda.reactHeader.menuViewModel
+home,en-us,77044,,No password needed!,header,agoda.reactHeader.menuViewModel
+home,en-us,73303,,Host,header,agoda.reactHeader.menuViewModel
+home,en-us,3325,102016,Help center,header,agoda.reactHeader.menuViewModel
+home,en-us,107154,,View points balance,header,agoda.reactHeader.menuViewModel
+home,en-us,97789,,AgodaVIP,header,agoda.reactHeader.menuViewModel
+home,en-us,188118,,Made on or after Mar 19,header,agoda.reactHeader.menuViewModel
+home,en-us,152020,,Made before Mar 19,header,agoda.reactHeader.menuViewModel
+home,en-us,153344,,Use a different card,header,agoda.reactHeader.menuViewModel
+home,en-us,52647,101904,Sign in,header,agoda.reactHeader.menuViewModel
+home,en-us,52648,101957,Create account,header,agoda.reactHeader.menuViewModel
+home,en-us,145562,,Sign in / Sign up,header,agoda.reactHeader.menuViewModel
+home,en-us,45397,,Sign out,header,agoda.reactHeader.menuViewModel
+home,en-us,63966,102014,Sign in,header,agoda.reactHeader.menuViewModel
+home,en-us,145558,,Save more with AgodaVIP {0,header,agoda.reactHeader.menuViewModel
+home,en-us,145559,,Sign in and collect bookings towards VIP status to get more discounts and exclusive deals!,header,agoda.reactHeader.menuViewModel
+home,en-us,145560,,Join AgodaVIP,header,agoda.reactHeader.menuViewModel
+home,en-us,145561,,Special deals!,header,agoda.reactHeader.menuViewModel
+home,en-us,49354,,Settings,header,agoda.reactHeader.menuViewModel
+home,en-us,94911,101826,List your place,header,agoda.reactHeader.menuViewModel
+home,en-us,95215,,List your place on Agoda,header,agoda.reactHeader.menuViewModel
+home,en-us,94913,102088,Earn money to pay for your travel!,header,agoda.reactHeader.menuViewModel
+home,en-us,95217,101823,List your place today,header,agoda.reactHeader.menuViewModel
+home,en-us,100425,,In the past 24 hours,header,agoda.reactHeader.menuViewModel
+home,en-us,99160,,Don't show this again.,header,agoda.reactHeader.menuViewModel
+home,en-us,103288,,Booked on or before December 15,header,agoda.reactHeader.menuViewModel
+home,en-us,112102,,<p>Please contact JAPANiCAN Customer Support to confirm your booking details.<a href=\u0022https://www.japanican.com/content/faq/?#6-1\u0022> >See more details</a></p>,header,agoda.reactHeader.menuViewModel
+home,en-us,103292,,Booked on or after December 16,header,agoda.reactHeader.menuViewModel
+home,en-us,103293,,Please check your booking confirmation email. You can easily access your booking from the link inside that email.,header,agoda.reactHeader.menuViewModel
+home,en-us,103418,,or,header,agoda.reactHeader.menuViewModel
+home,en-us,103417,,Close,header,agoda.reactHeader.menuViewModel
+home,en-us,73926,,By signing in,header,agoda.reactHeader.menuViewModel
+home,en-us,73927,,Terms of Use,header,agoda.reactHeader.menuViewModel
+home,en-us,73928,,Privacy Policy,header,agoda.reactHeader.menuViewModel
+home,en-us,155806,,Help,header,agoda.reactHeader.menuViewModel
+home,en-us,224485,,Close,header,agoda.reactHeader.menuViewModel
+home,en-us,325751,,海外旅行,header,agoda.reactHeader.menuViewModel
+home,en-us,325750,,国内旅行,header,agoda.reactHeader.menuViewModel
+home,en-us,332926,,Menu,header,agoda.reactHeader.menuViewModel
+home,en-us,544549,,Travel menu,header,agoda.reactHeader.menuViewModel
+home,en-us,337251,,1 item in cart,header,agoda.reactHeader.menuViewModel
+home,en-us,337224,,{0,header,agoda.reactHeader.menuViewModel
+home,en-us,337257,,Shopping cart,header,agoda.reactHeader.menuViewModel
+home,en-us,356357,,Select price and currency,header,agoda.reactHeader.menuViewModel
+home,en-us,564707,,Account Menu,header,agoda.reactHeader.menuViewModel
+home,en-us,64933,,//mediaroom.agoda.com,header,agoda.reactHeader.menuViewModel
+home,en-us,84838,,press,header,agoda.reactHeader.menuViewModel
+home,en-us,84837,,blog,header,agoda.reactHeader.menuViewModel
+home,en-us,64934,,//ycs.agoda.com,header,agoda.reactHeader.menuViewModel
+home,en-us,64935,,//partners.agoda.com/index.html,header,agoda.reactHeader.menuViewModel
+home,en-us,64932,,//careersatagoda.com,header,agoda.reactHeader.menuViewModel
+home,en-us,137594,,/content/jyoken/,header,agoda.reactHeader.menuViewModel
+home,en-us,337345,,/content/jyoken_kaigai/,header,agoda.reactHeader.menuViewModel
+home,en-us,66323,,PRICE DISPLAY,header,agoda.reactHeader.menuViewModel
+home,en-us,66326,,Base price per night,header,agoda.reactHeader.menuViewModel
+home,en-us,66327,,Total price per night,header,agoda.reactHeader.menuViewModel
+home,en-us,52444,101934,Suggested currencies,header,agoda.reactHeader.menuViewModel
+home,en-us,52645,102019,Popular currencies,header,agoda.reactHeader.menuViewModel
+home,en-us,52646,102070,All currencies,header,agoda.reactHeader.menuViewModel
+home,en-us,316539,,You can adjust price settings here,header,agoda.reactHeader.menuViewModel
+home,en-us,317119,,Total price for full stay,header,agoda.reactHeader.menuViewModel
+home,en-us,523962,,Prices are shown in your selected currency. Payment currency may differ based on your payment selection,header,agoda.reactHeader.menuViewModel
+home,en-us,539665,,Price display ({0,header,agoda.reactHeader.menuViewModel
+home,en-us,539666,,Select your currency,header,agoda.reactHeader.menuViewModel
+home,en-us,544361,,Price display in {0,header,agoda.reactHeader.menuViewModel
+home,en-us,230135,237040,Site primary logo,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,238338,,Site secondary logo,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,98578,,Flight + Hotel,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,102224,,Bundle and save!,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,75379,102023,Hotels & Homes,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,277441,,Transport,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,99072,102116,New!,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,75380,101804,Flights,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,277443,,Buses,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,277442,,Trains,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,277444,,Ferries,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,78626,101803,Airport transfer,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,85241,101851,Car rentals,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,127972,565297,Activities,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,156115,,Coupons & Deals,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,298947,,eSIM,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,2085,,Travel Guides,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,320458,,Travel Itineraries,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105195,,Enter later,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105192,,Change,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105735,,Edit,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105194,,e.g. {0,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105190,,Link your account,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105193,,Membership Number,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105191,,Reward Program,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105196,,Save,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105189,,Search a reward program,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105188,,Link your rewards program to earn miles/points when making bookings on Agoda.,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105187,,Select your rewards program,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,105736,,Turn off,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,264443,,Invalid membership number,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,264787,,Clear,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,224485,,Close,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,69795,,+{0,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,67939,,reviews,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,67940,,Review,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,351135,,Skip to main content,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,70769,,Destinations you will love,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,70433,,Recent searches,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,70432,,Recently viewed properties,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,70434,,Still interested?,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,70435,,Your future searches will appear here.,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,85413,,RESUME SEARCH,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,52163,101849,Search,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,53928,102074,Most popular destinations,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,en-us,136595,,Traveling internationally? Get updated information on COVID-19 travel guidance and restrictions.,covid_banner,agoda.reactHeader.covidBanner
+home,en-us,136596,,Learn more,covid_banner,agoda.reactHeader.covidBanner
+home,en-us,69201,,{0,home_component,window.homePageParams.homeComponent
+home,en-us,108288,,Not sure about your travel plans? Look for the EasyCancel badge to find hotels offering free cancellation on select rooms up to the day before check-in. See your chosen room's cancellation policy for more details.\,home_component,window.homePageParams.homeComponent
+home,en-us,107822,,EasyCancel\,home_component,window.homePageParams.homeComponent
+home,en-us,81907,,Exceptional\,home_component,window.homePageParams.homeComponent
+home,en-us,81906,,Excellent\,home_component,window.homePageParams.homeComponent
+home,en-us,81905,,Very good\,home_component,window.homePageParams.homeComponent
+home,en-us,75207,,{0,home_component,window.homePageParams.homeComponent
+home,en-us,75206,,{0,home_component,window.homePageParams.homeComponent
+home,en-us,137206,108288,Not sure about your travel plans? Look for the EasyCancel badge to find hotels offering free cancellation on select rooms up to the day before check-in. See your chosen room's cancellation policy for more details.\,home_component,window.homePageParams.homeComponent
+home,en-us,137208,107822,EasyCancel\,home_component,window.homePageParams.homeComponent
+home,en-us,146563,,Going abroad? View the latest requirements for popular countries below.\,home_component,window.homePageParams.homeComponent
+home,en-us,154147,,\,home_component,window.homePageParams.homeComponent
+home,en-us,154148,,,home_component,window.homePageParams.homeComponent
+home,en-us,301497,,Booking flights is currently unavailable from your location\,home_component,window.homePageParams.homeComponent
+home,en-us,301498,,Due to regulations,home_component,window.homePageParams.homeComponent
+home,en-us,301499,,Contact Us\,home_component,window.homePageParams.homeComponent
+home,en-us,301500,,Booking rental cars is currently unavailable from your location\,home_component,window.homePageParams.homeComponent
+home,en-us,301501,,Due to regulations,home_component,window.homePageParams.homeComponent
+home,en-us,301502,,Contact Us\,home_component,window.homePageParams.homeComponent
+home,en-us,301503,,Booking activities is currently unavailable from your location\,home_component,window.homePageParams.homeComponent
+home,en-us,301504,,Due to regulations,home_component,window.homePageParams.homeComponent
+home,en-us,301505,,Contact Us\,home_component,window.homePageParams.homeComponent
+home,en-us,86365,,Agoda is part of the Booking Holdings family,agoda_numbers,agodaNumbers
+home,en-us,85340,,Enabling the world's journeys,agoda_numbers,agodaNumbers
+home,en-us,86324,,Agoda is part of the Booking Holdings family,agoda_numbers,agodaNumbers
+home,en-us,86325,,Unique listings,agoda_numbers,agodaNumbers
+home,en-us,85341,,2,agoda_numbers,agodaNumbers
+home,en-us,85342,,hotels and homes with,agoda_numbers,agodaNumbers
+home,en-us,86336,,7,agoda_numbers,agodaNumbers
+home,en-us,86337,,destinations,agoda_numbers,agodaNumbers
+home,en-us,86326,,Trusted by millions,agoda_numbers,agodaNumbers
+home,en-us,85345,,100+ million,agoda_numbers,agodaNumbers
+home,en-us,85346,,travelers from,agoda_numbers,agodaNumbers
+home,en-us,85347,,200,agoda_numbers,agodaNumbers
+home,en-us,85348,,countries and regions,agoda_numbers,agodaNumbers
+home,en-us,86338,,Product support,agoda_numbers,agodaNumbers
+home,en-us,86329,,40,agoda_numbers,agodaNumbers
+home,en-us,86328,,languages supported,agoda_numbers,agodaNumbers
+home,en-us,86335,,35,agoda_numbers,agodaNumbers
+home,en-us,86327,,payment options,agoda_numbers,agodaNumbers
+home,en-us,86330,,24/7 customer service,agoda_numbers,agodaNumbers
+home,en-us,86331,,2,agoda_numbers,agodaNumbers
+home,en-us,86332,,local agents in,agoda_numbers,agodaNumbers
+home,en-us,86333,,53,agoda_numbers,agodaNumbers
+home,en-us,86334,,worldwide offices,agoda_numbers,agodaNumbers
+home,en-us,82250,,Back,agoda_numbers,agodaNumbers
+home,en-us,249105,,Search for entire {0,agoda_numbers,agodaNumbers
+home,en-us,130924,,Search by area,agoda_numbers,agodaNumbers
+home,en-us,81907,,Exceptional,agoda_numbers,agodaNumbers
+home,en-us,81906,,Excellent,agoda_numbers,agodaNumbers
+home,en-us,81905,,Very good,agoda_numbers,agodaNumbers
+home,en-us,75207,,{0,agoda_numbers,agodaNumbers
+home,en-us,75206,,{0,agoda_numbers,agodaNumbers
+home,en-us,265417,,{0,agoda_numbers,agodaNumbers
+home,en-us,118449,,Featured homes recommended for you,featured_properties,featuredProperties
+home,en-us,118450,,See more ({0,featured_properties,featuredProperties
+home,en-us,66745,,Per night before taxes and fees,featured_properties,featuredProperties
+home,en-us,87729,,See more,featured_properties,featuredProperties
+home,en-us,67501,,Per night after taxes and fees,featured_properties,featuredProperties
+home,en-us,41616,,Loading...,featured_properties,featuredProperties
+home,en-us,134178,,Get 2X AgodaCash for your next trip,featured_properties,featuredProperties
+home,en-us,134179,,Earn 2X more AgodaCash when you book at Agoda’s preferred hotels!,featured_properties,featuredProperties
+home,en-us,125082,,Explore hotels,featured_properties,featuredProperties
+home,en-us,133196,,Your recent searches,featured_properties,featuredProperties
+home,en-us,133197,,{0,featured_properties,featuredProperties
+home,en-us,133198,,{0,featured_properties,featuredProperties
+home,en-us,133199,,{0,featured_properties,featuredProperties
+home,en-us,133200,,{0,featured_properties,featuredProperties
+home,en-us,133201,,{0,featured_properties,featuredProperties
+home,en-us,133202,,{0,featured_properties,featuredProperties
+home,en-us,141039,,Popular cities near you,featured_properties,featuredProperties
+home,en-us,141040,,Popular destinations,featured_properties,featuredProperties
+home,en-us,141263,,{0,vip_bar,vipBarTranslations
+home,en-us,141264,,{0,vip_bar,vipBarTranslations
+home,en-us,141831,,Status expires on {0,vip_bar,vipBarTranslations
+home,en-us,141268,,More details,vip_bar,vipBarTranslations
+home,en-us,112595,,10 bookings,vip_bar,vipBarTranslations
+home,en-us,415893,,15 bookings,vip_bar,vipBarTranslations
+home,en-us,107156,,2 bookings,vip_bar,vipBarTranslations
+home,en-us,107157,,5 bookings,vip_bar,vipBarTranslations
+home,en-us,141266,,Welcome back {0,vip_bar,vipBarTranslations
+home,en-us,141267,,Every time you see the VIP badge,vip_bar,vipBarTranslations
+home,en-us,141265,,Your bookings in the last 2 years:,vip_bar,vipBarTranslations
+home,en-us,111402,,Platinum,vip_bar,vipBarTranslations
+home,en-us,105446,,Gold,vip_bar,vipBarTranslations
+home,en-us,105447,,Silver,vip_bar,vipBarTranslations
+home,en-us,151736,,Bronze,vip_bar,vipBarTranslations
+home,en-us,152531,,Every time you see VIP badge,vip_bar,vipBarTranslations
+home,en-us,152532,,Welcome Agoda VIP Member,vip_bar,vipBarTranslations
+home,en-us,224079,,Lifetime VIP,vip_bar,vipBarTranslations
+home,en-us,415894,,Member,vip_bar,vipBarTranslations
+home,en-us,410344,,Diamond,vip_bar,vipBarTranslations
+home,en-us,522363,,Book {0,vip_bar,vipBarTranslations
+home,en-us,522364,,Travel More,vip_bar,vipBarTranslations
+home,en-us,522376,,Enjoy exclusive deals and benefits every time you book hotels,vip_bar,vipBarTranslations
+home,en-us,158420,,Become a VIP member to save and earn more!,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,en-us,156114,,Sign up - it's free,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,en-us,158417,,Get up to 25% VIP discount,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,en-us,158418,,Free perks on select properties,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,en-us,158419,,Earn and redeem AgodaCash,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,en-us,156036,,Best price guarantee,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,en-us,144883,,Hope you enjoyed your stay,pending_reviews_banner,pendingReviewsBanner
+home,en-us,155807,,Rate your stay,pending_reviews_banner,pendingReviewsBanner
+home,en-us,141213,,Submit your review,pending_reviews_banner,pendingReviewsBanner
+home,en-us,144022,,{0,pending_reviews_banner,pendingReviewsBanner
+home,en-us,144023,,{0,pending_reviews_banner,pendingReviewsBanner
+home,en-us,144024,,{0,pending_reviews_banner,pendingReviewsBanner
+home,en-us,144025,,{0,pending_reviews_banner,pendingReviewsBanner
+home,en-us,146563,,Going abroad? View the latest requirements for popular countries below.,travel_restriction_banner,travelRestrictionBannerContainerTranslations
+home,en-us,150436,,Accommodation Promotions,funnel_carousels,funnelCarouselsTranslations
+home,en-us,150437,,Flights & Activities Promotions,funnel_carousels,funnelCarouselsTranslations
+home,en-us,531144,,Properties we think you'll like,funnel_carousels,funnelCarouselsTranslations
+home,en-us,177081,,View all,funnel_carousels,funnelCarouselsTranslations
+home,en-us,483780,,View all accommodation promotion links,funnel_carousels,funnelCarouselsTranslations
+home,en-us,265802,,Previous Accommodation Promotion,funnel_carousels,funnelCarouselsTranslations
+home,en-us,265803,,Next Accommodation Promotion,funnel_carousels,funnelCarouselsTranslations
+home,en-us,265804,,Previous Flights/Activities Promotion,funnel_carousels,funnelCarouselsTranslations
+home,en-us,265805,,Next Flights/Activities Promotion,funnel_carousels,funnelCarouselsTranslations
+home,en-us,531142,,Previous property,funnel_carousels,funnelCarouselsTranslations
+home,en-us,531143,,Next property,funnel_carousels,funnelCarouselsTranslations
+home,en-us,265806,,Accommodation Promotion {0,funnel_carousels,funnelCarouselsTranslations
+home,en-us,265807,,Flights/Activities Promotion {0,funnel_carousels,funnelCarouselsTranslations
+home,en-us,531141,,Properties we think you'll like,funnel_carousels,funnelCarouselsTranslations
+home,en-us,152705,,Go to slide {0,funnel_carousels,funnelCarouselsTranslations
+home,en-us,269908,,/deals,funnel_carousels,funnelCarouselsTranslations
+home,en-us,308905,,{0,funnel_carousels,funnelCarouselsTranslations
+home,en-us,350397,,Slide {0,funnel_carousels,funnelCarouselsTranslations
+home,en-us,141191,,Stay longer and save more!,long_stay_banner,longStayPromotionBanner
+home,en-us,141192,,Save up to 20% extra on stays longer than a week.,long_stay_banner,longStayPromotionBanner
+home,en-us,141193,,Learn more,long_stay_banner,longStayPromotionBanner
+home,en-us,141194,,Staying for 6 nights? Why not add 1 more night to your vacation and be eligible for larger discounts?,long_stay_banner,longStayPromotionBanner
+home,en-us,141195,,Up to 20% Weekly discount,long_stay_banner,longStayPromotionBanner
+home,en-us,141196,,Stay for 7 days and get up to 20% off,long_stay_banner,longStayPromotionBanner
+home,en-us,141197,,Up to 30% 2-week discount,long_stay_banner,longStayPromotionBanner
+home,en-us,141198,,Stay for 14 days and get up to 30% off,long_stay_banner,longStayPromotionBanner
+home,en-us,141199,,Up to 40% monthly discount,long_stay_banner,longStayPromotionBanner
+home,en-us,141200,,Stay for 28 days and get up to 40% off,long_stay_banner,longStayPromotionBanner
+home,en-us,292902,,Trusted site powered by JTB,long_stay_banner,longStayPromotionBanner
+home,en-us,291217,,JTB Corp. is a leader in the Japanese travel industry for over 110 years,long_stay_banner,longStayPromotionBanner
+home,en-us,291218,,Trusted relationships with diverse accommodations across Japan,long_stay_banner,longStayPromotionBanner
+home,en-us,291219,,Multilingual customer support from our staff in Japan,long_stay_banner,longStayPromotionBanner
+home,en-us,53928,102074,Most popular destinations\,long_stay_banner,longStayPromotionBanner
+home,en-us,75059,,Domestic\,long_stay_banner,longStayPromotionBanner
+home,en-us,75060,,International\,long_stay_banner,longStayPromotionBanner
+home,en-us,264441,,Previous\,long_stay_banner,longStayPromotionBanner
+home,en-us,264442,,Next destination\,long_stay_banner,longStayPromotionBanner
+home,en-us,111397,,Top destinations {0,long_stay_banner,longStayPromotionBanner
+home,en-us,111398,,Popular destinations outside {0,long_stay_banner,longStayPromotionBanner
+home,en-us,111399,,1 accommodation\,long_stay_banner,longStayPromotionBanner
+home,en-us,111400,,{0,long_stay_banner,longStayPromotionBanner
+home,en-us,308905,,{0,long_stay_banner,longStayPromotionBanner
+home,en-us,350397,,Slide {0,long_stay_banner,longStayPromotionBanner
+home,en-us,92412,,Your past bookings have earned you {0,long_stay_banner,longStayPromotionBanner
+home,en-us,92413,,Agoda,long_stay_banner,longStayPromotionBanner
+home,en-us,105462,,Agoda,long_stay_banner,longStayPromotionBanner
+home,en-us,92411,,VIP,long_stay_banner,longStayPromotionBanner
+home,en-us,410344,,Diamond,long_stay_banner,longStayPromotionBanner
+home,en-us,411352,,VIP Diamond,long_stay_banner,longStayPromotionBanner
+home,en-us,105982,,Best price guarantee,long_stay_banner,longStayPromotionBanner
+home,en-us,105983,,Insider deals,long_stay_banner,longStayPromotionBanner
+home,en-us,112596,,VIP deals up to 25% off,long_stay_banner,longStayPromotionBanner
+home,en-us,113230,,Free breakfast and other perks on selected properties!,long_stay_banner,longStayPromotionBanner
+home,en-us,415990,,Special Limited-Time Benefits,long_stay_banner,longStayPromotionBanner
+home,en-us,415971,,Priority Customer Support,long_stay_banner,longStayPromotionBanner
+home,en-us,224008,,Stay signed in?,long_stay_banner,longStayPromotionBanner
+home,en-us,224009,,Your session expires in {0,long_stay_banner,longStayPromotionBanner
+home,en-us,224181,,For your security,long_stay_banner,longStayPromotionBanner
+home,en-us,224010,,Stay Signed In,long_stay_banner,longStayPromotionBanner
+home,en-us,224011,,Log Out Now,long_stay_banner,longStayPromotionBanner
+home,en-us,224182,,{0,long_stay_banner,longStayPromotionBanner
+home,en-us,224183,,{0,long_stay_banner,longStayPromotionBanner
+home,en-us,558769,,Extend session and close dialog,long_stay_banner,longStayPromotionBanner
+home,en-us,535188,,Destination Cities,footer_seo_links,footerSeoLinksGroups
+home,en-us,535192,,Asia,footer_seo_links,footerSeoLinksGroups
+home,en-us,535202,,Bali Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554121,,/city/bali-id.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535203,,Bandung Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554122,,/city/bandung-id.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535204,,Bangkok Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554123,,/city/bangkok-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535205,,Boracay Island Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554124,,/city/boracay-island-ph.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535206,,Busan Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554125,,/city/busan-kr.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535207,,Cebu Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554126,,/city/cebu-ph.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535208,,Chiang Mai Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554127,,/city/chiang-mai-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535209,,Da Nang Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554128,,/city/da-nang-vn.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535210,,Fukuoka Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554129,,/city/fukuoka-jp.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535211,,Hanoi Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554130,,/city/hanoi-vn.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535212,,Hat Yai Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554131,,/city/hat-yai-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535213,,Ho Chi Minh City Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554132,,/city/ho-chi-minh-city-vn.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535214,,Hoi An Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554133,,/city/hoi-an-vn.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535215,,Hong Kong Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554134,,/city/hong-kong-hk.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535216,,Hua Hin Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554135,,/city/hua-hin-cha-am-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535217,,Hualien Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554136,,/city/hualien-tw.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535218,,Ipoh Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554137,,/city/ipoh-my.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535219,,Jakarta Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554138,,/city/jakarta-id.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535220,,Jeju Island Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554139,,/city/jeju-island-kr.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535221,,Johor Bahru Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554140,,/city/johor-bahru-my.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535222,,Kaohsiung Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554141,,/city/kaohsiung-tw.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535223,,Kota Kinabalu Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554142,,/city/kota-kinabalu-my.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535224,,Krabi Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554143,,/city/krabi-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535225,,Kuala Lumpur Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554144,,/city/kuala-lumpur-my.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535226,,Kuantan Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554145,,/city/kuantan-my.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535227,,Kyoto Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554146,,/city/kyoto-jp.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535228,,Macau Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554147,,/city/macau-mo.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535229,,Malacca Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554148,,/city/malacca-my.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535230,,Manila Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554149,,/city/manila-ph.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535231,,Nagoya Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554150,,/city/nagoya-jp.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535232,,Nha Trang Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554151,,/city/nha-trang-vn.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535233,,Okinawa Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554152,,/city/okinawa-main-island-jp.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535234,,Osaka Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554153,,/city/osaka-jp.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535235,,Pattaya Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554154,,/city/pattaya-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535236,,Penang Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554155,,/city/penang-my.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535237,,Phuket Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554156,,/city/phuket-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535238,,Sapporo Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554157,,/city/sapporo-jp.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535239,,Seoul Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554158,,/city/seoul-kr.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535240,,Shanghai Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554159,,/city/shanghai-cn.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535241,,Singapore Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554160,,/city/singapore-sg.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535242,,Surabaya Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554161,,/city/surabaya-id.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535243,,Taichung Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554162,,/city/taichung-tw.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535244,,Tainan Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554163,,/city/tainan-tw.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535245,,Taipei Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554164,,/city/taipei-tw.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535246,,Tokyo Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554165,,/city/tokyo-jp.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535247,,Yilan Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554166,,/city/yilan-tw.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535248,,Yogyakarta Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554167,,/city/yogyakarta-id.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535193,,Europe,footer_seo_links,footerSeoLinksGroups
+home,en-us,535249,,London Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554168,,/city/london-gb.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535250,,Paris Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554169,,/city/paris-fr.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535194,,Middle East,footer_seo_links,footerSeoLinksGroups
+home,en-us,535251,,Dubai Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554170,,/city/dubai-ae.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535189,,Countries & Territories,footer_seo_links,footerSeoLinksGroups
+home,en-us,535195,,Africa,footer_seo_links,footerSeoLinksGroups
+home,en-us,535252,,Morocco Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554171,,/country/morocco.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535253,,South Africa Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554172,,/country/south-africa.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535196,,Americas,footer_seo_links,footerSeoLinksGroups
+home,en-us,535254,,Argentina Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554173,,/country/argentina.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535255,,Brazil Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554174,,/country/brazil.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535256,,Canada Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554175,,/country/canada.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535257,,Mexico Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554176,,/country/mexico.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535258,,United States Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554177,,/country/united-states.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535259,,Venezuela Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554178,,/country/venezuela.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535260,,Cambodia Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554179,,/country/cambodia.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535261,,China Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554180,,/country/china.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535262,,India Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554181,,/country/india.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535263,,Indonesia Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554182,,/country/indonesia.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535264,,Japan Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554183,,/country/japan.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535265,,Laos Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554184,,/country/laos.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535266,,Malaysia Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554185,,/country/malaysia.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535267,,Myanmar Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554186,,/country/myanmar.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535268,,Nepal Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554187,,/country/nepal.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535269,,Philippines Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554188,,/country/philippines.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535270,,South Korea Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554189,,/country/south-korea.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535271,,Sri Lanka Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554190,,/country/sri-lanka.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535272,,Taiwan Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554191,,/country/taiwan.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535273,,Thailand Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554192,,/country/thailand.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535274,,Vietnam Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554193,,/country/vietnam.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535275,,Austria Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554194,,/country/austria.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535276,,Czech Republic Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554195,,/country/czech-republic.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535277,,Denmark Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554196,,/country/denmark.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535278,,Finland Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554197,,/country/finland.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535279,,France Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554198,,/country/france.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535280,,Germany Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554199,,/country/germany.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535281,,Greece Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554200,,/country/greece.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535282,,Hungary Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554201,,/country/hungary.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535283,,Ireland Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554202,,/country/ireland.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535284,,Italy Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554203,,/country/italy.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535285,,Netherlands Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554204,,/country/netherlands.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535286,,Russia Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554205,,/country/russia.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535287,,Spain Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554206,,/country/spain.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535288,,Sweden Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554207,,/country/sweden.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535289,,Switzerland Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554208,,/country/switzerland.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535290,,United Kingdom Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554209,,/country/united-kingdom.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535291,,Bahrain Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554210,,/country/bahrain.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535292,,Egypt Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554211,,/country/egypt.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535293,,Israel Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554212,,/country/israel.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535294,,United Arab Emirates Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554213,,/country/united-arab-emirates.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535197,,Oceania,footer_seo_links,footerSeoLinksGroups
+home,en-us,535295,,Australia Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554214,,/country/australia.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535296,,New Zealand Hotels,footer_seo_links,footerSeoLinksGroups
+home,en-us,554215,,/country/new-zealand.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535191,,Destination Guides,footer_seo_links,footerSeoLinksGroups
+home,en-us,539133,,Destination Guides Home,footer_seo_links,footerSeoLinksGroups
+home,en-us,554216,,/travel-guides,footer_seo_links,footerSeoLinksGroups
+home,en-us,535297,,Bali Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554217,,/travel-guides/indonesia/bali,footer_seo_links,footerSeoLinksGroups
+home,en-us,535298,,Da Nang Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554218,,/special-editions/vietnam/da-nang-travel-guide-top-attractions-activities-and-hotels-in-vietnams-coastal-gem/,footer_seo_links,footerSeoLinksGroups
+home,en-us,535299,,Hong Kong Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554219,,/travel-guides/hong-kong,footer_seo_links,footerSeoLinksGroups
+home,en-us,535300,,Jakarta Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554220,,/travel-guides/indonesia/jakarta,footer_seo_links,footerSeoLinksGroups
+home,en-us,535301,,Jeju Island Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554221,,/travel-guides/south-korea/jeju-island,footer_seo_links,footerSeoLinksGroups
+home,en-us,535302,,Kuala Lumpur Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554222,,/travel-guides/malaysia/kuala-lumpur,footer_seo_links,footerSeoLinksGroups
+home,en-us,535303,,Kyoto Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554223,,/travel-guides/japan/kyoto,footer_seo_links,footerSeoLinksGroups
+home,en-us,535304,,Kyushu Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554224,,/travel-guides/japan/kyushu,footer_seo_links,footerSeoLinksGroups
+home,en-us,535305,,Malacca Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554225,,/travel-guides/malaysia/malacca,footer_seo_links,footerSeoLinksGroups
+home,en-us,535306,,Philippines Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554226,,/special-editions/philippines/love-the-philippines-top-places-to-visit-and-stay-in-the-tropical-paradise,footer_seo_links,footerSeoLinksGroups
+home,en-us,535307,,Nara Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554227,,/travel-guides/japan/nara,footer_seo_links,footerSeoLinksGroups
+home,en-us,535308,,Osaka Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554228,,/travel-guides/japan/osaka,footer_seo_links,footerSeoLinksGroups
+home,en-us,535309,,Phuket Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554229,,/travel-guides/thailand/phuket,footer_seo_links,footerSeoLinksGroups
+home,en-us,535310,,Sapporo Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554230,,/travel-guides/japan/sapporo,footer_seo_links,footerSeoLinksGroups
+home,en-us,535311,,Seoul Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554231,,/travel-guides/south-korea/seoul,footer_seo_links,footerSeoLinksGroups
+home,en-us,535312,,Singapore Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554232,,/travel-guides/singapore,footer_seo_links,footerSeoLinksGroups
+home,en-us,535313,,Taichung Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554233,,/travel-guides/taiwan/taichung,footer_seo_links,footerSeoLinksGroups
+home,en-us,535314,,Taipei Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554234,,/travel-guides/taiwan/taipei,footer_seo_links,footerSeoLinksGroups
+home,en-us,535315,,Tokyo Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554235,,/travel-guides/japan/tokyo,footer_seo_links,footerSeoLinksGroups
+home,en-us,535316,,Goa Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554236,,/special-editions/goa,footer_seo_links,footerSeoLinksGroups
+home,en-us,535317,,Paris Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554237,,/travel-guides/france/paris,footer_seo_links,footerSeoLinksGroups
+home,en-us,535318,,Dubai Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554238,,/travel-guides/united-arab-emirates-uae/dubai,footer_seo_links,footerSeoLinksGroups
+home,en-us,535319,,Jeddah Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554239,,/travel-guides/saudi-arabia/jeddah,footer_seo_links,footerSeoLinksGroups
+home,en-us,535320,,Saudi Arabia Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554240,,/travel-guides/saudi-arabia,footer_seo_links,footerSeoLinksGroups
+home,en-us,535321,,Brisbane Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554241,,/travel-guides/australia/brisbane,footer_seo_links,footerSeoLinksGroups
+home,en-us,535322,,Melbourne Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554242,,/travel-guides/australia/melbourne,footer_seo_links,footerSeoLinksGroups
+home,en-us,535323,,Sydney Guide,footer_seo_links,footerSeoLinksGroups
+home,en-us,554243,,/travel-guides/australia/sydney,footer_seo_links,footerSeoLinksGroups
+home,en-us,535190,,Agoda Homes,footer_seo_links,footerSeoLinksGroups
+home,en-us,535198,,Asia Apartments,footer_seo_links,footerSeoLinksGroups
+home,en-us,535324,,Bangkok Apartments,footer_seo_links,footerSeoLinksGroups
+home,en-us,554244,,/theme/apartments/city/bangkok-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535325,,Kuala Lumpur Apartments,footer_seo_links,footerSeoLinksGroups
+home,en-us,554245,,/theme/apartments/city/kuala-lumpur-my.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535326,,Manila Apartments,footer_seo_links,footerSeoLinksGroups
+home,en-us,554246,,/theme/apartments/city/manila-ph.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535327,,Osaka Apartments,footer_seo_links,footerSeoLinksGroups
+home,en-us,554247,,/theme/apartments/city/osaka-jp.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535328,,Pattaya Apartments,footer_seo_links,footerSeoLinksGroups
+home,en-us,554248,,/theme/apartments/city/pattaya-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535329,,Tokyo Apartments,footer_seo_links,footerSeoLinksGroups
+home,en-us,554249,,/theme/apartments/city/tokyo-jp.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535199,,Asia Bungalows,footer_seo_links,footerSeoLinksGroups
+home,en-us,535330,,Bali Bungalows,footer_seo_links,footerSeoLinksGroups
+home,en-us,554250,,/bungalows/city/bali-id.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535331,,Koh Kood Bungalows,footer_seo_links,footerSeoLinksGroups
+home,en-us,554251,,/bungalows/city/koh-kood-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535332,,Koh Lanta Bungalows,footer_seo_links,footerSeoLinksGroups
+home,en-us,554252,,/bungalows/city/koh-lanta-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535333,,Koh Phangan Bungalows,footer_seo_links,footerSeoLinksGroups
+home,en-us,554253,,/bungalows/city/koh-phangan-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535334,,Koh Samet Bungalows,footer_seo_links,footerSeoLinksGroups
+home,en-us,554254,,/bungalows/city/koh-samet-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535335,,Phu Quoc Island Bungalows,footer_seo_links,footerSeoLinksGroups
+home,en-us,554255,,/bungalows/city/phu-quoc-island-vn.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535200,,Asia Villas,footer_seo_links,footerSeoLinksGroups
+home,en-us,535336,,Bali Villas,footer_seo_links,footerSeoLinksGroups
+home,en-us,554256,,/theme/villas/city/bali-id.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535337,,Phuket Villas,footer_seo_links,footerSeoLinksGroups
+home,en-us,554257,,/theme/villas/city/phuket-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535338,,Pattaya Villas,footer_seo_links,footerSeoLinksGroups
+home,en-us,554258,,/theme/villas/city/pattaya-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535339,,Hua Hin / Cha-am Villas,footer_seo_links,footerSeoLinksGroups
+home,en-us,554259,,/theme/villas/city/hua-hin-cha-am-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535340,,Seoul Villas,footer_seo_links,footerSeoLinksGroups
+home,en-us,554260,,/theme/villas/city/seoul-kr.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535341,,Port Dickson Villas,footer_seo_links,footerSeoLinksGroups
+home,en-us,554261,,/theme/villas/city/port-dickson-my.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535201,,Asia Vacation Rentals,footer_seo_links,footerSeoLinksGroups
+home,en-us,535342,,Tokyo Vacation Rentals,footer_seo_links,footerSeoLinksGroups
+home,en-us,554262,,/vacation-rentals/city/tokyo-jp.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,535343,,Bangkok Vacation Rentals,footer_seo_links,footerSeoLinksGroups
+home,en-us,554263,,/vacation-rentals/city/bangkok-th.html,footer_seo_links,footerSeoLinksGroups
+home,en-us,258237,,Save 10% on your 1st app booking!,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,en-us,258238,,Just scan the QR code for instant savings,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,en-us,258236,,Save more on App!,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,en-us,298686,,Agoda logo,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,en-us,298687,,Phone frame,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,en-us,342160,,qr code image to download app,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,en-us,224485,,Close,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,en-us,304964,,Hotels,hero_search_box,window.searchBoxReact
+home,en-us,63377,,Flights,hero_search_box,window.searchBoxReact
+home,en-us,176043,,Homes & Apts,hero_search_box,window.searchBoxReact
+home,en-us,98578,,Flight + Hotel,hero_search_box,window.searchBoxReact
+home,en-us,127972,565297,Activities,hero_search_box,window.searchBoxReact
+home,en-us,265368,,Airport transfer,hero_search_box,window.searchBoxReact
+home,en-us,3182,,properties,hero_search_box,window.searchBoxReact
+home,en-us,61491,,1 room,hero_search_box,window.searchBoxReact
+home,en-us,61492,,{0,hero_search_box,window.searchBoxReact
+home,en-us,61493,,1 adult,hero_search_box,window.searchBoxReact
+home,en-us,61494,,{0,hero_search_box,window.searchBoxReact
+home,en-us,61495,,1 child,hero_search_box,window.searchBoxReact
+home,en-us,61496,,{0,hero_search_box,window.searchBoxReact
+home,en-us,81148,,Best seller,hero_search_box,window.searchBoxReact
+home,en-us,70400,,Popular,hero_search_box,window.searchBoxReact
+home,en-us,144475,,Recent search,hero_search_box,window.searchBoxReact
+home,en-us,144523,,Destinations in {Country,hero_search_box,window.searchBoxReact
+home,en-us,144524,,International destinations,hero_search_box,window.searchBoxReact
+home,en-us,226283,,Areas,hero_search_box,window.searchBoxReact
+home,en-us,226284,,Landmarks,hero_search_box,window.searchBoxReact
+home,en-us,226285,,Popular cities in {0,hero_search_box,window.searchBoxReact
+home,en-us,226592,,{0,hero_search_box,window.searchBoxReact
+home,en-us,240329,,Top destination,hero_search_box,window.searchBoxReact
+home,en-us,228092,,Destination,hero_search_box,window.searchBoxReact
+home,en-us,65494,,Property,hero_search_box,window.searchBoxReact
+home,en-us,126802,,City,hero_search_box,window.searchBoxReact
+home,en-us,3708,,Landmark,hero_search_box,window.searchBoxReact
+home,en-us,83125,,Airport,hero_search_box,window.searchBoxReact
+home,en-us,52165,,Region,hero_search_box,window.searchBoxReact
+home,en-us,293014,,Pax,hero_search_box,window.searchBoxReact
+home,en-us,65492,,City,hero_search_box,window.searchBoxReact
+home,en-us,396601,,Well-known properties in {city,hero_search_box,window.searchBoxReact
+home,en-us,411558,,Sponsored,hero_search_box,window.searchBoxReact
+home,en-us,411557,,The properties appearing here are paid ads that you're seeing because of several factors,hero_search_box,window.searchBoxReact
+home,en-us,326495,,Loading,hero_search_box,window.searchBoxReact
+home,en-us,523569,,Powered by Google,hero_search_box,window.searchBoxReact
+home,en-us,70236,,January,hero_search_box,window.searchBoxReact
+home,en-us,79894,,Su,hero_search_box,window.searchBoxReact
+home,en-us,79895,,Sunday,hero_search_box,window.searchBoxReact
+home,en-us,71487,,Select your travel dates for pricing and availability,hero_search_box,window.searchBoxReact
+home,en-us,71488,,No thanks,hero_search_box,window.searchBoxReact
+home,en-us,81892,,{MM,hero_search_box,window.searchBoxReact
+home,en-us,82952,,PERFECT CHOICE!,hero_search_box,window.searchBoxReact
+home,en-us,147745,,{0,hero_search_box,window.searchBoxReact
+home,en-us,187720,,Quick selection,hero_search_box,window.searchBoxReact
+home,en-us,187721,,Same day checkout,hero_search_box,window.searchBoxReact
+home,en-us,187722,,1 week stay,hero_search_box,window.searchBoxReact
+home,en-us,94826,,{0,hero_search_box,window.searchBoxReact
+home,en-us,94827,,{0,hero_search_box,window.searchBoxReact
+home,en-us,151559,,up to {0,hero_search_box,window.searchBoxReact
+home,en-us,70237,,Jan,hero_search_box,window.searchBoxReact
+home,en-us,170623,,{0,hero_search_box,window.searchBoxReact
+home,en-us,293015,,Red: Price is higher on this date than the destination's average price,hero_search_box,window.searchBoxReact
+home,en-us,293016,,Green: Price is lower on this date than the destination's average price,hero_search_box,window.searchBoxReact
+home,en-us,293017,,Price is {0,hero_search_box,window.searchBoxReact
+home,en-us,97912,,Prices are lower on these dates than the destination's average price,hero_search_box,window.searchBoxReact
+home,en-us,305147,,I’m flexible,hero_search_box,window.searchBoxReact
+home,en-us,305151,,How long do you want to stay?,hero_search_box,window.searchBoxReact
+home,en-us,305154,,1 week,hero_search_box,window.searchBoxReact
+home,en-us,305155,,1 month,hero_search_box,window.searchBoxReact
+home,en-us,305156,,Must include weekend,hero_search_box,window.searchBoxReact
+home,en-us,305157,,When do you want to travel?,hero_search_box,window.searchBoxReact
+home,en-us,305158,,You can select multiple months,hero_search_box,window.searchBoxReact
+home,en-us,442006,,Select your preferred month,hero_search_box,window.searchBoxReact
+home,en-us,305159,,January,hero_search_box,window.searchBoxReact
+home,en-us,305160,,February,hero_search_box,window.searchBoxReact
+home,en-us,305161,,March,hero_search_box,window.searchBoxReact
+home,en-us,305162,,April,hero_search_box,window.searchBoxReact
+home,en-us,305163,,May,hero_search_box,window.searchBoxReact
+home,en-us,305164,,June,hero_search_box,window.searchBoxReact
+home,en-us,305165,,July,hero_search_box,window.searchBoxReact
+home,en-us,305166,,August,hero_search_box,window.searchBoxReact
+home,en-us,305167,,September,hero_search_box,window.searchBoxReact
+home,en-us,305168,,October,hero_search_box,window.searchBoxReact
+home,en-us,305169,,November,hero_search_box,window.searchBoxReact
+home,en-us,305170,,December,hero_search_box,window.searchBoxReact
+home,en-us,305171,,3 nights,hero_search_box,window.searchBoxReact
+home,en-us,305719,,Clear,hero_search_box,window.searchBoxReact
+home,en-us,305718,,Select,hero_search_box,window.searchBoxReact
+home,en-us,305717,,Calendar,hero_search_box,window.searchBoxReact
+home,en-us,67875,101821,Room,hero_search_box,window.searchBoxReact
+home,en-us,67874,,Rooms,hero_search_box,window.searchBoxReact
+home,en-us,67871,,Adult,hero_search_box,window.searchBoxReact
+home,en-us,67870,,Adults,hero_search_box,window.searchBoxReact
+home,en-us,67873,,Child,hero_search_box,window.searchBoxReact
+home,en-us,67872,,Children,hero_search_box,window.searchBoxReact
+home,en-us,89970,,Child's age (years),hero_search_box,window.searchBoxReact
+home,en-us,89969,,Children's ages (years),hero_search_box,window.searchBoxReact
+home,en-us,188912,,Ages 18 or above,hero_search_box,window.searchBoxReact
+home,en-us,188913,,Ages 0-17,hero_search_box,window.searchBoxReact
+home,en-us,188914,,Age of Child {0,hero_search_box,window.searchBoxReact
+home,en-us,100059,,Get a group rate,hero_search_box,window.searchBoxReact
+home,en-us,99785,,Special rates are now available with our partner HotelPlanner,hero_search_box,window.searchBoxReact
+home,en-us,190587,,See details,hero_search_box,window.searchBoxReact
+home,en-us,77865,,Child's age has been set to {0,hero_search_box,window.searchBoxReact
+home,en-us,77866,,Children's ages have been set to {0,hero_search_box,window.searchBoxReact
+home,en-us,73494,,Enter the actual age below – it may lower room prices!,hero_search_box,window.searchBoxReact
+home,en-us,71235,,Enter their actual ages below – it may lower room prices!,hero_search_box,window.searchBoxReact
+home,en-us,71240,,<1,hero_search_box,window.searchBoxReact
+home,en-us,71241,,1,hero_search_box,window.searchBoxReact
+home,en-us,71242,,2,hero_search_box,window.searchBoxReact
+home,en-us,71243,,3,hero_search_box,window.searchBoxReact
+home,en-us,71244,,4,hero_search_box,window.searchBoxReact
+home,en-us,71245,,5,hero_search_box,window.searchBoxReact
+home,en-us,71246,,6,hero_search_box,window.searchBoxReact
+home,en-us,71247,,7,hero_search_box,window.searchBoxReact
+home,en-us,71248,,8,hero_search_box,window.searchBoxReact
+home,en-us,71249,,9,hero_search_box,window.searchBoxReact
+home,en-us,71250,,10,hero_search_box,window.searchBoxReact
+home,en-us,71251,,11,hero_search_box,window.searchBoxReact
+home,en-us,71252,,12,hero_search_box,window.searchBoxReact
+home,en-us,71253,,13,hero_search_box,window.searchBoxReact
+home,en-us,71254,,14,hero_search_box,window.searchBoxReact
+home,en-us,71255,,15,hero_search_box,window.searchBoxReact
+home,en-us,71256,,16,hero_search_box,window.searchBoxReact
+home,en-us,71257,,17,hero_search_box,window.searchBoxReact
+home,en-us,79414,,Traveling with kids?,hero_search_box,window.searchBoxReact
+home,en-us,89968,,Include them above for the best prices and offers available with children friendly properties.,hero_search_box,window.searchBoxReact
+home,en-us,81238,,I’d prefer a family room,hero_search_box,window.searchBoxReact
+home,en-us,90182,,I’d prefer a big/family room,hero_search_box,window.searchBoxReact
+home,en-us,81374,,,hero_search_box,window.searchBoxReact
+home,en-us,84450,,Family travelers,hero_search_box,window.searchBoxReact
+home,en-us,84451,,Group travelers,hero_search_box,window.searchBoxReact
+home,en-us,88983,,Business travelers,hero_search_box,window.searchBoxReact
+home,en-us,84448,,Solo traveler,hero_search_box,window.searchBoxReact
+home,en-us,84449,,Couple/Pair,hero_search_box,window.searchBoxReact
+home,en-us,92065,,Save up to 12%,hero_search_box,window.searchBoxReact
+home,en-us,99784,,Need 10 rooms or more?,hero_search_box,window.searchBoxReact
+home,en-us,92417,,NEW,hero_search_box,window.searchBoxReact
+home,en-us,104322,,Search for 1 room to see all multi-bedroom properties that can fit your entire group,hero_search_box,window.searchBoxReact
+home,en-us,121753,,About booking with children,hero_search_box,window.searchBoxReact
+home,en-us,224823,,Subtract,hero_search_box,window.searchBoxReact
+home,en-us,224822,,Add,hero_search_box,window.searchBoxReact
+home,en-us,522782,,; currently selected {0,hero_search_box,window.searchBoxReact
+home,en-us,263737,,I'd prefer properties where kids stay free,hero_search_box,window.searchBoxReact
+home,en-us,263738,,Enter your children's ages,hero_search_box,window.searchBoxReact
+home,en-us,263739,,We'll look for places best suited for your family travel needs,hero_search_box,window.searchBoxReact
+home,en-us,321022,,18歳以上,hero_search_box,window.searchBoxReact
+home,en-us,321021,,0～17歳,hero_search_box,window.searchBoxReact
+home,en-us,321016,,13歳,hero_search_box,window.searchBoxReact
+home,en-us,321017,,14歳,hero_search_box,window.searchBoxReact
+home,en-us,321018,,15歳,hero_search_box,window.searchBoxReact
+home,en-us,321019,,16歳,hero_search_box,window.searchBoxReact
+home,en-us,321020,,17歳,hero_search_box,window.searchBoxReact
+home,en-us,326566,,Done,hero_search_box,window.searchBoxReact
+home,en-us,343678,,For accurate room pricing,hero_search_box,window.searchBoxReact
+home,en-us,343674,,<1 year old,hero_search_box,window.searchBoxReact
+home,en-us,343675,,1 year old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,2 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,3 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,4 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,5 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,6 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,7 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,8 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,9 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,10 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,11 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,12 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,13 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,14 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,15 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,16 years old,hero_search_box,window.searchBoxReact
+home,en-us,343673,,17 years old,hero_search_box,window.searchBoxReact
+home,en-us,336988,,Apply,hero_search_box,window.searchBoxReact
+home,en-us,3299,,Close,hero_search_box,window.searchBoxReact
+home,en-us,343952,,For accurate room pricing,hero_search_box,window.searchBoxReact
+home,en-us,78232,,{0,hero_search_box,window.searchBoxReact
+home,en-us,104437,,{0,hero_search_box,window.searchBoxReact
+home,en-us,78233,,(1 night),hero_search_box,window.searchBoxReact
+home,en-us,78234,,({0,hero_search_box,window.searchBoxReact
+home,en-us,76031,,Sun,hero_search_box,window.searchBoxReact
+home,en-us,104467,,Confirm your travel dates to see prices,hero_search_box,window.searchBoxReact
+home,en-us,86019,,Check-in date,hero_search_box,window.searchBoxReact
+home,en-us,86020,,Check-out date,hero_search_box,window.searchBoxReact
+home,en-us,79896,102022,{d,hero_search_box,window.searchBoxReact
+home,en-us,67751,,Check-in,hero_search_box,window.searchBoxReact
+home,en-us,67752,,Check-out,hero_search_box,window.searchBoxReact
+home,en-us,240256,,Select check-in date. Current check-in date is {0,hero_search_box,window.searchBoxReact
+home,en-us,240257,,Select check-out date. Current check-out date is {0,hero_search_box,window.searchBoxReact
+home,en-us,85608,101796,1 room,hero_search_box,window.searchBoxReact
+home,en-us,85610,,{0,hero_search_box,window.searchBoxReact
+home,en-us,85611,,1 adult,hero_search_box,window.searchBoxReact
+home,en-us,85612,101959,{0,hero_search_box,window.searchBoxReact
+home,en-us,85613,,1 child,hero_search_box,window.searchBoxReact
+home,en-us,85614,,{0,hero_search_box,window.searchBoxReact
+home,en-us,240258,,Select number of guests and rooms. Current selection is {0,hero_search_box,window.searchBoxReact
+home,en-us,147722,,Earn miles,hero_search_box,window.searchBoxReact
+home,en-us,147723,,Use miles,hero_search_box,window.searchBoxReact
+home,en-us,285689,,Earn lifemiles,hero_search_box,window.searchBoxReact
+home,en-us,285690,,Pay and earn lifemiles,hero_search_box,window.searchBoxReact
+home,en-us,285691,,Redeem lifemiles,hero_search_box,window.searchBoxReact
+home,en-us,285692,,Pay with my lifemiles,hero_search_box,window.searchBoxReact
+home,en-us,63075,101922,Enter a destination or property,hero_search_box,window.searchBoxReact
+home,en-us,111482,,SEARCH,hero_search_box,window.searchBoxReact
+home,en-us,21475,,Please enter the name of a country,hero_search_box,window.searchBoxReact
+home,en-us,100013,,Your check-in and check-out dates must fall within your arrival and departure dates. Please review your dates.,hero_search_box,window.searchBoxReact
+home,en-us,100014,,Your occupancy should be same for both flight and hotel. Please review your occupancy,hero_search_box,window.searchBoxReact
+home,en-us,103775,,Check-in and check out should be different dates,hero_search_box,window.searchBoxReact
+home,en-us,104762,,Your hotel destination should be within same country of flight arrival destination,hero_search_box,window.searchBoxReact
+home,en-us,22787,,Update,hero_search_box,window.searchBoxReact
+home,en-us,98954,,Hotel,hero_search_box,window.searchBoxReact
+home,en-us,100649,,Sorry,hero_search_box,window.searchBoxReact
+home,en-us,101752,,Modify search,hero_search_box,window.searchBoxReact
+home,en-us,104222,,Trip From {0,hero_search_box,window.searchBoxReact
+home,en-us,104215,,1 adult,hero_search_box,window.searchBoxReact
+home,en-us,104217,,{0,hero_search_box,window.searchBoxReact
+home,en-us,104216,,1 adult,hero_search_box,window.searchBoxReact
+home,en-us,104218,,{0,hero_search_box,window.searchBoxReact
+home,en-us,100190,,Hotel,hero_search_box,window.searchBoxReact
+home,en-us,100189,,Flight,hero_search_box,window.searchBoxReact
+home,en-us,95798,,There are no airports in the city you chose,hero_search_box,window.searchBoxReact
+home,en-us,95799,,There are no airports in the city you chose,hero_search_box,window.searchBoxReact
+home,en-us,93169,,Please make sure you select origin and destination in different cities.,hero_search_box,window.searchBoxReact
+home,en-us,108517,,SEARCH FLIGHT + HOTEL,hero_search_box,window.searchBoxReact
+home,en-us,109009,,Search for hotel in different cities or dates,hero_search_box,window.searchBoxReact
+home,en-us,109008,,Staying at,hero_search_box,window.searchBoxReact
+home,en-us,150448,,Overnight Stays,hero_search_box,window.searchBoxReact
+home,en-us,147352,,Day Use Stays,hero_search_box,window.searchBoxReact
+home,en-us,147353,,You’re searching for Day Use Stays,hero_search_box,window.searchBoxReact
+home,en-us,147354,,Day Use Stays are not overnight. Your check-in and check-out will be on the same date.,hero_search_box,window.searchBoxReact
+home,en-us,150447,,{0,hero_search_box,window.searchBoxReact
+home,en-us,152240,,What's this?,hero_search_box,window.searchBoxReact
+home,en-us,99072,102116,New!,hero_search_box,window.searchBoxReact
+home,en-us,172947,,{0,hero_search_box,window.searchBoxReact
+home,en-us,172946,,{0,hero_search_box,window.searchBoxReact
+home,en-us,190613,,Same day checkout,hero_search_box,window.searchBoxReact
+home,en-us,228093,,Check-in,hero_search_box,window.searchBoxReact
+home,en-us,228094,,Check-out,hero_search_box,window.searchBoxReact
+home,en-us,228095,,Guests and rooms,hero_search_box,window.searchBoxReact
+home,en-us,226819,,Close modal,hero_search_box,window.searchBoxReact
+home,en-us,240259,,Search filters form.,hero_search_box,window.searchBoxReact
+home,en-us,320437,,Check In Date Picker,hero_search_box,window.searchBoxReact
+home,en-us,320438,,Check Out Date Picker,hero_search_box,window.searchBoxReact
+home,en-us,342238,,Press enter to start navigating through the date picker. Use arrow keys to navigate through the check-in and check-out dates. Upon selection of the date using enter key,hero_search_box,window.searchBoxReact
+home,en-us,343580,,Occupancy selection,hero_search_box,window.searchBoxReact
+home,en-us,336395,,Begin typing property name or keyword to search,hero_search_box,window.searchBoxReact
+home,en-us,65841,,Search by city,hero_search_box,window.searchBoxReact
+home,en-us,171944,,Free breakfast,hero_search_box,window.searchBoxReact
+home,en-us,411348,,Free cancellation,hero_search_box,window.searchBoxReact
+home,en-us,559870,,Star Rating: 4+,hero_search_box,window.searchBoxReact
+home,en-us,559871,,Review score: 8+,hero_search_box,window.searchBoxReact
+home,en-us,570336,,Show me only entire homes and apartments,hero_search_box,window.searchBoxReact
+home,en-us,54352,,Your budget (per night),hero_search_box,window.searchBoxReact
+home,en-us,67668,,Advanced search,hero_search_box,window.searchBoxReact
+home,en-us,66024,,Guest rating,hero_search_box,window.searchBoxReact
+home,en-us,63865,,All,hero_search_box,window.searchBoxReact
+home,en-us,63866,,{0,hero_search_box,window.searchBoxReact
+home,en-us,35789,,Star rating,hero_search_box,window.searchBoxReact
+home,en-us,62981,,and up,hero_search_box,window.searchBoxReact
+home,en-us,97551,,Based on current known availability,hero_search_box,window.searchBoxReact
+home,en-us,142076,,Above prices (in {0,hero_search_box,window.searchBoxReact
+home,en-us,142078,,Above prices (in {0,hero_search_box,window.searchBoxReact
+home,en-us,142075,,Above prices (in {0,hero_search_box,window.searchBoxReact
+home,en-us,142077,,Above prices (in {0,hero_search_box,window.searchBoxReact
+home,en-us,147836,,Approximate prices (in {0,hero_search_box,window.searchBoxReact
+home,en-us,147835,,Approximate prices (in {0,hero_search_box,window.searchBoxReact
+home,en-us,104634,,Show Flight + Hotel deals,hero_search_box,window.searchBoxReact
+home,en-us,104635,,Save more,hero_search_box,window.searchBoxReact
+home,en-us,105994,,Save up to {0,hero_search_box,window.searchBoxReact
+home,en-us,108509,,Bundle and Save,hero_search_box,window.searchBoxReact
+home,en-us,108508,,Add hotel to save up to 25%,hero_search_box,window.searchBoxReact
+home,en-us,123093,,Add hotel,hero_search_box,window.searchBoxReact
+home,en-us,127154,,Add a flight,hero_search_box,window.searchBoxReact
+home,en-us,127155,,Add a hotel,hero_search_box,window.searchBoxReact
+home,en-us,127156,,Remove,hero_search_box,window.searchBoxReact
+home,en-us,127157,,Hotel {0,hero_search_box,window.searchBoxReact
+home,en-us,104765,,Bundle & Save,hero_search_box,window.searchBoxReact
+home,en-us,238402,,Search by city or activity,hero_search_box,window.searchBoxReact
+home,en-us,126983,,Please enter a destination to proceed,hero_search_box,window.searchBoxReact
+home,en-us,142439,,Language selection not supported,hero_search_box,window.searchBoxReact
+home,en-us,126798,,Search,hero_search_box,window.searchBoxReact
+home,en-us,126803,,City: {city_name,hero_search_box,window.searchBoxReact
+home,en-us,69201,,{0,hero_search_box,window.searchBoxReact
+home,en-us,65495,,properties,hero_search_box,window.searchBoxReact
+home,en-us,265370,,From airport,hero_search_box,window.searchBoxReact
+home,en-us,265371,,To airport,hero_search_box,window.searchBoxReact
+home,en-us,265372,,Pick-up airport,hero_search_box,window.searchBoxReact
+home,en-us,265373,,Destination location,hero_search_box,window.searchBoxReact
+home,en-us,265374,,Pick-up location,hero_search_box,window.searchBoxReact
+home,en-us,265375,,Destination airport,hero_search_box,window.searchBoxReact
+home,en-us,102022,,{d,hero_search_box,window.searchBoxReact
+home,en-us,269070,,Select pick-up date. Current pick-up date is {0,hero_search_box,window.searchBoxReact
+home,en-us,265377,,Pick-up date,hero_search_box,window.searchBoxReact
+home,en-us,265379,,Sunday,hero_search_box,window.searchBoxReact
+home,en-us,269071,,Select pick-up time. Current pick-up time is {0,hero_search_box,window.searchBoxReact
+home,en-us,265378,,Pick-up time,hero_search_box,window.searchBoxReact
+home,en-us,265380,,1 passenger,hero_search_box,window.searchBoxReact
+home,en-us,265381,,{0,hero_search_box,window.searchBoxReact
+home,en-us,265952,,Passengers,hero_search_box,window.searchBoxReact
+home,en-us,265382,,Total adults,hero_search_box,window.searchBoxReact
+home,en-us,265385,,Search,hero_search_box,window.searchBoxReact
+home,en-us,265386,,Please enter the pick-up location,hero_search_box,window.searchBoxReact
+home,en-us,265387,,Please make sure you select different pick-up and destination locations.,hero_search_box,window.searchBoxReact
+home,en-us,111481,,SEARCH FLIGHTS,hero_search_box,window.searchBoxReact
+home,en-us,93551,,Search,hero_search_box,window.searchBoxReact
+home,en-us,92618,,Flying from,flights_search_box,window.flightSearchBoxReact
+home,en-us,92638,101795,City or airport name,flights_search_box,window.flightSearchBoxReact
+home,en-us,92619,,Flying to,flights_search_box,window.flightSearchBoxReact
+home,en-us,92847,,All airports,flights_search_box,window.flightSearchBoxReact
+home,en-us,83125,,Airport,flights_search_box,window.flightSearchBoxReact
+home,en-us,534612,,No airports,flights_search_box,window.flightSearchBoxReact
+home,en-us,534613,,Nearby,flights_search_box,window.flightSearchBoxReact
+home,en-us,534614,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,534615,,Airport code,flights_search_box,window.flightSearchBoxReact
+home,en-us,534616,,Airport to {0,flights_search_box,window.flightSearchBoxReact
+home,en-us,534617,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,92718,,Passenger,flights_search_box,window.flightSearchBoxReact
+home,en-us,92719,,Passengers,flights_search_box,window.flightSearchBoxReact
+home,en-us,95786,,Passenger,flights_search_box,window.flightSearchBoxReact
+home,en-us,95787,,Passengers,flights_search_box,window.flightSearchBoxReact
+home,en-us,99922,,Adults (12yrs and above),flights_search_box,window.flightSearchBoxReact
+home,en-us,421713,,Adult (12yrs and above),flights_search_box,window.flightSearchBoxReact
+home,en-us,100025,,Total number of passengers cannot exceed {maxTotalPax,flights_search_box,window.flightSearchBoxReact
+home,en-us,421714,,Child (2-11yrs),flights_search_box,window.flightSearchBoxReact
+home,en-us,99923,,Children (2-11yrs),flights_search_box,window.flightSearchBoxReact
+home,en-us,99925,,Each adult may accompany a maximum of 2 children,flights_search_box,window.flightSearchBoxReact
+home,en-us,421715,,Infant (below 2yrs),flights_search_box,window.flightSearchBoxReact
+home,en-us,99924,,Infants (below 2yrs),flights_search_box,window.flightSearchBoxReact
+home,en-us,99926,,Each adult may accompany a maximum of 1 infant,flights_search_box,window.flightSearchBoxReact
+home,en-us,99927,,Children and infants must be accompanied by an adult. Tickets for unaccompanied children and infants must be reserved directly with the airline.,flights_search_box,window.flightSearchBoxReact
+home,en-us,100024,,Error !,flights_search_box,window.flightSearchBoxReact
+home,en-us,67875,101821,Room,flights_search_box,window.flightSearchBoxReact
+home,en-us,67874,,Rooms,flights_search_box,window.flightSearchBoxReact
+home,en-us,110009,,Continue,flights_search_box,window.flightSearchBoxReact
+home,en-us,228091,,Passengers and cabin class,flights_search_box,window.flightSearchBoxReact
+home,en-us,227092,,Plus,flights_search_box,window.flightSearchBoxReact
+home,en-us,227093,,Minus,flights_search_box,window.flightSearchBoxReact
+home,en-us,92152,,Economy,flights_search_box,window.flightSearchBoxReact
+home,en-us,92153,,Premium economy,flights_search_box,window.flightSearchBoxReact
+home,en-us,92154,,Business,flights_search_box,window.flightSearchBoxReact
+home,en-us,92155,,First,flights_search_box,window.flightSearchBoxReact
+home,en-us,92614,,Departure,flights_search_box,window.flightSearchBoxReact
+home,en-us,92615,,Return,flights_search_box,window.flightSearchBoxReact
+home,en-us,79896,102022,{d,flights_search_box,window.flightSearchBoxReact
+home,en-us,104437,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,79895,,Sunday,flights_search_box,window.flightSearchBoxReact
+home,en-us,76031,,Sun,flights_search_box,window.flightSearchBoxReact
+home,en-us,70237,,Jan,flights_search_box,window.flightSearchBoxReact
+home,en-us,93532,,Add return,flights_search_box,window.flightSearchBoxReact
+home,en-us,240076,,Date picker is opened when the focus is on departure/return input box,flights_search_box,window.flightSearchBoxReact
+home,en-us,70236,,January,flights_search_box,window.flightSearchBoxReact
+home,en-us,79894,,Su,flights_search_box,window.flightSearchBoxReact
+home,en-us,71487,,Select your travel dates for pricing and availability,flights_search_box,window.flightSearchBoxReact
+home,en-us,71488,,No thanks,flights_search_box,window.flightSearchBoxReact
+home,en-us,81892,,{MM,flights_search_box,window.flightSearchBoxReact
+home,en-us,82952,,PERFECT CHOICE!,flights_search_box,window.flightSearchBoxReact
+home,en-us,147745,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,178879,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,178878,,Average price per passenger in {0,flights_search_box,window.flightSearchBoxReact
+home,en-us,93551,,Search,flights_search_box,window.flightSearchBoxReact
+home,en-us,111481,,SEARCH FLIGHTS,flights_search_box,window.flightSearchBoxReact
+home,en-us,93272,,Please enter the origin,flights_search_box,window.flightSearchBoxReact
+home,en-us,93273,,Please enter the origin,flights_search_box,window.flightSearchBoxReact
+home,en-us,95800,,There are no airports in the cities you chose,flights_search_box,window.flightSearchBoxReact
+home,en-us,95798,,There are no airports in the city you chose,flights_search_box,window.flightSearchBoxReact
+home,en-us,95799,,There are no airports in the city you chose,flights_search_box,window.flightSearchBoxReact
+home,en-us,93169,,Please make sure you select origin and destination in different cities.,flights_search_box,window.flightSearchBoxReact
+home,en-us,92610,,One-way,flights_search_box,window.flightSearchBoxReact
+home,en-us,92611,,Round-trip,flights_search_box,window.flightSearchBoxReact
+home,en-us,98953,,Flight,flights_search_box,window.flightSearchBoxReact
+home,en-us,101752,,Modify search,flights_search_box,window.flightSearchBoxReact
+home,en-us,226819,,Close modal,flights_search_box,window.flightSearchBoxReact
+home,en-us,252463,,Direct only,flights_search_box,window.flightSearchBoxReact
+home,en-us,133196,,Your recent searches,flights_search_box,window.flightSearchBoxReact
+home,en-us,133197,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,133198,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,133199,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,133200,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,133201,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,133202,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,523201,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,523202,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,523200,,{0,flights_search_box,window.flightSearchBoxReact
+home,en-us,141039,,Popular cities near you,flights_search_box,window.flightSearchBoxReact
+home,en-us,141040,,Popular destinations,flights_search_box,window.flightSearchBoxReact
+home,en-us,158355,,Pick-up city or airport,cars_search_box,window.carsSearchBoxReact
+home,en-us,155992,,Enter a pick-up city or airport,cars_search_box,window.carsSearchBoxReact
+home,en-us,229257,,Drop-off city or airport,cars_search_box,window.carsSearchBoxReact
+home,en-us,155995,,Enter a drop-off city or airport,cars_search_box,window.carsSearchBoxReact
+home,en-us,158360,,All airports,cars_search_box,window.carsSearchBoxReact
+home,en-us,155017,,Driver's age,cars_search_box,window.carsSearchBoxReact
+home,en-us,155118,,18,cars_search_box,window.carsSearchBoxReact
+home,en-us,155119,,19,cars_search_box,window.carsSearchBoxReact
+home,en-us,155120,,20,cars_search_box,window.carsSearchBoxReact
+home,en-us,155121,,21,cars_search_box,window.carsSearchBoxReact
+home,en-us,155122,,22,cars_search_box,window.carsSearchBoxReact
+home,en-us,155123,,23,cars_search_box,window.carsSearchBoxReact
+home,en-us,155124,,24,cars_search_box,window.carsSearchBoxReact
+home,en-us,155125,,25,cars_search_box,window.carsSearchBoxReact
+home,en-us,155126,,26,cars_search_box,window.carsSearchBoxReact
+home,en-us,155127,,27,cars_search_box,window.carsSearchBoxReact
+home,en-us,155128,,28,cars_search_box,window.carsSearchBoxReact
+home,en-us,155129,,29,cars_search_box,window.carsSearchBoxReact
+home,en-us,155130,,30+,cars_search_box,window.carsSearchBoxReact
+home,en-us,155999,,Pick-up date,cars_search_box,window.carsSearchBoxReact
+home,en-us,156000,,Drop-off date,cars_search_box,window.carsSearchBoxReact
+home,en-us,79896,102022,{d,cars_search_box,window.carsSearchBoxReact
+home,en-us,104437,,{0,cars_search_box,window.carsSearchBoxReact
+home,en-us,79895,,Sunday,cars_search_box,window.carsSearchBoxReact
+home,en-us,76031,,Sun,cars_search_box,window.carsSearchBoxReact
+home,en-us,70237,,Jan,cars_search_box,window.carsSearchBoxReact
+home,en-us,93532,,Add return,cars_search_box,window.carsSearchBoxReact
+home,en-us,240076,,Date picker is opened when the focus is on departure/return input box,cars_search_box,window.carsSearchBoxReact
+home,en-us,70236,,January,cars_search_box,window.carsSearchBoxReact
+home,en-us,79894,,Su,cars_search_box,window.carsSearchBoxReact
+home,en-us,71487,,Select your travel dates for pricing and availability,cars_search_box,window.carsSearchBoxReact
+home,en-us,71488,,No thanks,cars_search_box,window.carsSearchBoxReact
+home,en-us,81892,,{MM,cars_search_box,window.carsSearchBoxReact
+home,en-us,82952,,PERFECT CHOICE!,cars_search_box,window.carsSearchBoxReact
+home,en-us,147745,,{0,cars_search_box,window.carsSearchBoxReact
+home,en-us,178879,,{0,cars_search_box,window.carsSearchBoxReact
+home,en-us,178878,,Average price per passenger in {0,cars_search_box,window.carsSearchBoxReact
+home,en-us,155015,,Pick-up time,cars_search_box,window.carsSearchBoxReact
+home,en-us,155016,,Drop-off time,cars_search_box,window.carsSearchBoxReact
+home,en-us,158361,,Sorry,cars_search_box,window.carsSearchBoxReact
+home,en-us,158357,,Search,cars_search_box,window.carsSearchBoxReact
+home,en-us,158358,,SEARCH CARS,cars_search_box,window.carsSearchBoxReact
+home,en-us,155018,,Same drop-off,cars_search_box,window.carsSearchBoxReact
+home,en-us,155019,,Different drop-off,cars_search_box,window.carsSearchBoxReact
+home,en-us,158356,,Cars,cars_search_box,window.carsSearchBoxReact
+home,en-us,158359,,Modify Search,cars_search_box,window.carsSearchBoxReact
+home,en-us,226819,,Close modal,cars_search_box,window.carsSearchBoxReact
+home,en-us,64917,102094,Help,footer,footerProps
+home,en-us,3325,102016,Help center,footer,footerProps
+home,en-us,64918,101859,FAQs,footer,footerProps
+home,en-us,64919,101999,Privacy policy,footer,footerProps
+home,en-us,82614,,Cookie policy,footer,footerProps
+home,en-us,64920,102139,Terms of use,footer,footerProps
+home,en-us,300097,,Digital Services Act (EU),footer,footerProps
+home,en-us,310298,,Content guidelines & reporting,footer,footerProps
+home,en-us,321659,,Modern Slavery Statement,footer,footerProps
+home,en-us,153409,,Company,footer,footerProps
+home,en-us,102520,,About us,footer,footerProps
+home,en-us,22561,102038,Careers,footer,footerProps
+home,en-us,64932,,//careersatagoda.com,footer,footerProps
+home,en-us,64923,102092,Press,footer,footerProps
+home,en-us,64933,,//mediaroom.agoda.com,footer,footerProps
+home,en-us,83153,102036,Blog,footer,footerProps
+home,en-us,84837,,blog,footer,footerProps
+home,en-us,59129,102085,PointsMAX,footer,footerProps
+home,en-us,64924,101949,Destinations,footer,footerProps
+home,en-us,64925,101994,Countries/Territories,footer,footerProps
+home,en-us,319554,,All Flight Routes,footer,footerProps
+home,en-us,64927,101894,Partner with us,footer,footerProps
+home,en-us,64928,102042,YCS partner portal,footer,footerProps
+home,en-us,64934,,//ycs.agoda.com,footer,footerProps
+home,en-us,124491,,Partner Hub,footer,footerProps
+home,en-us,59677,,Advertise on Agoda,footer,footerProps
+home,en-us,64929,102101,Affiliates,footer,footerProps
+home,en-us,64935,,//partners.agoda.com/index.html,footer,footerProps
+home,en-us,326138,,Agoda API Documentation,footer,footerProps
+home,en-us,49073,101991,Get the app,footer,footerProps
+home,en-us,64930,101873,iOS app,footer,footerProps
+home,en-us,64931,102011,Android app,footer,footerProps
+home,en-us,3431,,All material herein © 2005–2026 Agoda Company Pte. Ltd. All Rights Reserved.,footer,footerProps
+home,en-us,59416,,Agoda is part of Booking Holdings Inc.,footer,footerProps
+home,en-us,98558,,,footer,footerProps
+home,en-us,178468,,Agoda International (Hong Kong) Limited (Hong Kong Travel Agent License No. 354673),footer,footerProps
+home,en-us,305474,,{0,footer,footerProps
+home,th-th,52682,,ภาษาแนะนำ,header,agoda.reactHeader.menuViewModel
+home,th-th,52681,,ภาษาทั้งหมด,header,agoda.reactHeader.menuViewModel
+home,th-th,152637,,ภาษา,header,agoda.reactHeader.menuViewModel
+home,th-th,544360,,กำลังใช้ภาษา{0,header,agoda.reactHeader.menuViewModel
+home,th-th,351700,,เลือกภาษาที่ต้องการ,header,agoda.reactHeader.menuViewModel
+home,th-th,92412,,ท่านเป็นลูกค้า {0,header,agoda.reactHeader.menuViewModel
+home,th-th,92413,,Agoda,header,agoda.reactHeader.menuViewModel
+home,th-th,105462,,Agoda,header,agoda.reactHeader.menuViewModel
+home,th-th,92411,,VIP,header,agoda.reactHeader.menuViewModel
+home,th-th,45417,417546,ทริปของฉัน,header,agoda.reactHeader.menuViewModel
+home,th-th,84376,,ข้อความจากที่พัก,header,agoda.reactHeader.menuViewModel
+home,th-th,126481,,แคชแบ็กรีวอร์ด,header,agoda.reactHeader.menuViewModel
+home,th-th,70036,,ที่พักถูกใจ,header,agoda.reactHeader.menuViewModel
+home,th-th,45419,,รีวิวที่พัก,header,agoda.reactHeader.menuViewModel
+home,th-th,75353,,แนะนำเพื่อน,header,agoda.reactHeader.menuViewModel
+home,th-th,59129,102085,พอยต์แม็กซ์,header,agoda.reactHeader.menuViewModel
+home,th-th,366733,,AgodaWallet,header,agoda.reactHeader.menuViewModel
+home,th-th,45420,,ข้อมูลส่วนตัวของฉัน,header,agoda.reactHeader.menuViewModel
+home,th-th,71112,,บัญชีของฉัน,header,agoda.reactHeader.menuViewModel
+home,th-th,77044,,ไม่ต้องใช้รหัสผ่าน!,header,agoda.reactHeader.menuViewModel
+home,th-th,73303,,เจ้าของที่พัก,header,agoda.reactHeader.menuViewModel
+home,th-th,3325,102016,ศูนย์ช่วยเหลือ,header,agoda.reactHeader.menuViewModel
+home,th-th,107154,,ดูยอดคะแนนสะสม,header,agoda.reactHeader.menuViewModel
+home,th-th,97789,,AgodaVIP,header,agoda.reactHeader.menuViewModel
+home,th-th,188118,,สร้างขึ้นหลังวันที่ 18 ตุลาคม 2022,header,agoda.reactHeader.menuViewModel
+home,th-th,152020,,Your bookings before July 31,header,agoda.reactHeader.menuViewModel
+home,th-th,153344,,ใช้บัตรอื่น,header,agoda.reactHeader.menuViewModel
+home,th-th,52647,101904,เข้าสู่ระบบ,header,agoda.reactHeader.menuViewModel
+home,th-th,52648,101957,สร้างบัญชีผู้ใช้,header,agoda.reactHeader.menuViewModel
+home,th-th,145562,,ล็อกอิน/สมัครสมาชิก,header,agoda.reactHeader.menuViewModel
+home,th-th,45397,,ออกจากระบบ,header,agoda.reactHeader.menuViewModel
+home,th-th,63966,102014,เข้าสู่ระบบ,header,agoda.reactHeader.menuViewModel
+home,th-th,145558,,ประหยัดยิ่งขึ้นเมื่อเป็นลูกค้า AgodaVIP {0,header,agoda.reactHeader.menuViewModel
+home,th-th,145559,,ลงชื่อเข้าสู่ระบบ แล้วสะสมการจองให้ครบเพื่อเป็นสมาชิก VIP จากนั้นก็รับส่วนลดและดีลพิเศษเพิ่มเติมได้เลย!,header,agoda.reactHeader.menuViewModel
+home,th-th,145560,,สมัคร AgodaVIP,header,agoda.reactHeader.menuViewModel
+home,th-th,145561,,ดีลพิเศษสุด!,header,agoda.reactHeader.menuViewModel
+home,th-th,49354,,การตั้งค่า,header,agoda.reactHeader.menuViewModel
+home,th-th,94911,101826,ลงประกาศที่พัก,header,agoda.reactHeader.menuViewModel
+home,th-th,95215,,เปิดบ้านให้เช่ากับอโกด้า,header,agoda.reactHeader.menuViewModel
+home,th-th,94913,102088,เปิดบ้านให้เช่า รับเงินเข้ากระเป๋าสบายๆ,header,agoda.reactHeader.menuViewModel
+home,th-th,95217,101823,ลงประกาศที่พัก,header,agoda.reactHeader.menuViewModel
+home,th-th,100425,,มีนักท่องเที่ยว {0,header,agoda.reactHeader.menuViewModel
+home,th-th,99160,,ไม่แสดงข้อความนี้อีก,header,agoda.reactHeader.menuViewModel
+home,th-th,103288,,หากท่านจองที่พักในวันที่ 15 ธันวาคม 2019 หรือก่อนหน้าวันดังกล่าว,header,agoda.reactHeader.menuViewModel
+home,th-th,112102,,<p>ในกรณีที่จะตรวจสอบรายละเอียดของการจองกรุณาติดต่อไปยังฝ่าย Customer Support ของ JAPANiCAN<a href=\u0022https://www.japanican.com/th-th/content/faq/?#6-1\u0022 target=\u0022_blank\u0022> >ดูเพิ่มเติม</a></p>,header,agoda.reactHeader.menuViewModel
+home,th-th,103292,,หากท่านจองที่พักในวันที่ 16 ธันวาคม 2019 เป็นต้นไป,header,agoda.reactHeader.menuViewModel
+home,th-th,103293,,กรุณาคลิกลิงก์ในอีเมลยืนยันการจองเพื่อดูข้อมูลการจองของท่าน,header,agoda.reactHeader.menuViewModel
+home,th-th,103418,,หรือ,header,agoda.reactHeader.menuViewModel
+home,th-th,103417,,ปิด,header,agoda.reactHeader.menuViewModel
+home,th-th,73926,,ท่านยอมรับ {0,header,agoda.reactHeader.menuViewModel
+home,th-th,73927,,ข้อกำหนดการใช้งาน,header,agoda.reactHeader.menuViewModel
+home,th-th,73928,,นโยบายความเป็นส่วนตัว,header,agoda.reactHeader.menuViewModel
+home,th-th,155806,,ความช่วยเหลือ,header,agoda.reactHeader.menuViewModel
+home,th-th,224485,,ปิด,header,agoda.reactHeader.menuViewModel
+home,th-th,325751,,海外旅行,header,agoda.reactHeader.menuViewModel
+home,th-th,325750,,国内旅行,header,agoda.reactHeader.menuViewModel
+home,th-th,332926,,เมนู,header,agoda.reactHeader.menuViewModel
+home,th-th,544549,,เมนูบริการท่องเที่ยว ได้แก่ กิจกรรม คูปองส่วนลด อีซิม และคู่มือท่องเที่ยว,header,agoda.reactHeader.menuViewModel
+home,th-th,337251,,1 รายการในตะกร้า,header,agoda.reactHeader.menuViewModel
+home,th-th,337224,,{0,header,agoda.reactHeader.menuViewModel
+home,th-th,337257,,ตะกร้าสินค้า,header,agoda.reactHeader.menuViewModel
+home,th-th,356357,,เลือกสกุลเงินและราคา,header,agoda.reactHeader.menuViewModel
+home,th-th,564707,,เมนูสำหรับการตั้งค่าบัญชี,header,agoda.reactHeader.menuViewModel
+home,th-th,64933,,//mediaroom.agoda.com,header,agoda.reactHeader.menuViewModel
+home,th-th,84838,,th-th/press,header,agoda.reactHeader.menuViewModel
+home,th-th,84837,,th-th/blog,header,agoda.reactHeader.menuViewModel
+home,th-th,64934,,//ycs.agoda.com/th-th,header,agoda.reactHeader.menuViewModel
+home,th-th,64935,,//partners.agoda.com/th-th/index.html,header,agoda.reactHeader.menuViewModel
+home,th-th,64932,,//careersatagoda.com,header,agoda.reactHeader.menuViewModel
+home,th-th,137594,,/content/jyoken/,header,agoda.reactHeader.menuViewModel
+home,th-th,337345,,/content/jyoken_kaigai/,header,agoda.reactHeader.menuViewModel
+home,th-th,66323,,การแสดงราคา,header,agoda.reactHeader.menuViewModel
+home,th-th,66326,,ราคาต่อคืนไม่รวมภาษีและเซอร์วิสชาร์จ,header,agoda.reactHeader.menuViewModel
+home,th-th,66327,,ราคาต่อคืนรวมภาษีและเซอร์วิสชาร์จ,header,agoda.reactHeader.menuViewModel
+home,th-th,52444,101934,สกุลเงินแนะนำ,header,agoda.reactHeader.menuViewModel
+home,th-th,52645,102019,สกุลเงินยอดนิยม,header,agoda.reactHeader.menuViewModel
+home,th-th,52646,102070,สกุลเงินทั้งหมด,header,agoda.reactHeader.menuViewModel
+home,th-th,316539,,แก้ไขการตั้งค่าราคาที่แสดงได้ที่นี่,header,agoda.reactHeader.menuViewModel
+home,th-th,317119,,ราคารวมทั้งสิ้นสำหรับการเข้าพักทุกคืน,header,agoda.reactHeader.menuViewModel
+home,th-th,523962,,ราคาจะแสดงในสกุลเงินที่ท่านเลือก สกุลเงินที่ใช้ชำระเงินอาจเปลี่ยนแปลงตามการชำระเงินที่ท่านเลือก และอาจมีค่าธรรมเนียมการบริการ,header,agoda.reactHeader.menuViewModel
+home,th-th,539665,,การแสดงราคา ({0,header,agoda.reactHeader.menuViewModel
+home,th-th,539666,,เลือกสกุลเงินที่ต้องการ,header,agoda.reactHeader.menuViewModel
+home,th-th,544361,,สกุลเงินที่แสดงคือ {0,header,agoda.reactHeader.menuViewModel
+home,th-th,230135,237040,Site primary logo,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,238338,,Site secondary logo,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,98578,,ตั๋วเครื่องบิน + ที่พัก,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,102224,,จองเป็นแพ็ก ประหยัดกว่า!,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,75379,102023,ที่พัก,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,277441,,บริการเดินทางขนส่ง,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,99072,102116,ใหม่!,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,75380,101804,ตั๋วเครื่องบิน,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,277443,,รถบัส,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,277442,,รถไฟ,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,277444,,เรือเฟอร์รี,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,78626,101803,บริการรับส่งสนามบิน,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,85241,101851,บริการเช่ารถ,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,127972,565297,กิจกรรม,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,156115,,คูปองส่วนลด + ข้อเสนอพิเศษ,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,298947,,eSIM (ซิมดิจิทัล),header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,2085,,คู่มือท่องเที่ยว,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,320458,,รีวิวทริปเที่ยว,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105195,,ไว้ก่อน,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105192,,เปลี่ยน,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105735,,แก้ไข,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105194,,เช่น {0,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105190,,เพิ่มโปรแกรมสะสมแต้มของท่าน,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105193,,หมายเลขสมาชิก,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105191,,โปรแกรมสะสมแต้ม,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105196,,บันทึก,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105189,,ค้นหาโปรแกรมสะสมแต้ม,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105188,,เลือกโปรแกรมสะสมแต้มของท่าน เพื่อสะสมแต้มหรือไมล์เมื่อจองที่พักกับอโกด้าได้เลย,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105187,,เพิ่มโปรแกรมสะสมแต้มของท่าน,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,105736,,ปิดการใช้,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,264443,,หมายเลขสมาชิกไม่ถูกต้อง,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,264787,,ลบ,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,224485,,ปิด,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,69795,,และอีกทั้งหมด {0,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,67939,,รีวิว,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,67940,,รีวิว,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,351135,,ข้ามไปที่ผลการค้นหาที่พัก,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,70769,,จุดหมายปลายทางในฝัน พร้อมที่พักสบาย สบาย,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,70433,,ทริปนี้ก็ดี ทริปนั้นก็ใช่ เลือกที่พักถูกใจกับเราได้เลย,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,70432,,ยังสนใจที่พักนี้ไหม? เราเซฟผลการค้นหาไว้ให้แล้ว,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,70434,,ดูข้อมูลที่พักนี้อีกครั้ง,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,70435,,เราจะเซฟผลการค้นหาไว้ที่นี่,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,85413,,ดูที่พัก,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,52163,101849,ค้นหา,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,53928,102074,ที่เที่ยวดีต่อใจ ใครๆ ก็ชอบ,header_product_nav,agoda.reactHeader.logoAndLinksMenu
+home,th-th,136595,,กำลังวางแผนไปต่างประเทศหรือเปล่า? อ่านข้อมูลอัปเดตล่าสุดเกี่ยวกับข้อแนะนำด้านการเดินทางและข้อจำกัดที่เกี่ยวข้องกับสถานการณ์ไวรัสโควิด-19 ได้เลย,covid_banner,agoda.reactHeader.covidBanner
+home,th-th,136596,,อ่านข้อมูล,covid_banner,agoda.reactHeader.covidBanner
+home,th-th,69201,,{0,home_component,window.homePageParams.homeComponent
+home,th-th,108288,,ยกเลิกการจองฟรีจนถึง 24 ชั่วโมงก่อนวันเช็คอิน เมื่อจองห้องพักที่มอบข้อเสนอ Agoda EasyCancel\,home_component,window.homePageParams.homeComponent
+home,th-th,107822,,ข้อเสนอ Agoda EasyCancel\,home_component,window.homePageParams.homeComponent
+home,th-th,81907,,ยอดเยี่ยม\,home_component,window.homePageParams.homeComponent
+home,th-th,81906,,ดีเยี่ยม\,home_component,window.homePageParams.homeComponent
+home,th-th,81905,,ดีมาก\,home_component,window.homePageParams.homeComponent
+home,th-th,75207,,{0,home_component,window.homePageParams.homeComponent
+home,th-th,75206,,{0,home_component,window.homePageParams.homeComponent
+home,th-th,137206,108288,ยกเลิกการจองฟรีจนถึง 24 ชั่วโมงก่อนวันเช็คอิน เมื่อจองห้องพักที่มอบข้อเสนอ Agoda EasyCancel\,home_component,window.homePageParams.homeComponent
+home,th-th,137208,107822,ข้อเสนอ Agoda EasyCancel\,home_component,window.homePageParams.homeComponent
+home,th-th,146563,,ต้องการไปต่างประเทศ? ดูข้อกำหนดด้านการเดินทางล่าสุดของจุดหมายปลายทางยอดนิยมได้เลย\,home_component,window.homePageParams.homeComponent
+home,th-th,154147,,การแจ้งเตือน\,home_component,window.homePageParams.homeComponent
+home,th-th,154148,,,home_component,window.homePageParams.homeComponent
+home,th-th,301497,,Booking flights is currently unavailable from your location\,home_component,window.homePageParams.homeComponent
+home,th-th,301498,,Due to regulations,home_component,window.homePageParams.homeComponent
+home,th-th,301499,,ติดต่อเรา\,home_component,window.homePageParams.homeComponent
+home,th-th,301500,,Booking rental cars is currently unavailable from your location\,home_component,window.homePageParams.homeComponent
+home,th-th,301501,,เนื่องจากข้อกำหนดทางกฎหมาย เราไม่สามารถให้บริการจองรถเช่าออนไลน์ในประเทศที่คุณอยู่ขณะนี้ได้ หากคุณต้องการความช่วยเหลือในการจอง กรุณา\,home_component,window.homePageParams.homeComponent
+home,th-th,301502,,ติดต่อเรา\,home_component,window.homePageParams.homeComponent
+home,th-th,301503,,Booking activities is currently unavailable from your location\,home_component,window.homePageParams.homeComponent
+home,th-th,301504,,เนื่องจากข้อกำหนดทางกฎหมาย เราไม่สามารถให้บริการจองกิจกรรมออนไลน์ในประเทศที่คุณอยู่ขณะนี้ได้ หากคุณต้องการความช่วยเหลือในการจอง กรุณา\,home_component,window.homePageParams.homeComponent
+home,th-th,301505,,ติดต่อเรา\,home_component,window.homePageParams.homeComponent
+home,th-th,86365,,อโกด้าเป็นครอบครัวเดียวกับ Booking Holdings เว็บไซต์อันดับหนึ่งของโลกด้านการจองบริการท่องเที่ยวออนไลน์,agoda_numbers,agodaNumbers
+home,th-th,85340,,เราช่วยให้ทริปในฝันเป็นเรื่องง่าย,agoda_numbers,agodaNumbers
+home,th-th,86324,,อโกด้าเป็นครอบครัวเดียวกับ Booking Holdings บริษัทชั้นนำของโลกด้านการจองที่พักออนไลน์และบริการต่างๆ ที่เกี่ยวข้อง ไม่ว่าท่านจะฝันถึงการพักผ่อนรูปแบบใด รับรองว่าเพียงมาที่อโกด้า ที่พักถูกใจ ค้นเจอได้ ง่ายนิดเดียว,agoda_numbers,agodaNumbers
+home,th-th,86325,,ที่พักตรงใจ,agoda_numbers,agodaNumbers
+home,th-th,85341,,2,agoda_numbers,agodaNumbers
+home,th-th,85342,,โรงแรมและบ้านพักส่วนตัว,agoda_numbers,agodaNumbers
+home,th-th,86336,,7,agoda_numbers,agodaNumbers
+home,th-th,86337,,จุดหมายปลายทาง,agoda_numbers,agodaNumbers
+home,th-th,86326,,นักเดินทาง,agoda_numbers,agodaNumbers
+home,th-th,85345,,100+ ล้านคน,agoda_numbers,agodaNumbers
+home,th-th,85346,,ทั่วโลก,agoda_numbers,agodaNumbers
+home,th-th,85347,,200,agoda_numbers,agodaNumbers
+home,th-th,85348,,ประเทศและภูมิภาค,agoda_numbers,agodaNumbers
+home,th-th,86338,,บริการลูกค้า,agoda_numbers,agodaNumbers
+home,th-th,86329,,40,agoda_numbers,agodaNumbers
+home,th-th,86328,,ภาษา,agoda_numbers,agodaNumbers
+home,th-th,86335,,35,agoda_numbers,agodaNumbers
+home,th-th,86327,,วิธีชำระเงิน,agoda_numbers,agodaNumbers
+home,th-th,86330,,ทีมลูกค้าสัมพันธ์,agoda_numbers,agodaNumbers
+home,th-th,86331,,2,agoda_numbers,agodaNumbers
+home,th-th,86332,,คน,agoda_numbers,agodaNumbers
+home,th-th,86333,,53,agoda_numbers,agodaNumbers
+home,th-th,86334,,ออฟฟิศทั่วโลก,agoda_numbers,agodaNumbers
+home,th-th,82250,,ย้อนกลับ,agoda_numbers,agodaNumbers
+home,th-th,249105,,Search for entire {0,agoda_numbers,agodaNumbers
+home,th-th,130924,,ค้นหาด้วยชื่อย่าน,agoda_numbers,agodaNumbers
+home,th-th,81907,,ยอดเยี่ยม,agoda_numbers,agodaNumbers
+home,th-th,81906,,ดีเยี่ยม,agoda_numbers,agodaNumbers
+home,th-th,81905,,ดีมาก,agoda_numbers,agodaNumbers
+home,th-th,75207,,{0,agoda_numbers,agodaNumbers
+home,th-th,75206,,{0,agoda_numbers,agodaNumbers
+home,th-th,265417,,{0,agoda_numbers,agodaNumbers
+home,th-th,118449,,ที่พักแนะนำสำหรับท่านโดยเฉพาะ,featured_properties,featuredProperties
+home,th-th,118450,,ดูที่พักเพิ่มเติมใน{0,featured_properties,featuredProperties
+home,th-th,66745,,ราคาต่อคืน (ก่อนรวมภาษีและค่าธรรมเนียม),featured_properties,featuredProperties
+home,th-th,87729,,ดูเพิ่มเติม,featured_properties,featuredProperties
+home,th-th,67501,,ราคาต่อคืน (รวมภาษีและค่าธรรมเนียม),featured_properties,featuredProperties
+home,th-th,41616,,กำลังโหลด...,featured_properties,featuredProperties
+home,th-th,134178,,รับ AgodaCash มูลค่า X 2 เพื่อใช้ในการจองครั้งต่อไป,featured_properties,featuredProperties
+home,th-th,134179,,จองที่พักที่อโกด้าแนะนำ (Agoda Preferred) แล้วรับ AgodaCash มูลค่า X 2 เพื่อใช้เป็นส่วนลดในการจองครั้งต่อไปได้เลย,featured_properties,featuredProperties
+home,th-th,125082,,ค้นหาที่พัก,featured_properties,featuredProperties
+home,th-th,133196,,การค้นหาล่าสุด,featured_properties,featuredProperties
+home,th-th,133197,,ผู้ใหญ่ {0,featured_properties,featuredProperties
+home,th-th,133198,,ผู้ใหญ่ {0,featured_properties,featuredProperties
+home,th-th,133199,,เด็ก {0,featured_properties,featuredProperties
+home,th-th,133200,,เด็ก {0,featured_properties,featuredProperties
+home,th-th,133201,,ทารก {0,featured_properties,featuredProperties
+home,th-th,133202,,ทารก {0,featured_properties,featuredProperties
+home,th-th,141039,,เมืองยอดนิยมใกล้ตำแหน่งของท่าน,featured_properties,featuredProperties
+home,th-th,141040,,จุดหมายปลายทางยอดนิยม,featured_properties,featuredProperties
+home,th-th,141263,,{0,vip_bar,vipBarTranslations
+home,th-th,141264,,{0,vip_bar,vipBarTranslations
+home,th-th,141831,,สถานะหมดอายุ: {0,vip_bar,vipBarTranslations
+home,th-th,141268,,ดูข้อมูลเพิ่มเติม,vip_bar,vipBarTranslations
+home,th-th,112595,,10 การจอง,vip_bar,vipBarTranslations
+home,th-th,415893,,15 การจอง,vip_bar,vipBarTranslations
+home,th-th,107156,,2 การจอง,vip_bar,vipBarTranslations
+home,th-th,107157,,5 การจอง,vip_bar,vipBarTranslations
+home,th-th,141266,,คุณ {0,vip_bar,vipBarTranslations
+home,th-th,141267,,ป้าย VIP คือสัญลักษณ์ที่แสดงว่าท่านกำลังได้รับส่วนลดหรือสิทธิประโยชน์พิเศษสำหรับสมาชิก VIP โดยเฉพาะ ค้นหาและจองที่พักพร้อมข้อเสนอสุดพิเศษ พร้อมสะสมยอดจองเพื่อรักษาสถานะสมาชิก VIP ได้เลย,vip_bar,vipBarTranslations
+home,th-th,141265,,การจองของท่านในช่วง 2 ปีที่ผ่านมา,vip_bar,vipBarTranslations
+home,th-th,111402,,Platinum,vip_bar,vipBarTranslations
+home,th-th,105446,,Gold,vip_bar,vipBarTranslations
+home,th-th,105447,,Silver,vip_bar,vipBarTranslations
+home,th-th,151736,,บรอนซ์,vip_bar,vipBarTranslations
+home,th-th,152531,,ป้าย VIP คือสัญลักษณ์ที่แสดงว่าท่านกำลังได้รับส่วนลดหรือสิทธิประโยชน์พิเศษสำหรับสมาชิก VIP เท่านั้น ค้นหาและจองที่พักพร้อมข้อเสนอสุดพิเศษ พร้อมสะสมยอดจองเพื่ออัปเกรดสถานะสมาชิก VIP และรับสิทธิประโยชน์ต่างๆ เพิ่มขึ้นได้เลย,vip_bar,vipBarTranslations
+home,th-th,152532,,Welcome Agoda VIP Member,vip_bar,vipBarTranslations
+home,th-th,224079,,VIP ตลอดชีพ,vip_bar,vipBarTranslations
+home,th-th,415894,,สมาชิก,vip_bar,vipBarTranslations
+home,th-th,410344,,Diamond,vip_bar,vipBarTranslations
+home,th-th,522363,,จองอีก {0,vip_bar,vipBarTranslations
+home,th-th,522364,,ยิ่งเที่ยวเยอะ ยิ่งลดเยอะ!,vip_bar,vipBarTranslations
+home,th-th,522376,,รับส่วนลดและสิทธิประโยชน์สุดเอ็กซ์คลูซีฟทุกครั้งที่จองที่พัก เที่ยวบิน หรือกิจกรรมท่องเที่ยวกับเรา,vip_bar,vipBarTranslations
+home,th-th,158420,,สมัครเป็นสมาชิก VIP แลัวรับส่วนลดและสิทธิประโยชน์มากมายได้เลย!,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,th-th,156114,,สมัครเลย - ฟรี!,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,th-th,158417,,รับส่วนลดสูงสุด 25% สำหรับลูกค้า VIP,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,th-th,158418,,รับสิทธิพิเศษฟรีสำหรับที่พักร่วมรายการ,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,th-th,158419,,รับ AgodaCash และนำมาใช้เป็นส่วนลด,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,th-th,156036,,รับประกันราคาดีที่สุด,loyalty_guest_banner,loyaltyGuestBannerTranslations
+home,th-th,144883,,ท่านพอใจที่พักที่จองหรือไม่,pending_reviews_banner,pendingReviewsBanner
+home,th-th,155807,,ให้คะแนนที่พัก,pending_reviews_banner,pendingReviewsBanner
+home,th-th,141213,,เขียนรีวิวที่พัก,pending_reviews_banner,pendingReviewsBanner
+home,th-th,144022,,{0,pending_reviews_banner,pendingReviewsBanner
+home,th-th,144023,,{0,pending_reviews_banner,pendingReviewsBanner
+home,th-th,144024,,{0,pending_reviews_banner,pendingReviewsBanner
+home,th-th,144025,,{0,pending_reviews_banner,pendingReviewsBanner
+home,th-th,146563,,ต้องการไปต่างประเทศ? ดูข้อกำหนดด้านการเดินทางล่าสุดของจุดหมายปลายทางยอดนิยมได้เลย,travel_restriction_banner,travelRestrictionBannerContainerTranslations
+home,th-th,150436,,โปรโมชั่นสำหรับที่พัก,funnel_carousels,funnelCarouselsTranslations
+home,th-th,150437,,โปรโมชั่นสำหรับเที่ยวบินและกิจกรรมท่องเที่ยว,funnel_carousels,funnelCarouselsTranslations
+home,th-th,531144,,ที่พักโดนใจ เราคัดมาให้แล้ว,funnel_carousels,funnelCarouselsTranslations
+home,th-th,177081,,ดูทั้งหมด,funnel_carousels,funnelCarouselsTranslations
+home,th-th,483780,,ดูลิงก์โปรโมชั่นที่พักทั้งหมด,funnel_carousels,funnelCarouselsTranslations
+home,th-th,265802,,โปรโมชั่นที่พักก่อนหน้า,funnel_carousels,funnelCarouselsTranslations
+home,th-th,265803,,โปรโมชั่นที่พักถัดไป,funnel_carousels,funnelCarouselsTranslations
+home,th-th,265804,,โปรโมชั่นเที่ยวบิน/กิจกรรมท่องเที่ยวก่อนหน้า,funnel_carousels,funnelCarouselsTranslations
+home,th-th,265805,,โปรโมชั่นเที่ยวบิน/กิจกรรมท่องเที่ยวถัดไป,funnel_carousels,funnelCarouselsTranslations
+home,th-th,531142,,ที่พักก่อนหน้า,funnel_carousels,funnelCarouselsTranslations
+home,th-th,531143,,ที่พักถัดไป,funnel_carousels,funnelCarouselsTranslations
+home,th-th,265806,,โปรโมชั่นที่พักที่ {0,funnel_carousels,funnelCarouselsTranslations
+home,th-th,265807,,โปรโมชั่นเที่ยวบิน/กิจกรรมท่องเที่ยวที่ {0,funnel_carousels,funnelCarouselsTranslations
+home,th-th,531141,,ที่พักโดนใจ เราคัดมาให้แล้ว,funnel_carousels,funnelCarouselsTranslations
+home,th-th,152705,,ไปที่สไลด์ {0,funnel_carousels,funnelCarouselsTranslations
+home,th-th,269908,,/deals,funnel_carousels,funnelCarouselsTranslations
+home,th-th,308905,,แบนเนอร์แบบเลื่อนไปเรื่อยๆ ของ{0,funnel_carousels,funnelCarouselsTranslations
+home,th-th,350397,,สไลด์ที่ {0,funnel_carousels,funnelCarouselsTranslations
+home,th-th,141191,,ยิ่งพักนาน ยิ่งประหยัด!,long_stay_banner,longStayPromotionBanner
+home,th-th,141192,,ลดเพิ่มสูงสุด 20% เมื่อเข้าพักนานกว่า 1 สัปดาห์,long_stay_banner,longStayPromotionBanner
+home,th-th,141193,,อ่านข้อมูลเพิ่มเติม,long_stay_banner,longStayPromotionBanner
+home,th-th,141194,,ท่านเลือกเข้าพักไปแล้วทั้งหมด 6 คืน เลือกพักเพิ่มอีก 1 คืนให้ครบ 1 สัปดาห์แล้วรับส่วนลดจัดเต็มไปได้เลย,long_stay_banner,longStayPromotionBanner
+home,th-th,141195,,ส่วนลดรายสัปดาห์ สูงสุด 20%,long_stay_banner,longStayPromotionBanner
+home,th-th,141196,,รับส่วนลดสูงสุด 20% เมื่อเข้าพักครบ 7 วัน,long_stay_banner,longStayPromotionBanner
+home,th-th,141197,,ส่วนลด 2 สัปดาห์ สูงสุด 30%,long_stay_banner,longStayPromotionBanner
+home,th-th,141198,,รับส่วนลดสูงสุด 30% เมื่อเข้าพักครบ 14 วัน,long_stay_banner,longStayPromotionBanner
+home,th-th,141199,,ส่วนลดรายเดือน สูงสุด 40%,long_stay_banner,longStayPromotionBanner
+home,th-th,141200,,รับส่วนลดสูงสุด 40% เมื่อเข้าพักครบ 28 วัน,long_stay_banner,longStayPromotionBanner
+home,th-th,292902,,เว็บไซต์ที่เชื่อถือได้ซึ่งได้รับการสนับสนุนโดย JTB ผู้นำด้านอุตสาหกรรมการเดินทางและการท่องเที่ยวของญี่ปุ่น,long_stay_banner,longStayPromotionBanner
+home,th-th,291217,,JTB Corp. เป็นผู้นำในอุตสาหกรรมการท่องเที่ยวของญี่ปุ่นมานานกว่า 110 ปี,long_stay_banner,longStayPromotionBanner
+home,th-th,291218,,บริการที่พักหลากหลายประเภทจากพาร์ทเนอร์ที่เชื่อถือได้ทั่วประเทศญี่ปุ่น,long_stay_banner,longStayPromotionBanner
+home,th-th,291219,,ทีมงานลูกค้าสัมพันธ์ของเราในญี่ปุ่นให้บริการลูกค้าในภาษาต่างๆ ทุกวันไม่เว้นวันหยุด,long_stay_banner,longStayPromotionBanner
+home,th-th,53928,102074,ที่เที่ยวดีต่อใจ ใครๆ ก็ชอบ\,long_stay_banner,longStayPromotionBanner
+home,th-th,75059,,Domestic\,long_stay_banner,longStayPromotionBanner
+home,th-th,75060,,ต่างประเทศ\,long_stay_banner,longStayPromotionBanner
+home,th-th,264441,,ย้อนกลับ\,long_stay_banner,longStayPromotionBanner
+home,th-th,264442,,\ จุดหมายปลายทางถัดไป\,long_stay_banner,longStayPromotionBanner
+home,th-th,111397,,ที่เที่ยวยอดนิยมใน{0,long_stay_banner,longStayPromotionBanner
+home,th-th,111398,,ที่เที่ยวยอดนิยมนอก{0,long_stay_banner,longStayPromotionBanner
+home,th-th,111399,,1 ที่พัก\,long_stay_banner,longStayPromotionBanner
+home,th-th,111400,,{0,long_stay_banner,longStayPromotionBanner
+home,th-th,308905,,แบนเนอร์แบบเลื่อนไปเรื่อยๆ ของ{0,long_stay_banner,longStayPromotionBanner
+home,th-th,350397,,สไลด์ที่ {0,long_stay_banner,longStayPromotionBanner
+home,th-th,92412,,ท่านเป็นลูกค้า {0,long_stay_banner,longStayPromotionBanner
+home,th-th,92413,,Agoda,long_stay_banner,longStayPromotionBanner
+home,th-th,105462,,Agoda,long_stay_banner,longStayPromotionBanner
+home,th-th,92411,,VIP,long_stay_banner,longStayPromotionBanner
+home,th-th,410344,,Diamond,long_stay_banner,longStayPromotionBanner
+home,th-th,411352,,VIP Diamond,long_stay_banner,longStayPromotionBanner
+home,th-th,105982,,รับประกันราคาดีที่สุด,long_stay_banner,longStayPromotionBanner
+home,th-th,105983,,ราคาพิเศษสำหรับสมาชิก,long_stay_banner,longStayPromotionBanner
+home,th-th,112596,,ส่วนลดลูกค้า VIP สูงสุด 25%,long_stay_banner,longStayPromotionBanner
+home,th-th,113230,,บริการอาหารเช้าฟรีและสิทธิประโยชน์อื่นๆ จากที่พักที่ร่วมรายการ,long_stay_banner,longStayPromotionBanner
+home,th-th,415990,,สิทธิประโยชน์พิเศษในช่วงเวลาจำกัด,long_stay_banner,longStayPromotionBanner
+home,th-th,415971,,บริการสนับสนุนลูกค้าระดับพรีเมียม,long_stay_banner,longStayPromotionBanner
+home,th-th,224008,,Session Time-Out,long_stay_banner,longStayPromotionBanner
+home,th-th,224009,,Due to inactivity,long_stay_banner,longStayPromotionBanner
+home,th-th,224181,,"หากต้องการเวลาเพิ่มเติม กรุณาคลิก ""ดำเนินการต่อ"" หากต้องการสิ้นสุดเซสชัน กรุณาคลิก ""สิ้นสุด\",long_stay_banner,longStayPromotionBanner
+home,th-th,224010,,ดำเนินการต่อเซสชัน,long_stay_banner,longStayPromotionBanner
+home,th-th,224011,,End Session,long_stay_banner,longStayPromotionBanner
+home,th-th,224182,,{0,long_stay_banner,longStayPromotionBanner
+home,th-th,224183,,{0,long_stay_banner,longStayPromotionBanner
+home,th-th,558769,,Extend session and close dialog,long_stay_banner,longStayPromotionBanner
+home,th-th,535188,,จุดหมายปลายทาง,footer_seo_links,footerSeoLinksGroups
+home,th-th,535192,,เอเชีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,535202,,โรงแรมบาหลี,footer_seo_links,footerSeoLinksGroups
+home,th-th,554121,,/city/bali-id.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535203,,โรงแรมบันดุง,footer_seo_links,footerSeoLinksGroups
+home,th-th,554122,,/city/bandung-id.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535204,,โรงแรมกรุงเทพ,footer_seo_links,footerSeoLinksGroups
+home,th-th,554123,,/city/bangkok-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535205,,โรงแรมเกาะโบราเคย์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554124,,/city/boracay-island-ph.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535206,,โรงแรมปูซาน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554125,,/city/busan-kr.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535207,,โรงแรมเซบู,footer_seo_links,footerSeoLinksGroups
+home,th-th,554126,,/city/cebu-ph.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535208,,โรงแรมเชียงใหม่,footer_seo_links,footerSeoLinksGroups
+home,th-th,554127,,/city/chiang-mai-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535209,,โรงแรมดานัง,footer_seo_links,footerSeoLinksGroups
+home,th-th,554128,,/city/da-nang-vn.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535210,,โรงแรมฟุกุโอกะ,footer_seo_links,footerSeoLinksGroups
+home,th-th,554129,,/city/fukuoka-jp.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535211,,โรงแรมฮานอย,footer_seo_links,footerSeoLinksGroups
+home,th-th,554130,,/city/hanoi-vn.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535212,,โรงแรมหาดใหญ่,footer_seo_links,footerSeoLinksGroups
+home,th-th,554131,,/city/hat-yai-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535213,,โรงแรมโฮจิมินห์ซิตี้,footer_seo_links,footerSeoLinksGroups
+home,th-th,554132,,/city/ho-chi-minh-city-vn.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535214,,โรงแรมฮอยอัน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554133,,/city/hoi-an-vn.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535215,,โรงแรมฮ่องกง,footer_seo_links,footerSeoLinksGroups
+home,th-th,554134,,/city/hong-kong-hk.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535216,,โรงแรมหัวหิน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554135,,/city/hua-hin-cha-am-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535217,,โรงแรมฮัวเหลียน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554136,,/city/hualien-tw.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535218,,โรงแรมอิโปห์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554137,,/city/ipoh-my.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535219,,โรงแรมจาการ์ตา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554138,,/city/jakarta-id.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535220,,โรงแรมเกาะเชจู,footer_seo_links,footerSeoLinksGroups
+home,th-th,554139,,/city/jeju-island-kr.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535221,,โรงแรมยะโฮร์บาห์รู,footer_seo_links,footerSeoLinksGroups
+home,th-th,554140,,/city/johor-bahru-my.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535222,,โรงแรมเกาสง,footer_seo_links,footerSeoLinksGroups
+home,th-th,554141,,/city/kaohsiung-tw.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535223,,โรงแรมโคตาคินาบาลู,footer_seo_links,footerSeoLinksGroups
+home,th-th,554142,,/city/kota-kinabalu-my.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535224,,โรงแรมกระบี่,footer_seo_links,footerSeoLinksGroups
+home,th-th,554143,,/city/krabi-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535225,,โรงแรมกัวลาลัมเปอร์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554144,,/city/kuala-lumpur-my.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535226,,โรงแรมกวนตัน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554145,,/city/kuantan-my.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535227,,โรงแรมเกียวโต,footer_seo_links,footerSeoLinksGroups
+home,th-th,554146,,/city/kyoto-jp.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535228,,โรงแรมมาเก๊า,footer_seo_links,footerSeoLinksGroups
+home,th-th,554147,,/city/macau-mo.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535229,,โรงแรมมะละกา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554148,,/city/malacca-my.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535230,,โรงแรมมะนิลา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554149,,/city/manila-ph.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535231,,โรงแรมนาโกย่า,footer_seo_links,footerSeoLinksGroups
+home,th-th,554150,,/city/nagoya-jp.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535232,,โรงแรมญาจาง,footer_seo_links,footerSeoLinksGroups
+home,th-th,554151,,/city/nha-trang-vn.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535233,,โรงแรมโอกินาว่า,footer_seo_links,footerSeoLinksGroups
+home,th-th,554152,,/city/okinawa-main-island-jp.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535234,,โรงแรมโอซาก้า,footer_seo_links,footerSeoLinksGroups
+home,th-th,554153,,/city/osaka-jp.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535235,,โรงแรมพัทยา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554154,,/city/pattaya-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535236,,โรงแรมปีนัง,footer_seo_links,footerSeoLinksGroups
+home,th-th,554155,,/city/penang-my.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535237,,โรงแรมภูเก็ต,footer_seo_links,footerSeoLinksGroups
+home,th-th,554156,,/city/phuket-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535238,,โรงแรมซัปโปโร,footer_seo_links,footerSeoLinksGroups
+home,th-th,554157,,/city/sapporo-jp.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535239,,โรงแรมโซล,footer_seo_links,footerSeoLinksGroups
+home,th-th,554158,,/city/seoul-kr.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535240,,โรงแรมเซี่ยงไฮ้,footer_seo_links,footerSeoLinksGroups
+home,th-th,554159,,/city/shanghai-cn.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535241,,โรงแรมสิงคโปร์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554160,,/city/singapore-sg.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535242,,โรงแรมสุราบายา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554161,,/city/surabaya-id.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535243,,โรงแรมไทจง,footer_seo_links,footerSeoLinksGroups
+home,th-th,554162,,/city/taichung-tw.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535244,,โรงแรมไถหนาน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554163,,/city/tainan-tw.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535245,,โรงแรมไทเป,footer_seo_links,footerSeoLinksGroups
+home,th-th,554164,,/city/taipei-tw.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535246,,โรงแรมโตเกียว,footer_seo_links,footerSeoLinksGroups
+home,th-th,554165,,/city/tokyo-jp.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535247,,โรงแรมอี้หลาน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554166,,/city/yilan-tw.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535248,,โรงแรมยอกยาการ์ตา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554167,,/city/yogyakarta-id.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535193,,ยุโรป,footer_seo_links,footerSeoLinksGroups
+home,th-th,535249,,โรงแรมลอนดอน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554168,,/city/london-gb.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535250,,โรงแรมปารีส,footer_seo_links,footerSeoLinksGroups
+home,th-th,554169,,/city/paris-fr.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535194,,ตะวันออกกลาง,footer_seo_links,footerSeoLinksGroups
+home,th-th,535251,,โรงแรมดูไบ,footer_seo_links,footerSeoLinksGroups
+home,th-th,554170,,/city/dubai-ae.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535189,,ประเทศและเขตปกครอง,footer_seo_links,footerSeoLinksGroups
+home,th-th,535195,,แอฟริกา,footer_seo_links,footerSeoLinksGroups
+home,th-th,535252,,โรงแรมโมร็อกโก,footer_seo_links,footerSeoLinksGroups
+home,th-th,554171,,/country/morocco.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535253,,โรงแรมแอฟริกาใต้,footer_seo_links,footerSeoLinksGroups
+home,th-th,554172,,/country/south-africa.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535196,,อเมริกา,footer_seo_links,footerSeoLinksGroups
+home,th-th,535254,,โรงแรมอาร์เจนตินา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554173,,/country/argentina.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535255,,โรงแรมบราซิล,footer_seo_links,footerSeoLinksGroups
+home,th-th,554174,,/country/brazil.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535256,,โรงแรมแคนาดา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554175,,/country/canada.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535257,,โรงแรมเม็กซิโก,footer_seo_links,footerSeoLinksGroups
+home,th-th,554176,,/country/mexico.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535258,,โรงแรมสหรัฐอเมริกา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554177,,/country/united-states.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535259,,โรงแรมเวเนซุเอลา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554178,,/country/venezuela.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535260,,โรงแรมกัมพูชา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554179,,/country/cambodia.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535261,,โรงแรมจีน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554180,,/country/china.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535262,,โรงแรมอินเดีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,554181,,/country/india.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535263,,โรงแรมอินโดนีเซีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,554182,,/country/indonesia.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535264,,โรงแรมญี่ปุ่น,footer_seo_links,footerSeoLinksGroups
+home,th-th,554183,,/country/japan.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535265,,โรงแรมลาว,footer_seo_links,footerSeoLinksGroups
+home,th-th,554184,,/country/laos.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535266,,โรงแรมมาเลเซีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,554185,,/country/malaysia.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535267,,โรงแรมพม่า,footer_seo_links,footerSeoLinksGroups
+home,th-th,554186,,/country/myanmar.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535268,,โรงแรมเนปาล,footer_seo_links,footerSeoLinksGroups
+home,th-th,554187,,/country/nepal.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535269,,โรงแรมฟิลิปปินส์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554188,,/country/philippines.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535270,,โรงแรมเกาหลีใต้,footer_seo_links,footerSeoLinksGroups
+home,th-th,554189,,/country/south-korea.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535271,,โรงแรมศรีลังกา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554190,,/country/sri-lanka.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535272,,โรงแรมไต้หวัน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554191,,/country/taiwan.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535273,,โรงแรมไทย,footer_seo_links,footerSeoLinksGroups
+home,th-th,554192,,/country/thailand.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535274,,โรงแรมเวียดนาม,footer_seo_links,footerSeoLinksGroups
+home,th-th,554193,,/country/vietnam.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535275,,โรงแรมออสเตรีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,554194,,/country/austria.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535276,,โรงแรมสาธารณรัฐเช็ก,footer_seo_links,footerSeoLinksGroups
+home,th-th,554195,,/country/czech-republic.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535277,,โรงแรมเดนมาร์ก,footer_seo_links,footerSeoLinksGroups
+home,th-th,554196,,/country/denmark.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535278,,โรงแรมฟินแลนด์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554197,,/country/finland.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535279,,โรงแรมฝรั่งเศส,footer_seo_links,footerSeoLinksGroups
+home,th-th,554198,,/country/france.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535280,,โรงแรมเยอรมนี,footer_seo_links,footerSeoLinksGroups
+home,th-th,554199,,/country/germany.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535281,,โรงแรมกรีซ,footer_seo_links,footerSeoLinksGroups
+home,th-th,554200,,/country/greece.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535282,,โรงแรมฮังการี,footer_seo_links,footerSeoLinksGroups
+home,th-th,554201,,/country/hungary.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535283,,โรงแรมไอร์แลนด์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554202,,/country/ireland.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535284,,โรงแรมอิตาลี,footer_seo_links,footerSeoLinksGroups
+home,th-th,554203,,/country/italy.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535285,,โรงแรมเนเธอร์แลนด์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554204,,/country/netherlands.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535286,,โรงแรมรัสเซีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,554205,,/country/russia.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535287,,โรงแรมสเปน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554206,,/country/spain.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535288,,โรงแรมสวีเดน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554207,,/country/sweden.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535289,,โรงแรมสวิตเซอร์แลนด์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554208,,/country/switzerland.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535290,,โรงแรมสหราชอาณาจักร,footer_seo_links,footerSeoLinksGroups
+home,th-th,554209,,/country/united-kingdom.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535291,,โรงแรมบาห์เรน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554210,,/country/bahrain.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535292,,โรงแรมอียิปต์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554211,,/country/egypt.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535293,,โรงแรมอิสราเอล,footer_seo_links,footerSeoLinksGroups
+home,th-th,554212,,/country/israel.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535294,,โรงแรมสหรัฐอาหรับเอมิเรตส์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554213,,/country/united-arab-emirates.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535197,,โอเชียเนีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,535295,,โรงแรมออสเตรเลีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,554214,,/country/australia.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535296,,โรงแรมนิวซีแลนด์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554215,,/country/new-zealand.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535191,,คู่มือท่องเที่ยว,footer_seo_links,footerSeoLinksGroups
+home,th-th,539133,,คู่มือท่องเที่ยว - หน้าแรก,footer_seo_links,footerSeoLinksGroups
+home,th-th,554216,,/travel-guides,footer_seo_links,footerSeoLinksGroups
+home,th-th,535297,,คู่มือท่องเที่ยวบาหลี,footer_seo_links,footerSeoLinksGroups
+home,th-th,554217,,/travel-guides/indonesia/bali,footer_seo_links,footerSeoLinksGroups
+home,th-th,535298,,คู่มือท่องเที่ยวดานัง,footer_seo_links,footerSeoLinksGroups
+home,th-th,554218,,/th-th/special-editions/vietnam/da-nang-travel-guide-top-attractions-activities-and-hotels-in-vietnams-coastal-gem,footer_seo_links,footerSeoLinksGroups
+home,th-th,535299,,คู่มือท่องเที่ยวฮ่องกง,footer_seo_links,footerSeoLinksGroups
+home,th-th,554219,,/travel-guides/hong-kong,footer_seo_links,footerSeoLinksGroups
+home,th-th,535300,,คู่มือท่องเที่ยวจาการ์ตา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554220,,/travel-guides/indonesia/jakarta,footer_seo_links,footerSeoLinksGroups
+home,th-th,535301,,คู่มือท่องเที่ยวเกาะเชจู,footer_seo_links,footerSeoLinksGroups
+home,th-th,554221,,/travel-guides/south-korea/jeju-island,footer_seo_links,footerSeoLinksGroups
+home,th-th,535302,,คู่มือท่องเที่ยวกัวลาลัมเปอร์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554222,,/travel-guides/malaysia/kuala-lumpur,footer_seo_links,footerSeoLinksGroups
+home,th-th,535303,,คู่มือท่องเที่ยวเกียวโต,footer_seo_links,footerSeoLinksGroups
+home,th-th,554223,,/travel-guides/japan/kyoto,footer_seo_links,footerSeoLinksGroups
+home,th-th,535304,,คู่มือท่องเที่ยวคิวชู,footer_seo_links,footerSeoLinksGroups
+home,th-th,554224,,/travel-guides/japan/kyushu,footer_seo_links,footerSeoLinksGroups
+home,th-th,535305,,คู่มือท่องเที่ยวมะละกา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554225,,/travel-guides/malaysia/malacca,footer_seo_links,footerSeoLinksGroups
+home,th-th,535306,,คู่มือท่องเที่ยวฟิลิปปินส์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554226,,/special-editions/philippines/love-the-philippines-top-places-to-visit-and-stay-in-the-tropical-paradise,footer_seo_links,footerSeoLinksGroups
+home,th-th,535307,,คู่มือท่องเที่ยวนารา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554227,,/travel-guides/japan/nara,footer_seo_links,footerSeoLinksGroups
+home,th-th,535308,,คู่มือท่องเที่ยวโอซาก้า,footer_seo_links,footerSeoLinksGroups
+home,th-th,554228,,/travel-guides/japan/osaka,footer_seo_links,footerSeoLinksGroups
+home,th-th,535309,,คู่มือท่องเที่ยวภูเก็ต,footer_seo_links,footerSeoLinksGroups
+home,th-th,554229,,/travel-guides/thailand/phuket,footer_seo_links,footerSeoLinksGroups
+home,th-th,535310,,คู่มือท่องเที่ยวซัปโปโร,footer_seo_links,footerSeoLinksGroups
+home,th-th,554230,,/travel-guides/japan/sapporo,footer_seo_links,footerSeoLinksGroups
+home,th-th,535311,,คู่มือท่องเที่ยวโซล,footer_seo_links,footerSeoLinksGroups
+home,th-th,554231,,/travel-guides/south-korea/seoul,footer_seo_links,footerSeoLinksGroups
+home,th-th,535312,,คู่มือท่องเที่ยวสิงคโปร์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554232,,/travel-guides/singapore,footer_seo_links,footerSeoLinksGroups
+home,th-th,535313,,คู่มือท่องเที่ยวไทจง,footer_seo_links,footerSeoLinksGroups
+home,th-th,554233,,/travel-guides/taiwan/taichung,footer_seo_links,footerSeoLinksGroups
+home,th-th,535314,,คู่มือท่องเที่ยวไทเป,footer_seo_links,footerSeoLinksGroups
+home,th-th,554234,,/travel-guides/taiwan/taipei,footer_seo_links,footerSeoLinksGroups
+home,th-th,535315,,คู่มือท่องเที่ยวโตเกียว,footer_seo_links,footerSeoLinksGroups
+home,th-th,554235,,/travel-guides/japan/tokyo,footer_seo_links,footerSeoLinksGroups
+home,th-th,535316,,คู่มือท่องเที่ยวกัว,footer_seo_links,footerSeoLinksGroups
+home,th-th,554236,,/special-editions/goa,footer_seo_links,footerSeoLinksGroups
+home,th-th,535317,,คู่มือท่องเที่ยวปารีส,footer_seo_links,footerSeoLinksGroups
+home,th-th,554237,,/travel-guides/france/paris,footer_seo_links,footerSeoLinksGroups
+home,th-th,535318,,คู่มือท่องเที่ยวดูไบ,footer_seo_links,footerSeoLinksGroups
+home,th-th,554238,,/travel-guides/united-arab-emirates-uae/dubai,footer_seo_links,footerSeoLinksGroups
+home,th-th,535319,,คู่มือท่องเที่ยวเจดดาห์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554239,,/travel-guides/saudi-arabia/jeddah,footer_seo_links,footerSeoLinksGroups
+home,th-th,535320,,คู่มือท่องเที่ยวซาอุดิอาระเบีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,554240,,/travel-guides/saudi-arabia,footer_seo_links,footerSeoLinksGroups
+home,th-th,535321,,คู่มือท่องเที่ยวบริสเบน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554241,,/travel-guides/australia/brisbane,footer_seo_links,footerSeoLinksGroups
+home,th-th,535322,,คู่มือท่องเที่ยวเมลเบิร์น,footer_seo_links,footerSeoLinksGroups
+home,th-th,554242,,/travel-guides/australia/melbourne,footer_seo_links,footerSeoLinksGroups
+home,th-th,535323,,คู่มือท่องเที่ยวซิดนีย์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554243,,/travel-guides/australia/sydney,footer_seo_links,footerSeoLinksGroups
+home,th-th,535190,,ที่พัก Agoda Homes,footer_seo_links,footerSeoLinksGroups
+home,th-th,535198,,คอนโด/อพาร์ตเมนต์ในเอเชีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,535324,,คอนโด/อพาร์ตเมนต์กรุงเทพ,footer_seo_links,footerSeoLinksGroups
+home,th-th,554244,,/theme/apartments/city/bangkok-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535325,,คอนโด/อพาร์ตเมนต์กัวลาลัมเปอร์,footer_seo_links,footerSeoLinksGroups
+home,th-th,554245,,/theme/apartments/city/kuala-lumpur-my.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535326,,คอนโด/อพาร์ตเมนต์มะนิลา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554246,,/theme/apartments/city/manila-ph.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535327,,คอนโด/อพาร์ตเมนต์โอซาก้า,footer_seo_links,footerSeoLinksGroups
+home,th-th,554247,,/theme/apartments/city/osaka-jp.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535328,,คอนโด/อพาร์ตเมนต์พัทยา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554248,,/theme/apartments/city/pattaya-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535329,,คอนโด/อพาร์ตเมนต์โตเกียว,footer_seo_links,footerSeoLinksGroups
+home,th-th,554249,,/theme/apartments/city/tokyo-jp.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535199,,บังกะโลในเอเชีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,535330,,บังกะโลบาหลี,footer_seo_links,footerSeoLinksGroups
+home,th-th,554250,,/bungalows/city/bali-id.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535331,,บังกะโลเกาะกูด,footer_seo_links,footerSeoLinksGroups
+home,th-th,554251,,/bungalows/city/koh-kood-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535332,,บังกะโลเกาะลันตา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554252,,/bungalows/city/koh-lanta-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535333,,บังกะโลเกาะพงัน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554253,,/bungalows/city/koh-phangan-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535334,,บังกะโลเกาะเสม็ด,footer_seo_links,footerSeoLinksGroups
+home,th-th,554254,,/bungalows/city/koh-samet-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535335,,บังกะโลเกาะฟูก๊วก,footer_seo_links,footerSeoLinksGroups
+home,th-th,554255,,/bungalows/city/phu-quoc-island-vn.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535200,,วิลลาในเอเชีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,535336,,วิลลาบาหลี,footer_seo_links,footerSeoLinksGroups
+home,th-th,554256,,/theme/villas/city/bali-id.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535337,,วิลลาภูเก็ต,footer_seo_links,footerSeoLinksGroups
+home,th-th,554257,,/theme/villas/city/phuket-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535338,,วิลลาพัทยา,footer_seo_links,footerSeoLinksGroups
+home,th-th,554258,,/theme/villas/city/pattaya-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535339,,วิลลาหัวหิน/ชะอำ,footer_seo_links,footerSeoLinksGroups
+home,th-th,554259,,/theme/villas/city/hua-hin-cha-am-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535340,,วิลลาโซล,footer_seo_links,footerSeoLinksGroups
+home,th-th,554260,,/theme/villas/city/seoul-kr.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535341,,วิลลาพอร์ตดิกสัน,footer_seo_links,footerSeoLinksGroups
+home,th-th,554261,,/theme/villas/city/port-dickson-my.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535201,,บ้านพักตากอากาศในเอเชีย,footer_seo_links,footerSeoLinksGroups
+home,th-th,535342,,บ้านพักตากอากาศโตเกียว,footer_seo_links,footerSeoLinksGroups
+home,th-th,554262,,/vacation-rentals/city/tokyo-jp.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,535343,,บ้านพักตากอากาศกรุงเทพ,footer_seo_links,footerSeoLinksGroups
+home,th-th,554263,,/vacation-rentals/city/bangkok-th.html,footer_seo_links,footerSeoLinksGroups
+home,th-th,258237,,จองผ่านแอปครั้งแรกลด 10%,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,th-th,258238,,สแกนรหัส QR แล้วรับส่วนลดได้เลย,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,th-th,258236,,จองในแอปลดเยอะกว่า!,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,th-th,298686,,โลโก้อโกด้า,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,th-th,298687,,หน้าจอโทรศัพท์,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,th-th,342160,,ภาพคิวอาร์โค้ดเพื่อดาวน์โหลดแอป,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,th-th,224485,,ปิด,app_download_banner,window.homePageParams.prominentAppDownloadBanner
+home,th-th,304964,,ที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,63377,,ตั๋วเครื่องบิน,hero_search_box,window.searchBoxReact
+home,th-th,176043,,บ้านและอพาร์ตเมนต์,hero_search_box,window.searchBoxReact
+home,th-th,98578,,ตั๋วเครื่องบิน + ที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,127972,565297,กิจกรรม,hero_search_box,window.searchBoxReact
+home,th-th,265368,,บริการรับส่งสนามบิน,hero_search_box,window.searchBoxReact
+home,th-th,3182,,ที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,61491,,1 ห้อง,hero_search_box,window.searchBoxReact
+home,th-th,61492,,{0,hero_search_box,window.searchBoxReact
+home,th-th,61493,,ผู้ใหญ่ 1 คน,hero_search_box,window.searchBoxReact
+home,th-th,61494,,ผู้ใหญ่ {0,hero_search_box,window.searchBoxReact
+home,th-th,61495,,เด็ก 1 คน,hero_search_box,window.searchBoxReact
+home,th-th,61496,,เด็ก {0,hero_search_box,window.searchBoxReact
+home,th-th,81148,,BEST SELLER,hero_search_box,window.searchBoxReact
+home,th-th,70400,,ยอดนิยม,hero_search_box,window.searchBoxReact
+home,th-th,144475,,การค้นหาล่าสุด,hero_search_box,window.searchBoxReact
+home,th-th,144523,,ที่เที่ยวใน{Country,hero_search_box,window.searchBoxReact
+home,th-th,144524,,ที่เที่ยวในต่างประเทศ,hero_search_box,window.searchBoxReact
+home,th-th,226283,,ย่าน,hero_search_box,window.searchBoxReact
+home,th-th,226284,,สถานที่สำคัญ,hero_search_box,window.searchBoxReact
+home,th-th,226285,,เมืองยอดนิยมใน{0,hero_search_box,window.searchBoxReact
+home,th-th,226592,,{0,hero_search_box,window.searchBoxReact
+home,th-th,240329,,จุดหมายปลายทางยอดนิยม,hero_search_box,window.searchBoxReact
+home,th-th,228092,,จุดหมายปลายทาง,hero_search_box,window.searchBoxReact
+home,th-th,65494,,ที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,126802,,เมือง,hero_search_box,window.searchBoxReact
+home,th-th,3708,,สถานที่สำคัญ,hero_search_box,window.searchBoxReact
+home,th-th,83125,,สนามบิน,hero_search_box,window.searchBoxReact
+home,th-th,52165,,ทวีป,hero_search_box,window.searchBoxReact
+home,th-th,293014,,คน,hero_search_box,window.searchBoxReact
+home,th-th,65492,,เมือง,hero_search_box,window.searchBoxReact
+home,th-th,396601,,ที่พักยอดนิยมใน{city,hero_search_box,window.searchBoxReact
+home,th-th,411558,,โฆษณา,hero_search_box,window.searchBoxReact
+home,th-th,411557,,ที่พักที่ปรากฏที่นี่เป็นโฆษณาแบบชำระเงิน (Paid Ads) ท่านเห็นที่พักนี้เนื่องจากปัจจัยหลายประการ เช่น จำนวนเงินที่ใช้ในการโฆษณา และข้อมูลเกี่ยวกับการค้นหาของท่าน เช่น จุดหมายปลายทาง และวันเดินทาง,hero_search_box,window.searchBoxReact
+home,th-th,326495,,กำลังโหลด,hero_search_box,window.searchBoxReact
+home,th-th,523569,,ให้บริการโดย Google,hero_search_box,window.searchBoxReact
+home,th-th,70236,,มกราคม,hero_search_box,window.searchBoxReact
+home,th-th,79894,,อา.,hero_search_box,window.searchBoxReact
+home,th-th,79895,,อาทิตย์,hero_search_box,window.searchBoxReact
+home,th-th,71487,,เลือกวันเข้าพักเพื่อดูราคาได้เลย,hero_search_box,window.searchBoxReact
+home,th-th,71488,,ไม่เป็นไร ขอบคุณ,hero_search_box,window.searchBoxReact
+home,th-th,81892,,{MM,hero_search_box,window.searchBoxReact
+home,th-th,82952,,มาถูกที่แล้ว!,hero_search_box,window.searchBoxReact
+home,th-th,147745,,{0,hero_search_box,window.searchBoxReact
+home,th-th,187720,,ตัวช่วยเลือกช่วงเวลาเข้าพัก,hero_search_box,window.searchBoxReact
+home,th-th,187721,,เช็คเอาต์วันเดียวกับวันเช็คอิน,hero_search_box,window.searchBoxReact
+home,th-th,187722,,เข้าพัก 1 สัปดาห์,hero_search_box,window.searchBoxReact
+home,th-th,94826,,1 คืน,hero_search_box,window.searchBoxReact
+home,th-th,94827,,{0,hero_search_box,window.searchBoxReact
+home,th-th,151559,,สูงสุด {0,hero_search_box,window.searchBoxReact
+home,th-th,70237,,ม.ค.,hero_search_box,window.searchBoxReact
+home,th-th,170623,,{0,hero_search_box,window.searchBoxReact
+home,th-th,293015,,สีแดง: ราคาต่ำกว่าราคาเฉลี่ยของจุดหมายปลายทางในวันที่เลือก,hero_search_box,window.searchBoxReact
+home,th-th,293016,,สีเขียว: ราคาในวันนี้ต่ำกว่าราคาโดยเฉลี่ยของจุดหมายปลายทางที่เลือก,hero_search_box,window.searchBoxReact
+home,th-th,293017,,ราคา,hero_search_box,window.searchBoxReact
+home,th-th,97912,,ในวันเหล่านี้ ที่พักมีราคาถูกกว่าราคาที่พักโดยเฉลี่ยของจุดหมายปลายทางที่เลือก,hero_search_box,window.searchBoxReact
+home,th-th,305147,,ยืดหยุ่นได้,hero_search_box,window.searchBoxReact
+home,th-th,305151,,ระบุระยะเวลาที่ต้องการเข้าพัก,hero_search_box,window.searchBoxReact
+home,th-th,305154,,1 สัปดาห์,hero_search_box,window.searchBoxReact
+home,th-th,305155,,1 เดือน,hero_search_box,window.searchBoxReact
+home,th-th,305156,,ต้องรวมสุดสัปดาห์,hero_search_box,window.searchBoxReact
+home,th-th,305157,,ระบุเดือนที่ต้องการเดินทาง,hero_search_box,window.searchBoxReact
+home,th-th,305158,,สามารถเลือกได้หลายเดือน,hero_search_box,window.searchBoxReact
+home,th-th,442006,,เลือกเดือนที่ต้องการ,hero_search_box,window.searchBoxReact
+home,th-th,305159,,มกราคม,hero_search_box,window.searchBoxReact
+home,th-th,305160,,กุมภาพันธ์,hero_search_box,window.searchBoxReact
+home,th-th,305161,,มีนาคม,hero_search_box,window.searchBoxReact
+home,th-th,305162,,เมษายน,hero_search_box,window.searchBoxReact
+home,th-th,305163,,พฤษภาคม,hero_search_box,window.searchBoxReact
+home,th-th,305164,,มิถุนายน,hero_search_box,window.searchBoxReact
+home,th-th,305165,,กรกฎาคม,hero_search_box,window.searchBoxReact
+home,th-th,305166,,สิงหาคม,hero_search_box,window.searchBoxReact
+home,th-th,305167,,กันยายน,hero_search_box,window.searchBoxReact
+home,th-th,305168,,ตุลาคม,hero_search_box,window.searchBoxReact
+home,th-th,305169,,พฤศจิกายน,hero_search_box,window.searchBoxReact
+home,th-th,305170,,ธันวาคม,hero_search_box,window.searchBoxReact
+home,th-th,305171,,3 คืน,hero_search_box,window.searchBoxReact
+home,th-th,305719,,ยกเลิก,hero_search_box,window.searchBoxReact
+home,th-th,305718,,เลือก,hero_search_box,window.searchBoxReact
+home,th-th,305717,,ปฏิทิน,hero_search_box,window.searchBoxReact
+home,th-th,67875,101821,ห้อง,hero_search_box,window.searchBoxReact
+home,th-th,67874,,ห้อง,hero_search_box,window.searchBoxReact
+home,th-th,67871,,ผู้ใหญ่,hero_search_box,window.searchBoxReact
+home,th-th,67870,,ผู้ใหญ่,hero_search_box,window.searchBoxReact
+home,th-th,67873,,เด็ก,hero_search_box,window.searchBoxReact
+home,th-th,67872,,เด็ก,hero_search_box,window.searchBoxReact
+home,th-th,89970,,อายุเด็ก (ปี),hero_search_box,window.searchBoxReact
+home,th-th,89969,,อายุเด็ก (ปี),hero_search_box,window.searchBoxReact
+home,th-th,188912,,อายุ 18 ขึ้นไป,hero_search_box,window.searchBoxReact
+home,th-th,188913,,อายุ 0-17,hero_search_box,window.searchBoxReact
+home,th-th,188914,,อายุเด็ก {0,hero_search_box,window.searchBoxReact
+home,th-th,100059,,จองราคาแบบกลุ่ม,hero_search_box,window.searchBoxReact
+home,th-th,99785,,จองในราคาพิเศษกับ HotelPlanner พาร์ทเนอร์ของเราได้เลย,hero_search_box,window.searchBoxReact
+home,th-th,190587,,ดูรายละเอียด,hero_search_box,window.searchBoxReact
+home,th-th,77865,,เราตั้งค่าอายุเด็กไว้ที่ {0,hero_search_box,window.searchBoxReact
+home,th-th,77866,,ผลการค้นหานี้ กำหนดอายุเด็กไว้ที่ {0,hero_search_box,window.searchBoxReact
+home,th-th,73494,,กรุณาระบุอายุเด็กที่จะเข้าพัก แล้วราคาห้องพักอาจถูกลง!,hero_search_box,window.searchBoxReact
+home,th-th,71235,,กรุณาระบุอายุเด็กตามจริง ท่านอาจได้ห้องพักในราคาถูกลง!,hero_search_box,window.searchBoxReact
+home,th-th,71240,,<1,hero_search_box,window.searchBoxReact
+home,th-th,71241,,1,hero_search_box,window.searchBoxReact
+home,th-th,71242,,2,hero_search_box,window.searchBoxReact
+home,th-th,71243,,3,hero_search_box,window.searchBoxReact
+home,th-th,71244,,4,hero_search_box,window.searchBoxReact
+home,th-th,71245,,5,hero_search_box,window.searchBoxReact
+home,th-th,71246,,6,hero_search_box,window.searchBoxReact
+home,th-th,71247,,7,hero_search_box,window.searchBoxReact
+home,th-th,71248,,8,hero_search_box,window.searchBoxReact
+home,th-th,71249,,9,hero_search_box,window.searchBoxReact
+home,th-th,71250,,10,hero_search_box,window.searchBoxReact
+home,th-th,71251,,11,hero_search_box,window.searchBoxReact
+home,th-th,71252,,12,hero_search_box,window.searchBoxReact
+home,th-th,71253,,13,hero_search_box,window.searchBoxReact
+home,th-th,71254,,14,hero_search_box,window.searchBoxReact
+home,th-th,71255,,15,hero_search_box,window.searchBoxReact
+home,th-th,71256,,16,hero_search_box,window.searchBoxReact
+home,th-th,71257,,17,hero_search_box,window.searchBoxReact
+home,th-th,79414,,เดินทางกับเด็กหรือเปล่า?,hero_search_box,window.searchBoxReact
+home,th-th,89968,,ถ้าอยากดูโปรโมชั่นและราคาพิเศษของที่พักที่เหมาะกับครอบครัวละก็ ระบุจำนวนและอายุเด็กได้เลย,hero_search_box,window.searchBoxReact
+home,th-th,81238,,ต้องการห้องสำหรับครอบครัว,hero_search_box,window.searchBoxReact
+home,th-th,90182,,ต้องการห้องขนาดใหญ่/สำหรับครอบครัว,hero_search_box,window.searchBoxReact
+home,th-th,81374,,แสดงที่พักที่เหมาะกับครอบครัวหรือเด็ก,hero_search_box,window.searchBoxReact
+home,th-th,84450,,ครอบครัว,hero_search_box,window.searchBoxReact
+home,th-th,84451,,กลุ่มเพื่อน,hero_search_box,window.searchBoxReact
+home,th-th,88983,,เดินทางไปทำงาน,hero_search_box,window.searchBoxReact
+home,th-th,84448,,เดินทางคนเดียว,hero_search_box,window.searchBoxReact
+home,th-th,84449,,เข้าพักเป็นคู่/คู่รัก,hero_search_box,window.searchBoxReact
+home,th-th,92065,,ลดสูงสุด 12%,hero_search_box,window.searchBoxReact
+home,th-th,99784,,ต้องการจอง 10 ห้องขึ้นไป?,hero_search_box,window.searchBoxReact
+home,th-th,92417,,ใหม่,hero_search_box,window.searchBoxReact
+home,th-th,104322,,ใช้ตัวเลือก 1 ห้อง เพื่อดูที่พักที่มีหลายห้องนอนสำหรับการเข้าพักหลายคน,hero_search_box,window.searchBoxReact
+home,th-th,121753,,อ่านข้อมูลเกี่ยวกับการจองที่มีเด็กเข้าพัก,hero_search_box,window.searchBoxReact
+home,th-th,224823,,ลด,hero_search_box,window.searchBoxReact
+home,th-th,224822,,เพิ่ม,hero_search_box,window.searchBoxReact
+home,th-th,522782,,ขณะนี้เลือก {0,hero_search_box,window.searchBoxReact
+home,th-th,263737,,ต้องการที่พักที่เด็กเข้าพักฟรี,hero_search_box,window.searchBoxReact
+home,th-th,263738,,ระบุอายุของเด็ก,hero_search_box,window.searchBoxReact
+home,th-th,263739,,เราจะค้นหาที่พักที่ดีที่สุดสำหรับทริปครอบครัวให้ท่าน,hero_search_box,window.searchBoxReact
+home,th-th,321022,,18歳以上,hero_search_box,window.searchBoxReact
+home,th-th,321021,,0～17歳,hero_search_box,window.searchBoxReact
+home,th-th,321016,,13歳,hero_search_box,window.searchBoxReact
+home,th-th,321017,,14歳,hero_search_box,window.searchBoxReact
+home,th-th,321018,,15歳,hero_search_box,window.searchBoxReact
+home,th-th,321019,,16歳,hero_search_box,window.searchBoxReact
+home,th-th,321020,,17歳,hero_search_box,window.searchBoxReact
+home,th-th,326566,,ยืนยัน,hero_search_box,window.searchBoxReact
+home,th-th,343678,,เพื่อการแสดงราคาที่ถูกต้องแม่นยำ กรุณาระบุอายุที่ถูกต้องของเด็กที่เดินทางกับท่าน,hero_search_box,window.searchBoxReact
+home,th-th,343674,,<1 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343675,,1 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,2 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,3 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,4 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,5 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,6 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,7 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,8 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,9 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,10 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,11 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,12 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,13 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,14 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,15 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,16 ปี,hero_search_box,window.searchBoxReact
+home,th-th,343673,,17 ปี,hero_search_box,window.searchBoxReact
+home,th-th,336988,,ตกลง,hero_search_box,window.searchBoxReact
+home,th-th,3299,,ปิดหน้าต่าง,hero_search_box,window.searchBoxReact
+home,th-th,343952,,เพื่อการแสดงราคาที่ถูกต้องแม่นยำ กรุณาระบุอายุที่ถูกต้องของเด็กที่เดินทางกับท่าน,hero_search_box,window.searchBoxReact
+home,th-th,78232,,{0,hero_search_box,window.searchBoxReact
+home,th-th,104437,,{0,hero_search_box,window.searchBoxReact
+home,th-th,78233,,(1 คืน),hero_search_box,window.searchBoxReact
+home,th-th,78234,,({0,hero_search_box,window.searchBoxReact
+home,th-th,76031,,อา.,hero_search_box,window.searchBoxReact
+home,th-th,104467,,เลือกวันเดินทางเพื่อดูราคา,hero_search_box,window.searchBoxReact
+home,th-th,86019,,วันเช็คอิน,hero_search_box,window.searchBoxReact
+home,th-th,86020,,วันเช็คเอาต์,hero_search_box,window.searchBoxReact
+home,th-th,79896,102022,{d,hero_search_box,window.searchBoxReact
+home,th-th,67751,,เช็คอิน,hero_search_box,window.searchBoxReact
+home,th-th,67752,,เช็คเอาต์,hero_search_box,window.searchBoxReact
+home,th-th,240256,,เลือกวันเช็คอิน ขณะนี้วันเช็คอิน คือ {0,hero_search_box,window.searchBoxReact
+home,th-th,240257,,เลือกวันเช็คเอาต์ ขณะนี้วันเช็คเอาต์ คือ {0,hero_search_box,window.searchBoxReact
+home,th-th,85608,101796,1 ห้อง,hero_search_box,window.searchBoxReact
+home,th-th,85610,,{0,hero_search_box,window.searchBoxReact
+home,th-th,85611,,ผู้ใหญ่ 1 คน,hero_search_box,window.searchBoxReact
+home,th-th,85612,101959,ผู้ใหญ่ {0,hero_search_box,window.searchBoxReact
+home,th-th,85613,,เด็ก 1 คน,hero_search_box,window.searchBoxReact
+home,th-th,85614,,เด็ก {0,hero_search_box,window.searchBoxReact
+home,th-th,240258,,เลือกจำนวนผู้เข้าพักและจำนวนห้องพัก ขณะนี้จำนวนที่เลือก คือ {0,hero_search_box,window.searchBoxReact
+home,th-th,147722,,รับไมล์สะสม,hero_search_box,window.searchBoxReact
+home,th-th,147723,,ใช้ไมล์สะสม,hero_search_box,window.searchBoxReact
+home,th-th,285689,,รับไมล์สะสม,hero_search_box,window.searchBoxReact
+home,th-th,285690,,ชำระและสะสมไมล์ lifemiles,hero_search_box,window.searchBoxReact
+home,th-th,285691,,แลกไมล์สะสม,hero_search_box,window.searchBoxReact
+home,th-th,285692,,ชำระด้วยไมล์ lifemiles,hero_search_box,window.searchBoxReact
+home,th-th,63075,101922,ใส่จุดหมายปลายทางหรือชื่อที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,111482,,ค้นหา,hero_search_box,window.searchBoxReact
+home,th-th,21475,,กรุณาใส่ชื่อโรงแรม บ้านพัก เมือง สถานที่ท่องเที่ยว ฯลฯ เพื่อค้นหาที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,100013,,วันเช็คอินและเช็คเอาต์ต้องอยู่ระหว่างวันที่เที่ยวบินเดินทางไปถึงและเดินทางกลับ กรุณาตรวจสอบวันเข้าพักอีกครั้ง,hero_search_box,window.searchBoxReact
+home,th-th,100014,,จำนวนผู้เข้าพักต้องเท่ากับจำนวนผู้โดยสารเที่ยวบิน กรุณาตรวจสอบจำนวนผู้เข้าพักอีกครั้ง,hero_search_box,window.searchBoxReact
+home,th-th,103775,,Check-in and check out should be different dates,hero_search_box,window.searchBoxReact
+home,th-th,104762,,ที่พักและจุดหมายปลายทางของเที่ยวบินที่เลือกจะต้องอยู่ในประเทศเดียวกัน,hero_search_box,window.searchBoxReact
+home,th-th,22787,,ดูราคา,hero_search_box,window.searchBoxReact
+home,th-th,98954,,ที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,100649,,ขออภัยค่ะ ท่านจองห้องพักได้ครั้งละไม่เกิน {0,hero_search_box,window.searchBoxReact
+home,th-th,101752,,แก้ไขการค้นหา,hero_search_box,window.searchBoxReact
+home,th-th,104222,,เดินทางจาก 【{0,hero_search_box,window.searchBoxReact
+home,th-th,104215,,ผู้ใหญ่ 1 คน,hero_search_box,window.searchBoxReact
+home,th-th,104217,,ผู้ใหญ่ {0,hero_search_box,window.searchBoxReact
+home,th-th,104216,,ผู้ใหญ่ 1 คน,hero_search_box,window.searchBoxReact
+home,th-th,104218,,ผู้ใหญ่ {0,hero_search_box,window.searchBoxReact
+home,th-th,100190,,ที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,100189,,ตั๋วเครื่องบิน,hero_search_box,window.searchBoxReact
+home,th-th,95798,,ไม่มีสนามบินในเมืองที่ท่านเลือก กรุณาเลือกเมืองต้นทางอื่นๆ,hero_search_box,window.searchBoxReact
+home,th-th,95799,,ไม่มีสนามบินในเมืองที่ท่านเลือก กรุณาเลือกเมืองปลายทางอื่นๆ,hero_search_box,window.searchBoxReact
+home,th-th,93169,,กรุณาเลือกเมืองต้นทางและปลายทางที่แตกต่างกัน,hero_search_box,window.searchBoxReact
+home,th-th,108517,,ค้นหาตั๋วเครื่องบิน + ที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,109009,,ค้นหาที่พักในเมืองอื่นหรือวันเข้าพักอื่น,hero_search_box,window.searchBoxReact
+home,th-th,109008,,เข้าพักที่,hero_search_box,window.searchBoxReact
+home,th-th,150448,,การเข้าพักข้ามคืน,hero_search_box,window.searchBoxReact
+home,th-th,147352,,การเข้าพักช่วงกลางวัน,hero_search_box,window.searchBoxReact
+home,th-th,147353,,ท่านกำลังค้นหาที่พักสำหรับการเข้าพักช่วงกลางวัน,hero_search_box,window.searchBoxReact
+home,th-th,147354,,การเข้าพักช่วงกลางวันไม่ใช่การเข้าพักค้างคืน วันเช็คอินและเช็คเอาต์จะเป็นวันเดียวกัน,hero_search_box,window.searchBoxReact
+home,th-th,150447,,{0,hero_search_box,window.searchBoxReact
+home,th-th,152240,,คำอธิบาย,hero_search_box,window.searchBoxReact
+home,th-th,99072,102116,ใหม่!,hero_search_box,window.searchBoxReact
+home,th-th,172947,,{0,hero_search_box,window.searchBoxReact
+home,th-th,172946,,{0,hero_search_box,window.searchBoxReact
+home,th-th,190613,,เช็คเอาต์ในวันเดียวกัน,hero_search_box,window.searchBoxReact
+home,th-th,228093,,เช็คอิน,hero_search_box,window.searchBoxReact
+home,th-th,228094,,เช็คเอาต์,hero_search_box,window.searchBoxReact
+home,th-th,228095,,จำนวนห้องพักและผู้เข้าพัก,hero_search_box,window.searchBoxReact
+home,th-th,226819,,ปิดหน้าต่างป๊อปอัพ,hero_search_box,window.searchBoxReact
+home,th-th,240259,,ตัวกรองสำหรับค้นหาที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,320437,,ตัวเลือกวันเช็คอิน,hero_search_box,window.searchBoxReact
+home,th-th,320438,,ตัวเลือกวันเช็คเอาต์,hero_search_box,window.searchBoxReact
+home,th-th,342238,,กด Enter เพื่อเลือกวันที่ ใช้ปุ่มลูกศรเพื่อเลือกวันเช็คอินและเช็คเอาต์ เมื่อไปถึงวันเช็คอินที่ต้องการ ให้กดปุ่ม Enter เพื่อเลือกวันเช็คอินดังกล่าว ทำซ้ำขั้นตอนเดียวกันนี้เพื่อเลือกวันเช็คเอาต์ เมื่อเลือกวันเช็คอินและเช็คเอาต์เรียบร้อยแล้ว ขั้นตอนต่อไปจะเป็นการเลือกจำนวนผู้เข้าพัก,hero_search_box,window.searchBoxReact
+home,th-th,343580,,การเลือกจำนวนผู้เข้าพัก,hero_search_box,window.searchBoxReact
+home,th-th,336395,,พิมพ์ชื่อที่พักหรือคำที่ต้องการค้นหา จากนั้นใช้ปุ่มลูกศรหรือปุ่ม Tab เพื่อเลื่อนหาคำที่ต้องการ แล้วกดปุ่ม Enter เพื่อเลือก,hero_search_box,window.searchBoxReact
+home,th-th,65841,,ค้นหาด้วยชื่อเมือง สถานที่สำคัญ หรือชื่อที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,171944,,อาหารเช้าฟรี,hero_search_box,window.searchBoxReact
+home,th-th,411348,,ยกเลิกการจองฟรี,hero_search_box,window.searchBoxReact
+home,th-th,559870,,ระดับดาวที่พัก: 4+,hero_search_box,window.searchBoxReact
+home,th-th,559871,,คะแนนรีวิว: 8+,hero_search_box,window.searchBoxReact
+home,th-th,570336,,แสดงที่พักแบบบ้านทั้งหลังและอพาร์ตเมนต์เท่านั้น,hero_search_box,window.searchBoxReact
+home,th-th,54352,,ราคาต่อคืน,hero_search_box,window.searchBoxReact
+home,th-th,67668,,ตัวกรองเพิ่มเติม,hero_search_box,window.searchBoxReact
+home,th-th,66024,,คะแนนจากผู้เข้าพัก,hero_search_box,window.searchBoxReact
+home,th-th,63865,,ทั้งหมด,hero_search_box,window.searchBoxReact
+home,th-th,63866,,{0,hero_search_box,window.searchBoxReact
+home,th-th,35789,,ระดับดาวที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,62981,,+,hero_search_box,window.searchBoxReact
+home,th-th,97551,,อ้างอิงจากจำนวนห้องพักว่างที่เราทราบว่ามีอยู่ในขณะนี้,hero_search_box,window.searchBoxReact
+home,th-th,142076,,ราคาข้างต้น (ในสกุล {0,hero_search_box,window.searchBoxReact
+home,th-th,142078,,ราคาข้างต้น (ในสกุล {0,hero_search_box,window.searchBoxReact
+home,th-th,142075,,ราคาข้างต้น (ในสกุล {0,hero_search_box,window.searchBoxReact
+home,th-th,142077,,ราคาข้างต้น (ในสกุล {0,hero_search_box,window.searchBoxReact
+home,th-th,147836,,ราคาโดยประมาณ (ในสกุลเงิน {0,hero_search_box,window.searchBoxReact
+home,th-th,147835,,ราคาโดยประมาณ (ในสกุลเงิน {0,hero_search_box,window.searchBoxReact
+home,th-th,104634,,ดูข้อเสนอตั๋วเครื่องบิน + ที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,104635,,ประหยัดยิ่งขึ้น,hero_search_box,window.searchBoxReact
+home,th-th,105994,,ที่พักลดสูงสุด {0,hero_search_box,window.searchBoxReact
+home,th-th,108509,,จองเป็นแพ็กประหยัดกว่า,hero_search_box,window.searchBoxReact
+home,th-th,108508,,จองตั๋วเครื่องบิน + ที่พัก ลดสูงสุด 25%,hero_search_box,window.searchBoxReact
+home,th-th,123093,,จองตั๋วเครื่องบิน + ที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,127154,,จองตั๋วเครื่องบิน + ที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,127155,,จองที่พักด้วย,hero_search_box,window.searchBoxReact
+home,th-th,127156,,ลบ,hero_search_box,window.searchBoxReact
+home,th-th,127157,,ที่พักแห่งที่ {0,hero_search_box,window.searchBoxReact
+home,th-th,104765,,จองเป็นแพ็กถูกกว่า!,hero_search_box,window.searchBoxReact
+home,th-th,238402,,ค้นหาที่พักด้วยชื่อเมืองหรือกิจกรรมที่สนใจ,hero_search_box,window.searchBoxReact
+home,th-th,126983,,กรุณาใส่จุดหมายปลายทางเพื่อดำเนินการต่อ,hero_search_box,window.searchBoxReact
+home,th-th,142439,,ขออภัย เรายังไม่มีบริการภาษาอื่นๆ ในขณะนี้,hero_search_box,window.searchBoxReact
+home,th-th,126798,,ค้นหา,hero_search_box,window.searchBoxReact
+home,th-th,126803,,เมือง: {city_name,hero_search_box,window.searchBoxReact
+home,th-th,69201,,{0,hero_search_box,window.searchBoxReact
+home,th-th,65495,,ที่พัก,hero_search_box,window.searchBoxReact
+home,th-th,265370,,จากสนามบิน,hero_search_box,window.searchBoxReact
+home,th-th,265371,,ไปสนามบิน,hero_search_box,window.searchBoxReact
+home,th-th,265372,,สนามบินที่ไปรับ,hero_search_box,window.searchBoxReact
+home,th-th,265373,,สถานที่ไปส่ง,hero_search_box,window.searchBoxReact
+home,th-th,265374,,สถานที่ไปรับ,hero_search_box,window.searchBoxReact
+home,th-th,265375,,สนามบินที่ไปส่ง,hero_search_box,window.searchBoxReact
+home,th-th,102022,,{d,hero_search_box,window.searchBoxReact
+home,th-th,269070,,กรุณาเลือกวันไปรับ วันที่เลือกไว้ในขณะนี้คือ {0,hero_search_box,window.searchBoxReact
+home,th-th,265377,,วันที่ไปรับ,hero_search_box,window.searchBoxReact
+home,th-th,265379,,อาทิตย์,hero_search_box,window.searchBoxReact
+home,th-th,269071,,กรุณาเลือกเวลาไปรับ เวลาที่เลือกไว้ในขณะนี้คือ {0,hero_search_box,window.searchBoxReact
+home,th-th,265378,,เวลาที่ไปรับ,hero_search_box,window.searchBoxReact
+home,th-th,265380,,ผู้โดยสาร 1 คน,hero_search_box,window.searchBoxReact
+home,th-th,265381,,ผู้โดยสาร {0,hero_search_box,window.searchBoxReact
+home,th-th,265952,,ผู้โดยสาร,hero_search_box,window.searchBoxReact
+home,th-th,265382,,จำนวนรวมทั้งหมดของผู้ใหญ่ เด็ก และทารก,hero_search_box,window.searchBoxReact
+home,th-th,265385,,ค้นหา,hero_search_box,window.searchBoxReact
+home,th-th,265386,,กรุณาระบุสถานที่ไปรับ สถานที่ไปส่ง และวันเดินทางเพื่อดำเนินการต่อ,hero_search_box,window.searchBoxReact
+home,th-th,265387,,กรุณาเลือกสถานที่ไปรับและไปส่งที่แตกต่างกัน,hero_search_box,window.searchBoxReact
+home,th-th,111481,,ค้นหาตั๋วเครื่องบิน,hero_search_box,window.searchBoxReact
+home,th-th,93551,,ค้นหา,hero_search_box,window.searchBoxReact
+home,th-th,92618,,ต้นทาง,flights_search_box,window.flightSearchBoxReact
+home,th-th,92638,101795,พิมพ์ชื่อเมืองหรือสนามบิน,flights_search_box,window.flightSearchBoxReact
+home,th-th,92619,,ปลายทาง,flights_search_box,window.flightSearchBoxReact
+home,th-th,92847,,ทุกสนามบิน,flights_search_box,window.flightSearchBoxReact
+home,th-th,83125,,สนามบิน,flights_search_box,window.flightSearchBoxReact
+home,th-th,534612,,ไม่มีสนามบิน,flights_search_box,window.flightSearchBoxReact
+home,th-th,534613,,ใกล้เคียง,flights_search_box,window.flightSearchBoxReact
+home,th-th,534614,,ห่างออกไป {0,flights_search_box,window.flightSearchBoxReact
+home,th-th,534615,,รหัสสนามบิน,flights_search_box,window.flightSearchBoxReact
+home,th-th,534616,,สนามบินไปยัง {0,flights_search_box,window.flightSearchBoxReact
+home,th-th,534617,,ห่างออกไป {0,flights_search_box,window.flightSearchBoxReact
+home,th-th,92718,,ผู้โดยสาร,flights_search_box,window.flightSearchBoxReact
+home,th-th,92719,,ผู้โดยสาร,flights_search_box,window.flightSearchBoxReact
+home,th-th,95786,,ผู้โดยสาร,flights_search_box,window.flightSearchBoxReact
+home,th-th,95787,,ผู้โดยสาร,flights_search_box,window.flightSearchBoxReact
+home,th-th,99922,,ผู้ใหญ่ (อายุ 12 ปีขึ้นไป),flights_search_box,window.flightSearchBoxReact
+home,th-th,421713,,ผู้ใหญ่ (อายุ 12 ปีขึ้นไป),flights_search_box,window.flightSearchBoxReact
+home,th-th,100025,,จำนวนผู้โดยสารรวมทั้งหมดต้องไม่เกิน {maxTotalPax,flights_search_box,window.flightSearchBoxReact
+home,th-th,421714,,เด็ก (อายุ 2-11 ปี),flights_search_box,window.flightSearchBoxReact
+home,th-th,99923,,เด็ก (2-11 ปี),flights_search_box,window.flightSearchBoxReact
+home,th-th,99925,,ผู้ใหญ่ 1 คนเดินทางกับเด็กได้สูงสุด 2 คน,flights_search_box,window.flightSearchBoxReact
+home,th-th,421715,,ทารก (อายุต่ำกว่า 2 ปี),flights_search_box,window.flightSearchBoxReact
+home,th-th,99924,,ทารก (อายุต่ำกว่า 2 ปี),flights_search_box,window.flightSearchBoxReact
+home,th-th,99926,,ผู้ใหญ่ 1 คนเดินทางกับทารกได้สูงสุด 1 คน,flights_search_box,window.flightSearchBoxReact
+home,th-th,99927,,ผู้ใหญ่ต้องเดินทางกับเด็กและทารก การจองบัตรโดยสารสำหรับเด็กและทารกที่ไม่มีผู้ใหญ่เดินทางไปด้วยจะต้องจองกับสายการบินโดยตรง,flights_search_box,window.flightSearchBoxReact
+home,th-th,100024,,เกิดเหตุขัดข้อง,flights_search_box,window.flightSearchBoxReact
+home,th-th,67875,101821,ห้อง,flights_search_box,window.flightSearchBoxReact
+home,th-th,67874,,ห้อง,flights_search_box,window.flightSearchBoxReact
+home,th-th,110009,,ดำเนินการต่อ,flights_search_box,window.flightSearchBoxReact
+home,th-th,228091,,ผู้โดยสารและชั้นโดยสาร,flights_search_box,window.flightSearchBoxReact
+home,th-th,227092,,เพิ่ม,flights_search_box,window.flightSearchBoxReact
+home,th-th,227093,,ลด,flights_search_box,window.flightSearchBoxReact
+home,th-th,92152,,ชั้นประหยัด,flights_search_box,window.flightSearchBoxReact
+home,th-th,92153,,ชั้นประหยัดพรีเมียม,flights_search_box,window.flightSearchBoxReact
+home,th-th,92154,,ชั้นธุรกิจ,flights_search_box,window.flightSearchBoxReact
+home,th-th,92155,,ชั้นเฟิร์สคลาส,flights_search_box,window.flightSearchBoxReact
+home,th-th,92614,,วันออกเดินทาง,flights_search_box,window.flightSearchBoxReact
+home,th-th,92615,,วันเดินทางกลับ,flights_search_box,window.flightSearchBoxReact
+home,th-th,79896,102022,{d,flights_search_box,window.flightSearchBoxReact
+home,th-th,104437,,{0,flights_search_box,window.flightSearchBoxReact
+home,th-th,79895,,อาทิตย์,flights_search_box,window.flightSearchBoxReact
+home,th-th,76031,,อา.,flights_search_box,window.flightSearchBoxReact
+home,th-th,70237,,ม.ค.,flights_search_box,window.flightSearchBoxReact
+home,th-th,93532,,เพิ่มเที่ยวบินขากลับ,flights_search_box,window.flightSearchBoxReact
+home,th-th,240076,,ขณะนี้หน้าปฏิทินเปิดขึ้นมา เนื่องจากโฟกัสอยู่ที่ช่องวันออกเดินทางและวันเดินทางกลับ,flights_search_box,window.flightSearchBoxReact
+home,th-th,70236,,มกราคม,flights_search_box,window.flightSearchBoxReact
+home,th-th,79894,,อา.,flights_search_box,window.flightSearchBoxReact
+home,th-th,71487,,เลือกวันเข้าพักเพื่อดูราคาได้เลย,flights_search_box,window.flightSearchBoxReact
+home,th-th,71488,,ไม่เป็นไร ขอบคุณ,flights_search_box,window.flightSearchBoxReact
+home,th-th,81892,,{MM,flights_search_box,window.flightSearchBoxReact
+home,th-th,82952,,มาถูกที่แล้ว!,flights_search_box,window.flightSearchBoxReact
+home,th-th,147745,,{0,flights_search_box,window.flightSearchBoxReact
+home,th-th,178879,,{0,flights_search_box,window.flightSearchBoxReact
+home,th-th,178878,,ราคาเฉลี่ยต่อผู้โดยสารหนึ่งคนในสกุลเงิน: {0,flights_search_box,window.flightSearchBoxReact
+home,th-th,93551,,ค้นหา,flights_search_box,window.flightSearchBoxReact
+home,th-th,111481,,ค้นหาตั๋วเครื่องบิน,flights_search_box,window.flightSearchBoxReact
+home,th-th,93272,,กรุณาเลือกเมืองต้นทาง-ปลายทาง วันเดินทาง เพื่อค้นหาเที่ยวบิน,flights_search_box,window.flightSearchBoxReact
+home,th-th,93273,,กรุณาเลือกเมืองต้นทาง-ปลายทาง วันเดินทาง เพื่อค้นหาเที่ยวบิน,flights_search_box,window.flightSearchBoxReact
+home,th-th,95800,,ไม่มีสนามบินในเมืองที่ท่านเลือก กรุณาเลือกเมืองต้นทางและเมืองปลายทางอื่นๆ,flights_search_box,window.flightSearchBoxReact
+home,th-th,95798,,ไม่มีสนามบินในเมืองที่ท่านเลือก กรุณาเลือกเมืองต้นทางอื่นๆ,flights_search_box,window.flightSearchBoxReact
+home,th-th,95799,,ไม่มีสนามบินในเมืองที่ท่านเลือก กรุณาเลือกเมืองปลายทางอื่นๆ,flights_search_box,window.flightSearchBoxReact
+home,th-th,93169,,กรุณาเลือกเมืองต้นทางและปลายทางที่แตกต่างกัน,flights_search_box,window.flightSearchBoxReact
+home,th-th,92610,,เที่ยวเดียว,flights_search_box,window.flightSearchBoxReact
+home,th-th,92611,,ไป-กลับ,flights_search_box,window.flightSearchBoxReact
+home,th-th,98953,,ตั๋วเครื่องบิน,flights_search_box,window.flightSearchBoxReact
+home,th-th,101752,,แก้ไขการค้นหา,flights_search_box,window.flightSearchBoxReact
+home,th-th,226819,,ปิดหน้าต่างป๊อปอัพ,flights_search_box,window.flightSearchBoxReact
+home,th-th,252463,,บินตรงเท่านั้น,flights_search_box,window.flightSearchBoxReact
+home,th-th,133196,,การค้นหาล่าสุด,flights_search_box,window.flightSearchBoxReact
+home,th-th,133197,,ผู้ใหญ่ {0,flights_search_box,window.flightSearchBoxReact
+home,th-th,133198,,ผู้ใหญ่ {0,flights_search_box,window.flightSearchBoxReact
+home,th-th,133199,,เด็ก {0,flights_search_box,window.flightSearchBoxReact
+home,th-th,133200,,เด็ก {0,flights_search_box,window.flightSearchBoxReact
+home,th-th,133201,,ทารก {0,flights_search_box,window.flightSearchBoxReact
+home,th-th,133202,,ทารก {0,flights_search_box,window.flightSearchBoxReact
+home,th-th,523201,,{0,flights_search_box,window.flightSearchBoxReact
+home,th-th,523202,,{0,flights_search_box,window.flightSearchBoxReact
+home,th-th,523200,,ชั้นโดยสาร{0,flights_search_box,window.flightSearchBoxReact
+home,th-th,141039,,เมืองยอดนิยมใกล้ตำแหน่งของท่าน,flights_search_box,window.flightSearchBoxReact
+home,th-th,141040,,จุดหมายปลายทางยอดนิยม,flights_search_box,window.flightSearchBoxReact
+home,th-th,158355,,เมืองหรือสนามบินที่จะไปรับรถ,cars_search_box,window.carsSearchBoxReact
+home,th-th,155992,,ระบุชื่อเมืองหรือสนามบินที่จะไปรับรถ,cars_search_box,window.carsSearchBoxReact
+home,th-th,229257,,เมืองหรือสนามบินที่จะไปคืนรถ,cars_search_box,window.carsSearchBoxReact
+home,th-th,155995,,ระบุชื่อเมืองหรือสนามบินที่จะไปคืนรถ,cars_search_box,window.carsSearchBoxReact
+home,th-th,158360,,ทุกสนามบิน,cars_search_box,window.carsSearchBoxReact
+home,th-th,155017,,อายุของผู้ขับรถ,cars_search_box,window.carsSearchBoxReact
+home,th-th,155118,,18,cars_search_box,window.carsSearchBoxReact
+home,th-th,155119,,19,cars_search_box,window.carsSearchBoxReact
+home,th-th,155120,,20,cars_search_box,window.carsSearchBoxReact
+home,th-th,155121,,21,cars_search_box,window.carsSearchBoxReact
+home,th-th,155122,,22,cars_search_box,window.carsSearchBoxReact
+home,th-th,155123,,23,cars_search_box,window.carsSearchBoxReact
+home,th-th,155124,,24,cars_search_box,window.carsSearchBoxReact
+home,th-th,155125,,25,cars_search_box,window.carsSearchBoxReact
+home,th-th,155126,,26,cars_search_box,window.carsSearchBoxReact
+home,th-th,155127,,27,cars_search_box,window.carsSearchBoxReact
+home,th-th,155128,,28,cars_search_box,window.carsSearchBoxReact
+home,th-th,155129,,29,cars_search_box,window.carsSearchBoxReact
+home,th-th,155130,,30+,cars_search_box,window.carsSearchBoxReact
+home,th-th,155999,,วันรับรถ,cars_search_box,window.carsSearchBoxReact
+home,th-th,156000,,วันคืนรถ,cars_search_box,window.carsSearchBoxReact
+home,th-th,79896,102022,{d,cars_search_box,window.carsSearchBoxReact
+home,th-th,104437,,{0,cars_search_box,window.carsSearchBoxReact
+home,th-th,79895,,อาทิตย์,cars_search_box,window.carsSearchBoxReact
+home,th-th,76031,,อา.,cars_search_box,window.carsSearchBoxReact
+home,th-th,70237,,ม.ค.,cars_search_box,window.carsSearchBoxReact
+home,th-th,93532,,เพิ่มเที่ยวบินขากลับ,cars_search_box,window.carsSearchBoxReact
+home,th-th,240076,,ขณะนี้หน้าปฏิทินเปิดขึ้นมา เนื่องจากโฟกัสอยู่ที่ช่องวันออกเดินทางและวันเดินทางกลับ,cars_search_box,window.carsSearchBoxReact
+home,th-th,70236,,มกราคม,cars_search_box,window.carsSearchBoxReact
+home,th-th,79894,,อา.,cars_search_box,window.carsSearchBoxReact
+home,th-th,71487,,เลือกวันเข้าพักเพื่อดูราคาได้เลย,cars_search_box,window.carsSearchBoxReact
+home,th-th,71488,,ไม่เป็นไร ขอบคุณ,cars_search_box,window.carsSearchBoxReact
+home,th-th,81892,,{MM,cars_search_box,window.carsSearchBoxReact
+home,th-th,82952,,มาถูกที่แล้ว!,cars_search_box,window.carsSearchBoxReact
+home,th-th,147745,,{0,cars_search_box,window.carsSearchBoxReact
+home,th-th,178879,,{0,cars_search_box,window.carsSearchBoxReact
+home,th-th,178878,,ราคาเฉลี่ยต่อผู้โดยสารหนึ่งคนในสกุลเงิน: {0,cars_search_box,window.carsSearchBoxReact
+home,th-th,155015,,เวลารับรถ,cars_search_box,window.carsSearchBoxReact
+home,th-th,155016,,เวลาคืนรถ,cars_search_box,window.carsSearchBoxReact
+home,th-th,158361,,ขออภัย เกิดเหตุขัดข้องบางประการ กรุณากรอกเกณฑ์การค้นหาที่ถูกต้องแล้วลองอีกครั้ง,cars_search_box,window.carsSearchBoxReact
+home,th-th,158357,,ค้นหา,cars_search_box,window.carsSearchBoxReact
+home,th-th,158358,,ค้นหารถเช่า,cars_search_box,window.carsSearchBoxReact
+home,th-th,155018,,รับและคืนรถที่เดียวกัน,cars_search_box,window.carsSearchBoxReact
+home,th-th,155019,,รับและคืนรถต่างสถานที่,cars_search_box,window.carsSearchBoxReact
+home,th-th,158356,,บริการเช่ารถ,cars_search_box,window.carsSearchBoxReact
+home,th-th,158359,,เปลี่ยนแปลงการค้นหา,cars_search_box,window.carsSearchBoxReact
+home,th-th,226819,,ปิดหน้าต่างป๊อปอัพ,cars_search_box,window.carsSearchBoxReact
+home,th-th,64917,102094,ศูนย์ช่วยเหลือ,footer,footerProps
+home,th-th,3325,102016,ศูนย์ช่วยเหลือ,footer,footerProps
+home,th-th,64918,101859,คำถามที่พบบ่อย,footer,footerProps
+home,th-th,64919,101999,นโยบายความเป็นส่วนตัว,footer,footerProps
+home,th-th,82614,,นโยบายเกี่ยวกับคุ้กกี้,footer,footerProps
+home,th-th,64920,102139,ข้อกำหนดการใช้งาน,footer,footerProps
+home,th-th,300097,,กฎหมายบริการดิจิทัล (สหภาพยุโรป),footer,footerProps
+home,th-th,310298,,หลักเกณฑ์ด้านเนื้อหาและการแจ้งเกี่ยวกับเนื้อหา,footer,footerProps
+home,th-th,321659,,คำชี้แจงเกี่ยวกับการค้าทาสยุคใหม่,footer,footerProps
+home,th-th,153409,,บริษัท,footer,footerProps
+home,th-th,102520,,เกี่ยวกับเรา,footer,footerProps
+home,th-th,22561,102038,สมัครงาน,footer,footerProps
+home,th-th,64932,,//careersatagoda.com,footer,footerProps
+home,th-th,64923,102092,ข่าวประชาสัมพันธ์,footer,footerProps
+home,th-th,64933,,//mediaroom.agoda.com,footer,footerProps
+home,th-th,83153,102036,บล็อกท่องเที่ยว,footer,footerProps
+home,th-th,84837,,th-th/blog,footer,footerProps
+home,th-th,59129,102085,พอยต์แม็กซ์,footer,footerProps
+home,th-th,64924,101949,จุดหมายปลายทาง,footer,footerProps
+home,th-th,64925,101994,ประเทศ,footer,footerProps
+home,th-th,319554,,เส้นทางเที่ยวบินทั้งหมด,footer,footerProps
+home,th-th,64927,101894,เป็นพันธมิตรกับเรา,footer,footerProps
+home,th-th,64928,102042,ระบบ YCS สำหรับที่พัก,footer,footerProps
+home,th-th,64934,,//ycs.agoda.com/th-th,footer,footerProps
+home,th-th,124491,,Partner Hub,footer,footerProps
+home,th-th,59677,,โฆษณาบนอโกด้า,footer,footerProps
+home,th-th,64929,102101,แอฟฟิลิเอท,footer,footerProps
+home,th-th,64935,,//partners.agoda.com/th-th/index.html,footer,footerProps
+home,th-th,326138,,เอกสาร API โดยอโกด้า,footer,footerProps
+home,th-th,49073,101991,แอปอโกด้า,footer,footerProps
+home,th-th,64930,101873,แอป iOS,footer,footerProps
+home,th-th,64931,102011,แอป Android,footer,footerProps
+home,th-th,3431,,All material herein © 2005–2026 Agoda Company Pte. Ltd. สงวนลิขสิทธิ์ตามกฎหมาย,footer,footerProps
+home,th-th,59416,,Agoda เป็นส่วนหนึ่งของ Booking Holdings Inc. ผู้ให้บริการการท่องเที่ยวออนไลน์และบริการที่เกี่ยวข้องชั้นนำระดับโลก,footer,footerProps
+home,th-th,98558,,,footer,footerProps
+home,th-th,178468,,Agoda International (Hong Kong) Limited (Hong Kong Travel Agent License No. 354673),footer,footerProps
+home,th-th,305474,,โลโก้ {0,footer,footerProps
