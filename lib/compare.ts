@@ -8,6 +8,10 @@ import {
 } from "@/types/qa";
 import { normalizeOverride, normalizeText, uniqueNonEmpty } from "@/lib/normalize";
 
+const KNOWN_LOCATION_HINTS: Record<string, string> = {
+  "343673": "Flights tab > child age dropdown",
+};
+
 export function compareCsvRows(rows: CsvRow[]): CompareResult[] {
   const results: CompareResult[] = [];
   const validRows: CsvRow[] = [];
@@ -79,7 +83,7 @@ export function compareCsvRows(rows: CsvRow[]): CompareResult[] {
       overrideId: enOverrides[0] ?? thOverrides[0] ?? null,
       sectionName: metadataRow?.section_name?.trim() || null,
       sourceObjectPath: metadataRow?.source_object_path?.trim() || null,
-      locationHint: metadataRow?.location_hint?.trim() || null,
+      locationHint: locationHint(cmsId, metadataRow),
       enText: enVariants[0] ?? null,
       thText: thVariants[0] ?? null,
       enVariants,
@@ -124,7 +128,7 @@ function makeUnpairedResult(
     overrideId: normalizeOverride(row.override_id) || null,
     sectionName: row.section_name?.trim() || null,
     sourceObjectPath: row.source_object_path?.trim() || null,
-    locationHint: row.location_hint?.trim() || null,
+    locationHint: locationHint(cmsId, row),
     enText: isEnglish ? normalizedText || null : null,
     thText: isThai ? normalizedText || null : null,
     enVariants: isEnglish && normalizedText ? [normalizedText] : [],
@@ -133,6 +137,10 @@ function makeUnpairedResult(
     thOverrides: [],
     note: reason,
   };
+}
+
+function locationHint(cmsId: string, row?: CsvRow): string | null {
+  return row?.location_hint?.trim() || KNOWN_LOCATION_HINTS[cmsId] || null;
 }
 
 const STATUS_ORDER: Record<CompareStatus, number> = {
