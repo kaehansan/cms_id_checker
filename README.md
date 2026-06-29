@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CMS ID Checker
 
-## Getting Started
+Fullstack QA helper for comparing Agoda CMS-tagged strings between English and Thai snapshots.
 
-First, run the development server:
+## Workflow
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```text
+Saved Agoda HTML -> Python extractor -> richer CSV -> Next.js checker -> backend run log -> CSV export
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run The App
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+## Extract CMS Strings From Saved HTML
 
-To learn more about Next.js, take a look at the following resources:
+The extractor converts saved HTML files that contain visible CMS markers into the CSV format expected by the app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Default input filenames:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```text
+home__en-us__showcmsid.html.html
+home__th-th__showcmsid.html.html
+```
 
-## Deploy on Vercel
+Run:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+python scripts/extract_cms_from_html.py --out cms_extracted_richer_data.csv
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Or pass explicit files:
+
+```bash
+python scripts/extract_cms_from_html.py \
+  --html home__en-us__showcmsid.html.html \
+  --html home__th-th__showcmsid.html.html \
+  --out cms_extracted_richer_data.csv
+```
+
+The output columns are:
+
+```text
+page_name, locale, cms_id, override_id, text, section_name, source_object_path
+```
+
+## Compare And Log Runs
+
+1. Log in with a demo name and email.
+2. Upload the richer CSV.
+3. Click Compare.
+4. Review buckets such as Matched, Repeated ID, Missing EN, Missing TH, Override, and Invalid Row.
+5. Export the filtered report as CSV.
+
+Each comparison run is saved through `app/api/run-logs/route.ts` to `data/run-logs.json`. The runtime log file is ignored by git.
