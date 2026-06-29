@@ -782,11 +782,12 @@ function RunLogTable({ logs }: { logs: RunLog[] }) {
         </div>
       ) : (
         <div className="mt-4 overflow-x-auto rounded-lg border border-slate-200">
-          <table className="w-full min-w-[900px] border-collapse text-sm">
+          <table className="w-full min-w-[1040px] border-collapse text-sm">
             <thead>
               <tr className="bg-slate-100 text-left text-slate-700">
                 <th className="border-b border-slate-200 p-3">Time</th>
                 <th className="border-b border-slate-200 p-3">File</th>
+                <th className="border-b border-slate-200 p-3">User</th>
                 <th className="border-b border-slate-200 p-3">Total</th>
                 <th className="border-b border-slate-200 p-3">Matched</th>
                 <th className="border-b border-slate-200 p-3">Needs Review</th>
@@ -801,6 +802,12 @@ function RunLogTable({ logs }: { logs: RunLog[] }) {
                   </td>
                   <td className="border-b border-slate-200 p-3">
                     {log.fileName}
+                  </td>
+                  <td className="border-b border-slate-200 p-3">
+                    <p className="font-medium">{log.userName || "Unknown user"}</p>
+                    <p className="text-xs text-slate-500">
+                      {log.userEmail || "Unknown email"}
+                    </p>
                   </td>
                   <td className="border-b border-slate-200 p-3">{log.total}</td>
                   <td className="border-b border-slate-200 p-3">
