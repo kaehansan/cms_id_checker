@@ -1,76 +1,176 @@
-import { CompareResult, CsvRow } from "@/types/qa";
-
-function normalizeText(value?: string) {
-  return value?.trim() ?? "";
-}
-
-function uniqueNonEmptyTexts(rows: CsvRow[]) {
-  return [...new Set(rows.map((row) => normalizeText(row.text)).filter(Boolean))];
-}
+import {
+  CompareResult,
+  CompareStatus,
+  CompareSummary,
+  CsvRow,
+  EN_LOCALE,
+  TH_LOCALE,
+} from "@/types/qa";
+import { normalizeOverride, normalizeText, uniqueNonEmpty } from "@/lib/normalize";
 
 export function compareCsvRows(rows: CsvRow[]): CompareResult[] {
-  const enRows = rows.filter((row) => row.locale?.toLowerCase() === "en-us");
-  const thRows = rows.filter((row) => row.locale?.toLowerCase() === "th-th");
-
-  const enGroups = new Map<string, CsvRow[]>();
-  const thGroups = new Map<string, CsvRow[]>();
-
-  for (const row of enRows) {
-    const cmsId = row.cms_id?.trim();
-    if (!cmsId) continue;
-
-    const existing = enGroups.get(cmsId) ?? [];
-    existing.push(row);
-    enGroups.set(cmsId, existing);
-  }
-
-  for (const row of thRows) {
-    const cmsId = row.cms_id?.trim();
-    if (!cmsId) continue;
-
-    const existing = thGroups.get(cmsId) ?? [];
-    existing.push(row);
-    thGroups.set(cmsId, existing);
-  }
-
-  const allCmsIds = new Set([...enGroups.keys(), ...thGroups.keys()]);
   const results: CompareResult[] = [];
+  const validRows: CsvRow[] = [];
 
-  for (const cmsId of allCmsIds) {
-    const enGroup = enGroups.get(cmsId) ?? [];
-    const thGroup = thGroups.get(cmsId) ?? [];
+  for (const row of rows) {
+    const cmsId = row.cms_id?.trim();
+    const locale = row.locale?.trim().toLowerCase() ?? "";
+    const isKnownLocale = locale === EN_LOCALE || locale === TH_LOCALE;
 
-    const enTexts = uniqueNonEmptyTexts(enGroup);
-    const thTexts = uniqueNonEmptyTexts(thGroup);
+    if (!cmsId || !isKnownLocale) {
+      results.push(
+        makeUnpairedResult(
+          cmsId ?? "",
+          row,
+          !cmsId ? "Missing cms_id" : `Unknown locale: "${locale}"`
+        )
+      );
+      continue;
+    }
 
-    const enRow = enGroup[0];
-    const thRow = thGroup[0];
+    validRows.push(row);
+  }
 
-    let status: CompareResult["status"];
+  const groups = new Map<string, CsvRow[]>();
 
-    if (enGroup.length === 0 && thGroup.length > 0) {
-      status = "missing_in_en";
-    } else if (thGroup.length === 0 && enGroup.length > 0) {
-      status = "missing_in_th";
-    } else if (enTexts.length > 1) {
-      status = "conflicting_en_text";
-    } else if (thTexts.length > 1) {
-      status = "conflicting_th_text";
+  for (const row of validRows) {
+    const cmsId = row.cms_id?.trim() ?? "";
+    groups.set(cmsId, [...(groups.get(cmsId) ?? []), row]);
+  }
+
+  for (const [cmsId, group] of groups) {
+    const enGroup = group.filter(
+      (row) => row.locale?.trim().toLowerCase() === EN_LOCALE
+    );
+    const thGroup = group.filter(
+      (row) => row.locale?.trim().toLowerCase() === TH_LOCALE
+    );
+
+    const enVariants = uniqueNonEmpty(enGroup.map((row) => row.text));
+    const thVariants = uniqueNonEmpty(thGroup.map((row) => row.text));
+    const enOverrides = uniqueOverrides(enGroup);
+    const thOverrides = uniqueOverrides(thGroup);
+    const metadataRow = enGroup[0] ?? thGroup[0];
+
+    let status: CompareStatus;
+    let note: string | null = null;
+
+    if (enVariants.length === 0 && thVariants.length > 0) {
+      status = "MISSING_EN";
+      note = "Thai text exists, but English text is missing or empty.";
+    } else if (thVariants.length === 0 && enVariants.length > 0) {
+      status = "MISSING_TH";
+      note = "English text exists, but Thai text is missing or empty.";
+    } else if (enVariants.length > 1 || thVariants.length > 1) {
+      status = "AMBIGUOUS";
+      note = `Same cms_id has multiple text variants (EN: ${enVariants.length}, TH: ${thVariants.length}).`;
+    } else if (!sameSet(enOverrides, thOverrides)) {
+      status = "OVERRIDE_MISMATCH";
+      note = `Override mismatch (EN: ${enOverrides.join(", ") || "-"} / TH: ${
+        thOverrides.join(", ") || "-"
+      }).`;
     } else {
-      status = "both_present";
+      status = "MATCHED";
     }
 
     results.push({
       cmsId,
-      overrideId: enRow?.override_id ?? thRow?.override_id ?? null,
-      sectionName: enRow?.section_name ?? thRow?.section_name ?? null,
-      sourceObjectPath:
-        enRow?.source_object_path ?? thRow?.source_object_path ?? null,
-      enText: enTexts[0] ?? null,
-      thText: thTexts[0] ?? null,
       status,
+      overrideId: enOverrides[0] ?? thOverrides[0] ?? null,
+      sectionName: metadataRow?.section_name?.trim() || null,
+      sourceObjectPath: metadataRow?.source_object_path?.trim() || null,
+      enText: enVariants[0] ?? null,
+      thText: thVariants[0] ?? null,
+      enVariants,
+      thVariants,
+      enOverrides,
+      thOverrides,
+      note,
     });
   }
 
-  return results.sort((a, b) => Number(a.cmsId) - Number(b.cmsId));
+  return sortResults(results);
+}
+
+function uniqueOverrides(rows: CsvRow[]): string[] {
+  return [
+    ...new Set(
+      rows.map((row) => normalizeOverride(row.override_id)).filter(Boolean)
+    ),
+  ];
+}
+
+function sameSet(left: string[], right: string[]): boolean {
+  if (left.length !== right.length) return false;
+
+  const rightSet = new Set(right);
+  return left.every((value) => rightSet.has(value));
+}
+
+function makeUnpairedResult(
+  cmsId: string,
+  row: CsvRow,
+  reason: string
+): CompareResult {
+  const locale = row.locale?.trim().toLowerCase();
+  const isEnglish = locale === EN_LOCALE;
+  const isThai = locale === TH_LOCALE;
+  const normalizedText = normalizeText(row.text);
+
+  return {
+    cmsId: cmsId || "(no id)",
+    status: "UNPAIRED_RAW",
+    overrideId: normalizeOverride(row.override_id) || null,
+    sectionName: row.section_name?.trim() || null,
+    sourceObjectPath: row.source_object_path?.trim() || null,
+    enText: isEnglish ? normalizedText || null : null,
+    thText: isThai ? normalizedText || null : null,
+    enVariants: isEnglish && normalizedText ? [normalizedText] : [],
+    thVariants: isThai && normalizedText ? [normalizedText] : [],
+    enOverrides: [],
+    thOverrides: [],
+    note: reason,
+  };
+}
+
+const STATUS_ORDER: Record<CompareStatus, number> = {
+  AMBIGUOUS: 0,
+  OVERRIDE_MISMATCH: 1,
+  MISSING_EN: 2,
+  MISSING_TH: 3,
+  UNPAIRED_RAW: 4,
+  MATCHED: 5,
+};
+
+function sortResults(results: CompareResult[]): CompareResult[] {
+  return [...results].sort((left, right) => {
+    const statusOrder = STATUS_ORDER[left.status] - STATUS_ORDER[right.status];
+    if (statusOrder !== 0) return statusOrder;
+
+    const leftId = Number(left.cmsId);
+    const rightId = Number(right.cmsId);
+
+    if (!Number.isNaN(leftId) && !Number.isNaN(rightId)) {
+      return leftId - rightId;
+    }
+
+    return left.cmsId.localeCompare(right.cmsId);
+  });
+}
+
+export function summarize(results: CompareResult[]): CompareSummary {
+  const count = (status: CompareStatus) =>
+    results.filter((result) => result.status === status).length;
+  const matched = count("MATCHED");
+
+  return {
+    total: results.length,
+    matched,
+    missingEn: count("MISSING_EN"),
+    missingTh: count("MISSING_TH"),
+    overrideMismatch: count("OVERRIDE_MISMATCH"),
+    ambiguous: count("AMBIGUOUS"),
+    unpairedRaw: count("UNPAIRED_RAW"),
+    totalProblems: results.length - matched,
+  };
 }

@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    "__MACOSX/**",
+    ".tmp_kru_feedback/**",
   ]),
 ]);
 
