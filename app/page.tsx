@@ -701,12 +701,13 @@ function ResultsTable({ rows }: { rows: CompareResult[] }) {
 
   return (
     <div className="mt-4 overflow-x-auto rounded-lg border border-slate-200">
-      <table className="w-full min-w-[980px] border-collapse text-sm">
+      <table className="w-full min-w-[1120px] border-collapse text-sm">
         <thead>
           <tr className="bg-slate-100 text-left text-slate-700">
             <th className="border-b border-slate-200 p-3">CMS ID</th>
             <th className="border-b border-slate-200 p-3">Status</th>
             <th className="border-b border-slate-200 p-3">Section</th>
+            <th className="border-b border-slate-200 p-3">Likely Location</th>
             <th className="border-b border-slate-200 p-3">EN Text</th>
             <th className="border-b border-slate-200 p-3">TH Text</th>
             <th className="border-b border-slate-200 p-3">Note</th>
@@ -737,6 +738,9 @@ function ResultRow({ row }: { row: CompareResult }) {
         </span>
       </td>
       <td className="border-b border-slate-200 p-3">{row.sectionName ?? "-"}</td>
+      <td className="border-b border-slate-200 p-3 text-slate-700">
+        {row.locationHint ?? "-"}
+      </td>
       <td className="border-b border-slate-200 p-3">
         {isAmbiguous ? <VariantList items={row.enVariants} /> : row.enText ?? "-"}
       </td>

@@ -12,6 +12,7 @@ export function exportResultsToCsv(
     override_id: result.overrideId ?? "",
     section_name: result.sectionName ?? "",
     source_object_path: result.sourceObjectPath ?? "",
+    location_hint: result.locationHint ?? "",
     en_text: result.enText ?? "",
     th_text: result.thText ?? "",
     en_variants: result.enVariants.join(" | "),

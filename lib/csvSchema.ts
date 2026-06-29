@@ -19,6 +19,7 @@ const rowSchema = z.object({
   text: z.string().optional(),
   section_name: z.string().optional(),
   source_object_path: z.string().optional(),
+  location_hint: z.string().optional(),
 });
 
 export type ValidationResult =
@@ -64,6 +65,7 @@ export function validateCsvRows(
     text: row.text?.trim(),
     section_name: row.section_name?.trim(),
     source_object_path: row.source_object_path?.trim(),
+    location_hint: row.location_hint?.trim(),
   }));
 
   return { ok: true, rows };

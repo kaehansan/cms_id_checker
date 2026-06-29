@@ -59,6 +59,23 @@ SUBSECTION_RULES = [
     ("footerSeoLinksGroups", "footer_seo_links", "footerSeoLinksGroups"),
 ]
 
+KNOWN_LOCATION_HINTS = {
+    "343673": "Flights tab > child age dropdown",
+}
+
+SECTION_LOCATION_HINTS = {
+    "header": "Header > navigation or account controls",
+    "header_product_nav": "Header > product navigation",
+    "covid_banner": "Top page banner > travel notice",
+    "hero_search_box": "Hero search box > booking widget",
+    "flights_search_box": "Flights search box > flight search form",
+    "cars_search_box": "Cars search box > car rental form",
+    "app_download_banner": "App download banner",
+    "home_component": "Homepage content",
+    "footer": "Footer",
+    "footer_seo_links": "Footer > SEO links",
+}
+
 CSV_FIELDS = [
     "page_name",
     "locale",
@@ -67,6 +84,7 @@ CSV_FIELDS = [
     "text",
     "section_name",
     "source_object_path",
+    "location_hint",
 ]
 
 
@@ -157,6 +175,21 @@ def find_nearest_marker(
     return best
 
 
+def infer_location_hint(
+    cms_id: str, section_name: str | None, source_object_path: str | None
+) -> str:
+    if cms_id in KNOWN_LOCATION_HINTS:
+        return KNOWN_LOCATION_HINTS[cms_id]
+
+    if section_name and section_name in SECTION_LOCATION_HINTS:
+        return SECTION_LOCATION_HINTS[section_name]
+
+    if source_object_path:
+        return source_object_path.replace(".", " > ")
+
+    return ""
+
+
 def read_value_after(text: str, start_index: int, max_len: int = 800) -> str:
     tail = text[start_index : start_index + max_len]
 
@@ -198,17 +231,21 @@ def extract_rows_from_html(html_input: HtmlInput) -> list[dict[str, str]]:
 
     for match in CMS_BLOCK_PATTERN.finditer(text):
         section_name, source_object_path = find_nearest_marker(markers, match.start())
+        cms_id = match.group(1).strip()
         raw_text = read_value_after(text, match.end())
 
         rows.append(
             {
                 "page_name": html_input.page_name,
                 "locale": html_input.locale,
-                "cms_id": match.group(1).strip(),
+                "cms_id": cms_id,
                 "override_id": match.group(2).strip() if match.group(2) else "",
                 "text": clean_text(raw_text),
                 "section_name": section_name or "",
                 "source_object_path": source_object_path or "",
+                "location_hint": infer_location_hint(
+                    cms_id, section_name, source_object_path
+                ),
             }
         )
 

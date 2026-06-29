@@ -17,6 +17,7 @@ export type CsvRow = {
   text?: string;
   section_name?: string;
   source_object_path?: string;
+  location_hint?: string;
 };
 
 export type CompareResult = {
@@ -25,6 +26,7 @@ export type CompareResult = {
   overrideId: string | null;
   sectionName: string | null;
   sourceObjectPath: string | null;
+  locationHint: string | null;
   enText: string | null;
   thText: string | null;
   enVariants: string[];
