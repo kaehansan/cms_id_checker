@@ -10,6 +10,18 @@ import { RunLog, RunLogInput, UserSession } from "@/types/runLog";
 
 type FilterMode = "problems_only" | CompareStatus | "all";
 
+type SectionMapItem = {
+  key: string;
+  label: string;
+  description: string;
+  total: number;
+  problems: number;
+  repeated: number;
+  missing: number;
+  override: number;
+  invalid: number;
+};
+
 const STATUS_STYLE: Record<CompareStatus, string> = {
   AMBIGUOUS: "bg-amber-100 text-amber-900 ring-amber-200",
   OVERRIDE_MISMATCH: "bg-orange-100 text-orange-900 ring-orange-200",
@@ -29,6 +41,49 @@ const FILTERS: { label: string; mode: FilterMode }[] = [
   { label: "All", mode: "all" },
 ];
 
+const SECTION_COPY: Record<string, { label: string; description: string }> = {
+  header: {
+    label: "Header",
+    description: "Top navigation, language menu, logo, and account controls.",
+  },
+  header_product_nav: {
+    label: "Header Product Nav",
+    description: "Product links near the top navigation.",
+  },
+  covid_banner: {
+    label: "Travel Notice Banner",
+    description: "Policy or travel restriction banner near the top of the page.",
+  },
+  hero_search_box: {
+    label: "Hero Search Box",
+    description: "Main booking widget, tabs, destination, dates, occupancy, and CTA.",
+  },
+  flights_search_box: {
+    label: "Flights Search Box",
+    description: "Flight-specific search fields and passenger controls.",
+  },
+  cars_search_box: {
+    label: "Cars Search Box",
+    description: "Car rental search fields and filters.",
+  },
+  app_download_banner: {
+    label: "App Download Banner",
+    description: "Prominent mobile app promotion section.",
+  },
+  home_component: {
+    label: "Home Content",
+    description: "Main homepage content blocks, alerts, and recommendations.",
+  },
+  footer: {
+    label: "Footer",
+    description: "Help, company, destination, partner, and app links.",
+  },
+  footer_seo_links: {
+    label: "Footer SEO Links",
+    description: "Destination/theme SEO link groups at the bottom of the page.",
+  },
+};
+
 export default function HomePage() {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
 
@@ -43,17 +98,23 @@ export default function HomePage() {
   const [hasCompared, setHasCompared] = useState(false);
   const [error, setError] = useState("");
   const [filterMode, setFilterMode] = useState<FilterMode>("problems_only");
+  const [selectedSection, setSelectedSection] = useState<string | null>(null);
 
   const results: CompareResult[] = useMemo(() => compareCsvRows(rows), [rows]);
   const summary = useMemo(() => summarize(results), [results]);
+  const sectionMap = useMemo(() => buildSectionMap(results), [results]);
 
   const filteredResults = useMemo(() => {
-    if (filterMode === "all") return results;
+    const sectionRows = selectedSection
+      ? results.filter((row) => sectionKey(row) === selectedSection)
+      : results;
+
+    if (filterMode === "all") return sectionRows;
     if (filterMode === "problems_only") {
-      return results.filter((row) => row.status !== "MATCHED");
+      return sectionRows.filter((row) => row.status !== "MATCHED");
     }
-    return results.filter((row) => row.status === filterMode);
-  }, [results, filterMode]);
+    return sectionRows.filter((row) => row.status === filterMode);
+  }, [results, filterMode, selectedSection]);
 
   async function handleLogin(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -100,6 +161,7 @@ export default function HomePage() {
     setError("");
     setHasCompared(false);
     setFilterMode("problems_only");
+    setSelectedSection(null);
     setRows([]);
 
     Papa.parse<unknown>(file, {
@@ -352,14 +414,24 @@ export default function HomePage() {
                   />
                 </div>
 
+                <SectionMap
+                  items={sectionMap}
+                  selectedSection={selectedSection}
+                  onSelectSection={setSelectedSection}
+                />
+
                 <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
                   <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
                     <div>
                       <h2 className="text-lg font-semibold">QA Results</h2>
                       <p className="mt-1 text-sm text-slate-500">
-                        {summary.totalProblems === 0
-                          ? `No issues found across ${summary.total} CMS IDs.`
-                          : `${summary.totalProblems} items need review across ${summary.total} CMS IDs.`}
+                        {selectedSection
+                          ? `${filteredResults.length} rows shown for ${
+                              sectionCopy(selectedSection).label
+                            }.`
+                          : summary.totalProblems === 0
+                            ? `No issues found across ${summary.total} CMS IDs.`
+                            : `${summary.totalProblems} items need review across ${summary.total} CMS IDs.`}
                       </p>
                     </div>
                     <button
@@ -503,6 +575,118 @@ function SummaryCard({
       </p>
       <p className={`mt-2 text-3xl font-bold ${color}`}>{value}</p>
     </div>
+  );
+}
+
+function SectionMap({
+  items,
+  selectedSection,
+  onSelectSection,
+}: {
+  items: SectionMapItem[];
+  selectedSection: string | null;
+  onSelectSection: (section: string | null) => void;
+}) {
+  const sectionsWithProblems = items.filter((item) => item.problems > 0).length;
+
+  return (
+    <section className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
+      <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
+        <div>
+          <h2 className="text-lg font-semibold">Section Map</h2>
+          <p className="mt-1 max-w-3xl text-sm text-slate-500">
+            A reviewer-friendly map built from extracted source paths. Click a
+            section to narrow the result table to that part of the page.
+          </p>
+        </div>
+        <button
+          type="button"
+          onClick={() => onSelectSection(null)}
+          className={
+            selectedSection
+              ? "rounded-md border border-slate-300 bg-white px-3 py-2 text-sm font-medium hover:bg-slate-50"
+              : "rounded-md bg-slate-950 px-3 py-2 text-sm font-medium text-white"
+          }
+        >
+          All Sections
+        </button>
+      </div>
+
+      <div className="mt-4 rounded-lg border border-slate-200 bg-slate-50 p-4">
+        <div className="mb-3 flex items-center justify-between text-sm">
+          <span className="font-medium text-slate-700">
+            {sectionsWithProblems} sections need review
+          </span>
+          <span className="text-slate-500">{items.length} sections detected</span>
+        </div>
+
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+          {items.map((item) => {
+            const active = selectedSection === item.key;
+            const hasProblems = item.problems > 0;
+
+            return (
+              <button
+                key={item.key}
+                type="button"
+                onClick={() => onSelectSection(active ? null : item.key)}
+                className={
+                  active
+                    ? "rounded-lg border-2 border-cyan-600 bg-white p-4 text-left shadow-sm"
+                    : hasProblems
+                      ? "rounded-lg border border-amber-300 bg-amber-50 p-4 text-left hover:border-amber-500"
+                      : "rounded-lg border border-slate-200 bg-white p-4 text-left hover:border-slate-300"
+                }
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="font-semibold text-slate-950">{item.label}</p>
+                    <p className="mt-1 text-xs leading-5 text-slate-600">
+                      {item.description}
+                    </p>
+                  </div>
+                  <span
+                    className={
+                      hasProblems
+                        ? "rounded-full bg-amber-200 px-2 py-1 text-xs font-semibold text-amber-950"
+                        : "rounded-full bg-emerald-100 px-2 py-1 text-xs font-semibold text-emerald-900"
+                    }
+                  >
+                    {item.problems}
+                  </span>
+                </div>
+
+                <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                  <span className="rounded bg-white px-2 py-1 text-slate-600 ring-1 ring-slate-200">
+                    {item.total} IDs
+                  </span>
+                  {item.repeated > 0 && (
+                    <span className="rounded bg-amber-100 px-2 py-1 text-amber-900">
+                      Repeated {item.repeated}
+                    </span>
+                  )}
+                  {item.missing > 0 && (
+                    <span className="rounded bg-red-100 px-2 py-1 text-red-900">
+                      Missing {item.missing}
+                    </span>
+                  )}
+                  {item.override > 0 && (
+                    <span className="rounded bg-orange-100 px-2 py-1 text-orange-900">
+                      Override {item.override}
+                    </span>
+                  )}
+                  {item.invalid > 0 && (
+                    <span className="rounded bg-purple-100 px-2 py-1 text-purple-900">
+                      Invalid {item.invalid}
+                    </span>
+                  )}
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -675,4 +859,60 @@ function statusLabel(status: CompareStatus): string {
   };
 
   return labels[status];
+}
+
+function buildSectionMap(results: CompareResult[]): SectionMapItem[] {
+  const bySection = new Map<string, CompareResult[]>();
+
+  for (const result of results) {
+    const key = sectionKey(result);
+    bySection.set(key, [...(bySection.get(key) ?? []), result]);
+  }
+
+  return [...bySection.entries()]
+    .map(([key, rows]) => {
+      const repeated = countStatus(rows, "AMBIGUOUS");
+      const missing = countStatus(rows, "MISSING_EN") + countStatus(rows, "MISSING_TH");
+      const override = countStatus(rows, "OVERRIDE_MISMATCH");
+      const invalid = countStatus(rows, "UNPAIRED_RAW");
+      const copy = sectionCopy(key);
+
+      return {
+        key,
+        label: copy.label,
+        description: copy.description,
+        total: rows.length,
+        problems: rows.filter((row) => row.status !== "MATCHED").length,
+        repeated,
+        missing,
+        override,
+        invalid,
+      };
+    })
+    .sort((left, right) => {
+      if (right.problems !== left.problems) return right.problems - left.problems;
+      if (right.total !== left.total) return right.total - left.total;
+      return left.label.localeCompare(right.label);
+    });
+}
+
+function countStatus(rows: CompareResult[], status: CompareStatus): number {
+  return rows.filter((row) => row.status === status).length;
+}
+
+function sectionKey(row: CompareResult): string {
+  return row.sectionName || "unknown";
+}
+
+function sectionCopy(key: string): { label: string; description: string } {
+  return (
+    SECTION_COPY[key] ?? {
+      label: titleCase(key.replaceAll("_", " ")),
+      description: "Extracted section from the saved HTML source path.",
+    }
+  );
+}
+
+function titleCase(value: string): string {
+  return value.replace(/\b\w/g, (char) => char.toUpperCase());
 }
