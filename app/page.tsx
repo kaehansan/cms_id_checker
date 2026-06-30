@@ -86,6 +86,7 @@ const SECTION_COPY: Record<string, { label: string; description: string }> = {
 
 export default function HomePage() {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
+  const htmlInputRef = useRef<HTMLInputElement | null>(null);
 
   const [currentUser, setCurrentUser] = useState<UserSession | null>(null);
   const [loginName, setLoginName] = useState("");
@@ -95,8 +96,14 @@ export default function HomePage() {
   const [logMessage, setLogMessage] = useState("");
   const [rows, setRows] = useState<CsvRow[]>([]);
   const [fileName, setFileName] = useState("");
+  const [uploadedFileName, setUploadedFileName] = useState("");
   const [hasCompared, setHasCompared] = useState(false);
   const [error, setError] = useState("");
+  const [extractorHtml, setExtractorHtml] = useState("");
+  const [extractorUrl, setExtractorUrl] = useState("");
+  const [extractorFiles, setExtractorFiles] = useState<File[]>([]);
+  const [extractorMessage, setExtractorMessage] = useState("");
+  const [isExtracting, setIsExtracting] = useState(false);
   const [filterMode, setFilterMode] = useState<FilterMode>("problems_only");
   const [selectedSection, setSelectedSection] = useState<string | null>(null);
 
@@ -146,6 +153,7 @@ export default function HomePage() {
     setCurrentUser(null);
     setRows([]);
     setFileName("");
+    setUploadedFileName("");
     setHasCompared(false);
     setError("");
     setLogMessage("");
@@ -157,7 +165,12 @@ export default function HomePage() {
 
     if (!file) return;
 
+    void loadCsvFile(file);
+  }
+
+  async function loadCsvFile(file: File) {
     setFileName(file.name);
+    setUploadedFileName(file.name);
     setError("");
     setHasCompared(false);
     setFilterMode("problems_only");
@@ -183,6 +196,97 @@ export default function HomePage() {
       },
       error: () => {
         setError("Failed to parse CSV file.");
+        setRows([]);
+      },
+    });
+  }
+
+  function handleHtmlUpload(event: React.ChangeEvent<HTMLInputElement>) {
+    setExtractorFiles(Array.from(event.target.files ?? []));
+    setExtractorMessage("");
+  }
+
+  async function handleExtractCms() {
+    const hasHtml = extractorHtml.trim().length > 0;
+    const urls = parseExtractorUrls(extractorUrl);
+    const hasUrl = urls.length > 0;
+
+    if (!extractorFiles.length && !hasHtml && !hasUrl) {
+      setExtractorMessage("Add HTML files, paste HTML, or enter one or more URLs first.");
+      return;
+    }
+
+    setIsExtracting(true);
+    setExtractorMessage("Extracting CMS rows...");
+    setError("");
+
+    try {
+      const response = hasUrl
+        ? await fetch("/api/extract-cms", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ urls }),
+          })
+        : await fetch("/api/extract-cms", {
+            method: "POST",
+            body: buildExtractorFormData(extractorFiles, extractorHtml),
+          });
+
+      if (!response.ok) {
+        const data = (await response.json().catch(() => null)) as {
+          error?: string;
+        } | null;
+        throw new Error(data?.error ?? "Extractor request failed.");
+      }
+
+      const csv = await response.text();
+      const rowCount = response.headers.get("X-CMS-Extracted-Rows") ?? "0";
+      const generatedFileName = `cms_extracted_${rowCount}_rows.csv`;
+
+      parseCsvText(csv, generatedFileName);
+      downloadTextFile(csv, generatedFileName, "text/csv;charset=utf-8;");
+      setExtractorUrl("");
+      setExtractorMessage(
+        `Extracted ${rowCount} rows. CSV loaded into the checker and downloaded.`
+      );
+    } catch (extractError) {
+      setExtractorMessage(
+        extractError instanceof Error
+          ? extractError.message
+          : "Could not extract CMS rows."
+      );
+    } finally {
+      setIsExtracting(false);
+    }
+  }
+
+  function parseCsvText(csv: string, nextFileName: string) {
+    setFileName(nextFileName);
+    setUploadedFileName("");
+    setHasCompared(false);
+    setFilterMode("problems_only");
+    setSelectedSection(null);
+    setRows([]);
+
+    Papa.parse<unknown>(csv, {
+      header: true,
+      skipEmptyLines: true,
+      complete: (result) => {
+        const validation = validateCsvRows(
+          result.data,
+          result.meta.fields ?? []
+        );
+
+        if (!validation.ok) {
+          setError(validation.error);
+          setRows([]);
+          return;
+        }
+
+        setRows(validation.rows);
+      },
+      error: () => {
+        setError("Failed to parse extracted CSV.");
         setRows([]);
       },
     });
@@ -310,6 +414,98 @@ export default function HomePage() {
         ) : (
           <>
             <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_360px]">
+              <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm lg:col-span-2">
+                <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-cyan-700">
+                      Phase 2 Extractor
+                    </p>
+                    <h2 className="mt-1 text-lg font-semibold">
+                      HTML / URL to richer CSV
+                    </h2>
+                    <p className="mt-1 max-w-3xl text-sm text-slate-500">
+                      Extract CMS-tagged strings from saved HTML or a URL, then
+                      load the generated CSV into this checker.
+                    </p>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={handleExtractCms}
+                    disabled={isExtracting}
+                    className="rounded-md bg-cyan-700 px-5 py-2.5 text-sm font-semibold text-white hover:bg-cyan-800 disabled:cursor-not-allowed disabled:opacity-50"
+                  >
+                    {isExtracting ? "Extracting..." : "Extract CSV"}
+                  </button>
+                </div>
+
+                <div className="mt-4 grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+                  <div className="space-y-3">
+                    <div>
+                      <label className="mb-2 block text-sm font-medium">
+                        HTML files
+                      </label>
+                      <div className="flex flex-col gap-3 rounded-lg border border-dashed border-slate-300 bg-slate-50 p-4 sm:flex-row sm:items-center sm:justify-between">
+                        <p className="text-sm text-slate-600">
+                          {extractorFiles.length
+                            ? `${extractorFiles.length} HTML file(s) selected`
+                            : "Use saved EN/TH showcmsid HTML files."}
+                        </p>
+                        <button
+                          type="button"
+                          onClick={() => htmlInputRef.current?.click()}
+                          className="rounded-md border border-slate-300 bg-white px-3 py-2 text-sm font-medium hover:bg-slate-100"
+                        >
+                          Browse HTML
+                        </button>
+                      </div>
+                      <input
+                        ref={htmlInputRef}
+                        type="file"
+                        accept=".html,.htm,text/html"
+                        multiple
+                        onChange={handleHtmlUpload}
+                        className="hidden"
+                      />
+                    </div>
+
+                    <div>
+                      <label className="mb-2 block text-sm font-medium">
+                        URLs
+                      </label>
+                      <textarea
+                        value={extractorUrl}
+                        onChange={(event) => setExtractorUrl(event.target.value)}
+                        className="min-h-24 w-full resize-y rounded-md border border-slate-300 px-3 py-2 text-sm outline-none focus:border-cyan-600 focus:ring-2 focus:ring-cyan-100"
+                        placeholder={`https://www.agoda.com/en-us/?showcms=yes\nhttps://www.agoda.com/th-th/?showcms=yes`}
+                      />
+                      <p className="mt-1 text-xs text-slate-500">
+                        Put one URL per line. EN and TH URLs will be combined
+                        into one CSV for QA.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="mb-2 block text-sm font-medium">
+                      Paste HTML
+                    </label>
+                    <textarea
+                      value={extractorHtml}
+                      onChange={(event) => setExtractorHtml(event.target.value)}
+                      className="min-h-40 w-full resize-y rounded-md border border-slate-300 px-3 py-2 font-mono text-xs outline-none focus:border-cyan-600 focus:ring-2 focus:ring-cyan-100"
+                      placeholder="<html>...</html>"
+                    />
+                  </div>
+                </div>
+
+                {extractorMessage && (
+                  <p className="mt-3 rounded-md bg-cyan-50 px-3 py-2 text-sm text-cyan-950">
+                    {extractorMessage}
+                  </p>
+                )}
+              </div>
+
               <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
                 <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
                   <div>
@@ -342,10 +538,14 @@ export default function HomePage() {
                 <div className="mt-4 flex flex-col gap-3 rounded-lg border border-dashed border-slate-300 bg-slate-50 p-4 md:flex-row md:items-center md:justify-between">
                   <div>
                     <p className="text-sm font-medium text-slate-700">
-                      {fileName || "No file selected"}
+                      {uploadedFileName || "No file selected"}
                     </p>
                     <p className="mt-1 text-xs text-slate-500">
-                      Upload once, compare repeatedly while tuning filters.
+                      {uploadedFileName
+                        ? "Upload once, compare repeatedly while tuning filters."
+                        : rows.length
+                          ? "Extractor CSV is loaded. Click Compare to run QA."
+                          : "Browse for a CSV file to compare manually."}
                     </p>
                   </div>
 
@@ -926,4 +1126,38 @@ function sectionCopy(key: string): { label: string; description: string } {
 
 function titleCase(value: string): string {
   return value.replace(/\b\w/g, (char) => char.toUpperCase());
+}
+
+function parseExtractorUrls(value: string): string[] {
+  return value
+    .split(/\r?\n|,/)
+    .map((url) => url.trim())
+    .filter(Boolean);
+}
+
+function buildExtractorFormData(files: File[], html: string): FormData {
+  const formData = new FormData();
+
+  for (const file of files) {
+    formData.append("files", file);
+  }
+
+  if (html.trim()) {
+    formData.append("html", html);
+  }
+
+  return formData;
+}
+
+function downloadTextFile(content: string, filename: string, type: string) {
+  const blob = new Blob([content], { type });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
 }

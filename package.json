@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "extract:cms": "tsx scripts/extract-cms.ts",
     "start": "next start",
     "lint": "eslint"
   },

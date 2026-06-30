@@ -19,6 +19,11 @@ declare module "papaparse" {
     config: ParseConfig<T>
   ): void;
 
+  function parse<T = unknown>(
+    csv: string,
+    config: ParseConfig<T>
+  ): void;
+
   function unparse<T extends Record<string, unknown>>(
     data: T[],
     config?: { quotes?: boolean }
